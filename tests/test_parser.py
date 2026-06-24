@@ -74,3 +74,23 @@ def test_parse_team_blocks_count_mismatch_raises():
             "2026-06-19 世预 法国 3 - 0 德国")
     with pytest.raises(ValueError):
         parse_team_blocks(text, updated_at="T")
+
+
+def test_parse_team_slugs_extracts_name_to_slug():
+    from worldcup.parser import parse_team_slugs
+    html = (
+        '<a href="/team/ruishi">瑞士</a>'
+        '<a href="/team/jianada1" class="t">2  加拿大 1 / 1 / 0  4</a>'
+        '<a href="/team/baxi1"><span>1</span> 巴西 2/0/0 6</a>'
+        '<a href="/other/x">not a team</a>'
+    )
+    m = parse_team_slugs(html)
+    assert m["瑞士"] == "ruishi"
+    assert m["加拿大"] == "jianada1"
+    assert m["巴西"] == "baxi1"
+    assert "not a team" not in m  # non-team links ignored
+
+def test_parse_team_slugs_first_occurrence_wins():
+    from worldcup.parser import parse_team_slugs
+    html = '<a href="/team/ruishi">瑞士</a><a href="/team/WRONG">瑞士 旧</a>'
+    assert parse_team_slugs(html)["瑞士"] == "ruishi"

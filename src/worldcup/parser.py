@@ -39,12 +39,27 @@ def build_match_record(team_name, date, competition, home, home_goals, away_goal
 
 
 _WS_RE = re.compile(r"\s+")
+_TEAM_LINK_RE = re.compile(r'<a[^>]+href="/team/([a-z0-9]+)"[^>]*>(.*?)</a>', re.S)
+_CJK_RE = re.compile(r'[一-鿿·]+')
 _TEAM_HEADER_RE = re.compile(
     r"(\S+)\s+进球(\d+)/失球(\d+)/胜率([\d.]+)%\s*(\d+)胜\s*(\d+)平\s*(\d+)负"
 )
 _ROW_RE = re.compile(
     r"(\d{4}-\d{2}-\d{2})\s+(\D+?)\s+(\S+)\s+(\d+)\s*-\s*(\d+)\s+(\S+)"
 )
+
+
+def parse_team_slugs(html: str) -> dict:
+    """从比赛页 HTML 提取 队名(中文) -> 球队 slug 映射,首次出现优先。"""
+    mapping = {}
+    for m in _TEAM_LINK_RE.finditer(html):
+        slug = m.group(1)
+        inner = re.sub(r"<[^>]+>", "", m.group(2))
+        name_match = _CJK_RE.search(inner)
+        if not name_match:
+            continue
+        mapping.setdefault(name_match.group(0), slug)
+    return mapping
 
 
 def html_to_text(html: str) -> str:
