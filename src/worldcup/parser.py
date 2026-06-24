@@ -48,6 +48,8 @@ _ROW_RE = re.compile(
     r"(\d{4}-\d{2}-\d{2})\s+(\D+?)\s+(\S+)\s+(\d+)\s*-\s*(\d+)\s+(\S+)"
 )
 
+_BLOCK_END_MARKERS = ("点击展开更多", "近期赛程")
+
 
 def parse_team_slugs(html: str) -> dict:
     """从比赛页 HTML 提取 队名(中文) -> 球队 slug 映射,首次出现优先。"""
@@ -70,6 +72,17 @@ def html_to_text(html: str) -> str:
     return _WS_RE.sub(" ", soup.get_text(" ")).strip()
 
 
+def _block_end(section: str, start: int) -> int:
+    """最后一个球队块的结束位置:截断到『最近战绩』之后第一个已知小节标记,
+    避免吃进尾部的近期赛程/伤停等内容(其中的未来日期+MM-DD 会被误判为比分行)。"""
+    end = len(section)
+    for marker in _BLOCK_END_MARKERS:
+        j = section.find(marker, start)
+        if j != -1:
+            end = min(end, j)
+    return end
+
+
 def parse_team_blocks(text: str, updated_at: str):
     """从纯文本的『最近战绩』区块解析出每支球队的 TeamForm 列表。"""
     idx = text.find("最近战绩")
@@ -82,7 +95,10 @@ def parse_team_blocks(text: str, updated_at: str):
         w, d, l = int(h.group(5)), int(h.group(6)), int(h.group(7))
         played = w + d + l
         start = h.end()
-        end = headers[i + 1].start() if i + 1 < len(headers) else len(section)
+        if i + 1 < len(headers):
+            end = headers[i + 1].start()
+        else:
+            end = _block_end(section, start)
         recent = []
         for r in _ROW_RE.finditer(section[start:end]):
             date, comp, home = r.group(1), r.group(2), r.group(3)
