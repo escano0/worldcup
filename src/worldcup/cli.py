@@ -1,4 +1,5 @@
 import argparse
+import asyncio
 import time
 from datetime import datetime, timezone, timedelta
 
@@ -21,6 +22,7 @@ def main(argv=None):
     p.add_argument("--schema", default="data/recent-form.schema.json")
     p.add_argument("--all", action="store_true", help="从世界杯赛程页枚举全部比赛 id")
     p.add_argument("--delay", type=float, default=0.5, help="批量抓取每场之间的间隔秒数")
+    p.add_argument("--cache-db", default=None, help="可选:把各队战绩写入三级缓存的 L3 SQLite(对接 UniCache)")
     args = p.parse_args(argv)
 
     ts = _now_iso()
@@ -54,6 +56,17 @@ def main(argv=None):
     if failed:
         msg += f" ({len(failed)} skipped)"
     print(msg)
+
+    if args.cache_db:
+        from .cache.team_form_cache import TeamFormCache
+        cache = TeamFormCache(args.cache_db)
+
+        async def _populate():
+            for key, team in by_key.items():
+                await cache.set(key, team)
+
+        asyncio.run(_populate())
+        print(f"cached {len(by_key)} teams to {args.cache_db}")
 
 
 if __name__ == "__main__":

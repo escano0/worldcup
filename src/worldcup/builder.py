@@ -3,6 +3,8 @@ from pathlib import Path
 
 import jsonschema
 
+from .models import MatchRecord, TeamForm
+
 
 def match_to_dict(m):
     return {
@@ -20,6 +22,25 @@ def team_to_dict(t):
         "updated_at": t.updated_at,
         "recent": [match_to_dict(m) for m in t.recent],
     }
+
+
+def match_from_dict(d):
+    return MatchRecord(
+        date=d["date"], competition=d["competition"], opponent=d["opponent"],
+        is_home=d["is_home"], gf=d["gf"], ga=d["ga"], result=d["result"],
+        home=d["home"], away=d["away"], score=d["score"],
+        match_id=d.get("match_id"), note=d.get("note"),
+    )
+
+
+def team_from_dict(d):
+    return TeamForm(
+        name=d["name"], form=d["form"],
+        recent=[match_from_dict(m) for m in d["recent"]],
+        updated_at=d["updated_at"],
+        team_id=d.get("team_id"), name_en=d.get("name_en"),
+        rank=d.get("rank"), group=d.get("group"),
+    )
 
 
 def build_snapshot(teams, generated_at, *, source="qiumiwu", tournament="2026-world-cup"):
