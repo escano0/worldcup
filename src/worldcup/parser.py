@@ -1,5 +1,6 @@
 import re
-from .models import MatchRecord
+from bs4 import BeautifulSoup
+from .models import MatchRecord, TeamForm
 
 _SCORE_RE = re.compile(r"^\s*(\d+)\s*-\s*(\d+)\s*$")
 
@@ -35,3 +36,45 @@ def build_match_record(team_name, date, competition, home, home_goals, away_goal
         home=home, away=away, score=f"{home_goals}-{away_goals}",
         match_id=match_id, note=None,
     )
+
+
+_WS_RE = re.compile(r"\s+")
+_TEAM_HEADER_RE = re.compile(
+    r"(\S+)\s+进球(\d+)/失球(\d+)/胜率([\d.]+)%\s*(\d+)胜\s*(\d+)平\s*(\d+)负"
+)
+_ROW_RE = re.compile(
+    r"(\d{4}-\d{2}-\d{2})\s+(\S+)\s+(\S+)\s+(\d+)\s*-\s*(\d+)\s+(\S+)"
+)
+
+
+def html_to_text(html: str) -> str:
+    """去掉 script/style 与所有标签,折叠空白,返回纯文本。"""
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style"]):
+        tag.decompose()
+    return _WS_RE.sub(" ", soup.get_text(" ")).strip()
+
+
+def parse_team_blocks(text: str, updated_at: str):
+    """从纯文本的『最近战绩』区块解析出每支球队的 TeamForm 列表。"""
+    idx = text.find("最近战绩")
+    section = text[idx:] if idx >= 0 else text
+    headers = list(_TEAM_HEADER_RE.finditer(section))
+    teams = []
+    for i, h in enumerate(headers):
+        name = h.group(1)
+        gf_total, ga_total = int(h.group(2)), int(h.group(3))
+        w, d, l = int(h.group(5)), int(h.group(6)), int(h.group(7))
+        played = w + d + l
+        start = h.end()
+        end = headers[i + 1].start() if i + 1 < len(headers) else len(section)
+        recent = []
+        for r in _ROW_RE.finditer(section[start:end]):
+            date, comp, home = r.group(1), r.group(2), r.group(3)
+            hg, ag, away = int(r.group(4)), int(r.group(5)), r.group(6)
+            recent.append(build_match_record(name, date, comp, home, hg, ag, away))
+        win_rate = round(w / played, 4) if played else 0.0
+        form = {"played": played, "w": w, "d": d, "l": l,
+                "gf": gf_total, "ga": ga_total, "win_rate": win_rate}
+        teams.append(TeamForm(name=name, form=form, recent=recent, updated_at=updated_at))
+    return teams

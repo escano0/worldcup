@@ -27,3 +27,30 @@ def test_build_match_record_team_is_away():
 def test_build_match_record_unknown_team_raises():
     with pytest.raises(ValueError):
         build_match_record("瑞士", "2026-06-14", "国际赛", "法国", 2, 0, "德国")
+
+
+from pathlib import Path
+from worldcup.parser import html_to_text, parse_team_blocks
+
+FIXTURE = Path("tests/fixtures/recent_form_sample.html").read_text(encoding="utf-8")
+
+def test_html_to_text_strips_scripts_and_tags():
+    text = html_to_text(FIXTURE)
+    assert "最近战绩" in text and "男足世界杯" in text
+    assert "<div" not in text
+    assert "伪造" not in text  # script 内容被剔除
+
+def test_parse_team_blocks_two_teams():
+    teams = parse_team_blocks(html_to_text(FIXTURE), updated_at="2026-06-24T18:00:00+08:00")
+    names = {t.name for t in teams}
+    assert names == {"瑞士", "加拿大"}
+
+def test_parse_team_blocks_switzerland_form_and_rows():
+    teams = {t.name: t for t in parse_team_blocks(html_to_text(FIXTURE), updated_at="T")}
+    sui = teams["瑞士"]
+    assert sui.form == {"played": 10, "w": 4, "d": 5, "l": 1, "gf": 20, "ga": 10, "win_rate": 0.4}
+    assert len(sui.recent) == 2
+    m0, m1 = sui.recent
+    assert (m0.opponent, m0.is_home, m0.gf, m0.ga, m0.result) == ("波黑", True, 4, 1, "W")
+    assert (m1.opponent, m1.is_home, m1.gf, m1.ga, m1.result) == ("卡塔尔", False, 1, 1, "D")
+    assert sui.updated_at == "T"
