@@ -57,6 +57,10 @@ def main(argv=None):
         msg += f" ({len(failed)} skipped)"
     print(msg)
 
+    # 全部比赛都失败 → 非0退出,便于自动化(CI/定时任务)区分"个别未开赛"与"整体抓取崩了"
+    if game_ids and len(failed) == len(game_ids):
+        raise SystemExit(1)
+
     if args.cache_db:
         from .cache.team_form_cache import TeamFormCache
         cache = TeamFormCache(args.cache_db)

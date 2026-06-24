@@ -72,6 +72,9 @@ def html_to_text(html: str) -> str:
     return _WS_RE.sub(" ", soup.get_text(" ")).strip()
 
 
+# 末队块的边界靠 _BLOCK_END_MARKERS 截断;即便这些标记将来改名导致截断失效,
+# parse_team_blocks 里的 `played != len(recent)` 不变式仍会把误解析变成显式
+# ValueError(--all 会跳过该场并报告),不会静默产生坏数据。修改时勿移除该不变式。
 def _block_end(section: str, start: int) -> int:
     """最后一个球队块的结束位置:截断到『最近战绩』之后第一个已知小节标记,
     避免吃进尾部的近期赛程/伤停等内容(其中的未来日期+MM-DD 会被误判为比分行)。"""
