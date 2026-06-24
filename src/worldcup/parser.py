@@ -39,12 +39,29 @@ def build_match_record(team_name, date, competition, home, home_goals, away_goal
 
 
 _WS_RE = re.compile(r"\s+")
+_TEAM_LINK_RE = re.compile(r'<a[^>]+href="/team/([a-z0-9]+)"[^>]*>(.*?)</a>', re.S)
+_CJK_RE = re.compile(r'[一-鿿·]+')
 _TEAM_HEADER_RE = re.compile(
     r"(\S+)\s+进球(\d+)/失球(\d+)/胜率([\d.]+)%\s*(\d+)胜\s*(\d+)平\s*(\d+)负"
 )
 _ROW_RE = re.compile(
     r"(\d{4}-\d{2}-\d{2})\s+(\D+?)\s+(\S+)\s+(\d+)\s*-\s*(\d+)\s+(\S+)"
 )
+
+_BLOCK_END_MARKERS = ("点击展开更多", "近期赛程")
+
+
+def parse_team_slugs(html: str) -> dict:
+    """从比赛页 HTML 提取 队名(中文) -> 球队 slug 映射,首次出现优先。"""
+    mapping = {}
+    for m in _TEAM_LINK_RE.finditer(html):
+        slug = m.group(1)
+        inner = re.sub(r"<[^>]+>", "", m.group(2))
+        name_match = _CJK_RE.search(inner)
+        if not name_match:
+            continue
+        mapping.setdefault(name_match.group(0), slug)
+    return mapping
 
 
 def html_to_text(html: str) -> str:
@@ -53,6 +70,20 @@ def html_to_text(html: str) -> str:
     for tag in soup(["script", "style"]):
         tag.decompose()
     return _WS_RE.sub(" ", soup.get_text(" ")).strip()
+
+
+# 末队块的边界靠 _BLOCK_END_MARKERS 截断;即便这些标记将来改名导致截断失效,
+# parse_team_blocks 里的 `played != len(recent)` 不变式仍会把误解析变成显式
+# ValueError(--all 会跳过该场并报告),不会静默产生坏数据。修改时勿移除该不变式。
+def _block_end(section: str, start: int) -> int:
+    """最后一个球队块的结束位置:截断到『最近战绩』之后第一个已知小节标记,
+    避免吃进尾部的近期赛程/伤停等内容(其中的未来日期+MM-DD 会被误判为比分行)。"""
+    end = len(section)
+    for marker in _BLOCK_END_MARKERS:
+        j = section.find(marker, start)
+        if j != -1:
+            end = min(end, j)
+    return end
 
 
 def parse_team_blocks(text: str, updated_at: str):
@@ -67,7 +98,10 @@ def parse_team_blocks(text: str, updated_at: str):
         w, d, l = int(h.group(5)), int(h.group(6)), int(h.group(7))
         played = w + d + l
         start = h.end()
-        end = headers[i + 1].start() if i + 1 < len(headers) else len(section)
+        if i + 1 < len(headers):
+            end = headers[i + 1].start()
+        else:
+            end = _block_end(section, start)
         recent = []
         for r in _ROW_RE.finditer(section[start:end]):
             date, comp, home = r.group(1), r.group(2), r.group(3)

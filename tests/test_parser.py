@@ -74,3 +74,41 @@ def test_parse_team_blocks_count_mismatch_raises():
             "2026-06-19 世预 法国 3 - 0 德国")
     with pytest.raises(ValueError):
         parse_team_blocks(text, updated_at="T")
+
+
+def test_parse_team_slugs_extracts_name_to_slug():
+    from worldcup.parser import parse_team_slugs
+    html = (
+        '<a href="/team/ruishi">瑞士</a>'
+        '<a href="/team/jianada1" class="t">2  加拿大 1 / 1 / 0  4</a>'
+        '<a href="/team/baxi1"><span>1</span> 巴西 2/0/0 6</a>'
+        '<a href="/other/x">not a team</a>'
+    )
+    m = parse_team_slugs(html)
+    assert m["瑞士"] == "ruishi"
+    assert m["加拿大"] == "jianada1"
+    assert m["巴西"] == "baxi1"
+    assert "not a team" not in m  # non-team links ignored
+
+def test_parse_team_slugs_first_occurrence_wins():
+    from worldcup.parser import parse_team_slugs
+    html = '<a href="/team/ruishi">瑞士</a><a href="/team/WRONG">瑞士 旧</a>'
+    assert parse_team_slugs(html)["瑞士"] == "ruishi"
+
+
+def test_parse_team_blocks_ignores_trailing_sections_after_last_team():
+    # 最后一队块会延伸到文末;尾部"近期赛程/伤停"含未来日期+MM-DD,
+    # 不能被当成第 4 场比分行。header 说 3 场,真实 3 行。
+    text = (
+        "最近战绩 "
+        "沙特 进球3/失球5/胜率33.3% 1胜 1平 1负 "
+        "2026-06-22 男足世界杯 西班牙 2 - 0 沙特 "
+        "2026-06-16 国际赛 沙特 1 - 1 乌拉圭 "
+        "2026-03-28 国际赛 沙特 0 - 3 埃及 "
+        "点击展开更多 近期赛程 沙特 对阵 2026-06-27 男足世界杯 佛得角 VS 沙特 "
+        "伤停球员 沙特 状态 时间 某球员 停赛 06-22 沙特"
+    )
+    teams = parse_team_blocks(text, updated_at="T")
+    assert len(teams) == 1
+    assert len(teams[0].recent) == 3            # 尾部 06-22 不被当成第 4 场
+    assert teams[0].recent[-1].opponent == "埃及"

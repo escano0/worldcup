@@ -809,10 +809,11 @@ git commit -m "feat: 抓取层与 CLI 编排,端到端打通"
 
 ## 已知限制 / 后续
 
-- 当前 `team_id` 始终为 None(键用中文名);如需稳定 id,后续从来源 schedule 接口采集 teamId。
-- 「全部球队」需传入所有比赛的 game id;后续可加一个从赛程页/日历接口枚举 game id 的步骤。
-- 点球大战仅 `note` 文本保留,`result` 规则待真实样本出现再细化。
-- 反爬/频控:批量抓取时应加 sleep 与缓存(对接项目三级缓存的 L3=本文件)。
+- ~~当前 `team_id` 始终为 None~~ → **已实现**(`feat/all-teams-and-cache`):从比赛页 `/team/{slug}` 提取 pinyin slug 作 team_id,快照按 slug 键。
+- ~~「全部球队」需传入所有比赛的 game id~~ → **已实现**:`schedule.py` 从赛程页 `game/nanzushijiebei` 枚举全部 game id,CLI `--all` 一次抓全 48 队。
+- ~~反爬/频控 + 对接三级缓存~~ → **已实现**:CLI `--delay` 内置间隔;`cache/`(对齐 AlphaMate `UniCache` 的 `TeamFormCache`,L3=SQLite)`--cache-db` 写入。
+- 点球大战仍仅 `note` 文本保留,`result` 规则待真实样本出现再细化。
+- `rank`/`group`/`match_id` 暂为 null,可后续补采。
 
 ### 代码评审遗留(已评估,暂不处理)
 - **#3 队名含空格**:`_TEAM_HEADER_RE` 的 `(\S+)` 只取「进球」前最后一个 token,若来源把队名渲染成带空格(如 `哥斯达 黎加`)会取错、并污染 map 键。实测世界杯中文队名均为单 token(`哥斯达黎加`),真实风险极低;稳健修复需要队名边界信息(扁平文本无法可靠给出),故暂不处理。
