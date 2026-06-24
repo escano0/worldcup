@@ -811,7 +811,8 @@ git commit -m "feat: 抓取层与 CLI 编排,端到端打通"
 
 - ~~当前 `team_id` 始终为 None~~ → **已实现**(`feat/all-teams-and-cache`):从比赛页 `/team/{slug}` 提取 pinyin slug 作 team_id,快照按 slug 键。
 - ~~「全部球队」需传入所有比赛的 game id~~ → **已实现**:`schedule.py` 从赛程页 `game/nanzushijiebei` 枚举全部 game id,CLI `--all` 一次抓全 48 队。
-- ~~反爬/频控 + 对接三级缓存~~ → **已实现**:CLI `--delay` 内置间隔;`cache/`(对齐 AlphaMate `UniCache` 的 `TeamFormCache`,L3=SQLite)`--cache-db` 写入。
+- ~~反爬/频控~~ → **已实现**:CLI `--delay` 内置间隔。
+- 持久化:按需求改为**每队一个 JSON 写入 `docs/teams/{slug}.json`**(`write_team_files` + CLI `--docs-dir`);先前试做的三级缓存(`cache/` 模块)已按用户要求移除。
 - 点球大战仍仅 `note` 文本保留,`result` 规则待真实样本出现再细化。
 - `rank`/`group`/`match_id` 暂为 null,可后续补采。
 

@@ -1,6 +1,6 @@
 # worldcup — 世界杯球队近期战绩抓取
 
-从球迷屋(qiumiwu.com)抓取 2026 世界杯各球队的**近期战绩**,产出以球队为中心、符合 JSON Schema 的 `data/recent-form.json`,并可写入三级缓存(L1 内存 / L2 Redis / L3 SQLite)。
+从球迷屋(qiumiwu.com)抓取 2026 世界杯各球队的**近期战绩**,**每支球队写一个 JSON 文件到 `docs/teams/`**(文件名为球队 pinyin slug,如 `docs/teams/ruishi.json`),可选再产出一个聚合快照。
 
 ## 安装
 
@@ -12,43 +12,38 @@ pip install -r requirements.txt
 ## 用法
 
 ```bash
-# 单场(传 game id):抓该场两队战绩
-PYTHONPATH=src python -m worldcup.cli 107506805271 --out data/recent-form.json
+# 全部球队:从世界杯赛程页枚举所有 game id 后逐场抓取,每队写 docs/teams/{slug}.json(48 队)
+PYTHONPATH=src python -m worldcup.cli --all --docs-dir docs/teams
 
-# 全部球队:从世界杯赛程页枚举所有 game id 后逐场抓取(48 队)
-PYTHONPATH=src python -m worldcup.cli --all --out data/recent-form.json
+# 单场(传 game id):抓该场两队战绩,写到 docs/teams/
+PYTHONPATH=src python -m worldcup.cli 107506805271 --docs-dir docs/teams
 
-# 同时写入三级缓存的 L3 SQLite(对接 UniCache)
-PYTHONPATH=src python -m worldcup.cli --all --out data/recent-form.json --cache-db data/wc-cache.db
+# 额外再写一个聚合 JSON(可选)
+PYTHONPATH=src python -m worldcup.cli --all --docs-dir docs/teams --out data/recent-form.json
 ```
 
-参数:`--delay`(批量每场间隔秒,默认 0.5)、`--schema`(校验用 schema 路径)。
+参数:`--docs-dir`(每队文件输出目录,默认 `docs/teams`)、`--out`(可选聚合快照)、`--delay`(批量每场间隔秒,默认 0.5)、`--schema`(校验用 schema 路径)。
 `--all` 模式下个别未开赛/无战绩的场次会被跳过并打印 `skip ...`;**全部场次都失败时进程以非 0 退出**(便于自动化区分"个别跳过"与"整体崩了")。
 
 ## 数据结构
 
-以球队为中心(方案 A),键为球队 pinyin slug(如 `ruishi`、`baxi1`):
+每个 `docs/teams/{slug}.json` 是一支球队对象(以球队为中心,方案 A):
 
 ```jsonc
+// docs/teams/ruishi.json
 {
-  "schema_version": "1.0", "source": "qiumiwu", "tournament": "2026-world-cup",
-  "generated_at": "...",
-  "teams": {
-    "ruishi": {
-      "team_id": "ruishi", "name": "瑞士", "rank": null, "group": null,
-      "form": {"played":10,"w":4,"d":5,"l":1,"gf":20,"ga":10,"win_rate":0.4},
-      "recent": [
-        {"date":"2026-06-19","competition":"男足世界杯","opponent":"波黑",
-         "is_home":true,"gf":4,"ga":1,"result":"W",
-         "home":"瑞士","away":"波黑","score":"4-1","match_id":null,"note":null}
-      ],
-      "updated_at": "..."
-    }
-  }
+  "team_id": "ruishi", "name": "瑞士", "name_en": null, "rank": null, "group": null,
+  "form": {"played":10,"w":4,"d":5,"l":1,"gf":20,"ga":10,"win_rate":0.4},
+  "recent": [
+    {"date":"2026-06-19","competition":"男足世界杯","opponent":"波黑",
+     "is_home":true,"gf":4,"ga":1,"result":"W",
+     "home":"瑞士","away":"波黑","score":"4-1","match_id":null,"note":null}
+  ],
+  "updated_at": "..."
 }
 ```
 
-设计与计划详见 `docs/superpowers/specs/` 与 `docs/superpowers/plans/`;字段约束见 `data/recent-form.schema.json`。
+`--out` 写出的聚合快照则把所有球队收进顶层 `teams` map(键为 slug),并带 `schema_version`/`generated_at` 等元数据,字段约束见 `data/recent-form.schema.json`。设计与计划详见 `docs/superpowers/specs/` 与 `docs/superpowers/plans/`。
 
 ## 架构
 
@@ -56,31 +51,18 @@ PYTHONPATH=src python -m worldcup.cli --all --out data/recent-form.json --cache-
 schedule.py  从赛程页枚举 game id
 fetcher.py   抓取 game 页(按正文判断成功,绕过站点 404 怪异)
 parser.py    html_to_text + parse_team_blocks(战绩) + parse_team_slugs(team_id)
-builder.py   构建快照 dict / Schema 校验 / 读写 / 序列化反序列化
-cli.py       编排:enumerate → fetch → parse → build → validate → write [→ cache]
-cache/       UniCache 三级缓存抽象 + TeamFormCache(L3 SQLite)
+builder.py   构建快照 dict / Schema 校验 / 写每队文件 write_team_files / 写聚合
+cli.py       编排:enumerate → fetch → parse → build → validate → 写 docs/teams [→ 聚合]
 models.py    MatchRecord / TeamForm
-```
-
-三级缓存对齐 AlphaMate 的 `UniCache` 契约(`get` 按 L1→L2→L3→API 查找,`set` write-through):
-
-```python
-import asyncio
-from worldcup.cache.team_form_cache import TeamFormCache
-
-cache = TeamFormCache("data/wc-cache.db")     # 可传 redis_client / api_fetcher
-entry = asyncio.run(cache.get("ruishi"))       # entry.source ∈ {l1,l2,l3,api}
-print(entry.value.name, entry.value.form)
 ```
 
 ## 测试
 
 ```bash
-PYTHONPATH=src python -m pytest -q     # 35 passed
+PYTHONPATH=src python -m pytest -q     # 30 passed
 ```
 
 ## 已知限制
 - `rank`/`group` 暂为 null;`match_id` 暂为 null(可后续从来源补采)。
 - 点球大战仅以 `note` 文本保留。
-- 缓存 `_fetch_from_api`(冷未命中回源)需上层注入 `api_fetcher`;CLI 仅做 L3 写入(population),读取由消费方走 `TeamFormCache`。
-- 反爬:批量抓取已内置 `--delay`;高频使用请配合缓存。
+- 反爬:批量抓取已内置 `--delay`;高频使用请自行控频。
