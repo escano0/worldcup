@@ -1,0 +1,75 @@
+{
+  "team_id": "kataer1",
+  "name": "卡塔尔",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 4,
+    "w": 0,
+    "d": 2,
+    "l": 2,
+    "gf": 1,
+    "ga": 8,
+    "win_rate": 0.0
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-19",
+      "competition": "男足世界杯",
+      "opponent": "加拿大",
+      "is_home": false,
+      "gf": 0,
+      "ga": 6,
+      "result": "L",
+      "home": "加拿大",
+      "away": "卡塔尔",
+      "score": "6-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-14",
+      "competition": "男足世界杯",
+      "opponent": "瑞士",
+      "is_home": true,
+      "gf": 1,
+      "ga": 1,
+      "result": "D",
+      "home": "卡塔尔",
+      "away": "瑞士",
+      "score": "1-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-07",
+      "competition": "国际赛",
+      "opponent": "萨尔瓦多",
+      "is_home": true,
+      "gf": 0,
+      "ga": 0,
+      "result": "D",
+      "home": "卡塔尔",
+      "away": "萨尔瓦多",
+      "score": "0-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-05-29",
+      "competition": "国际赛",
+      "opponent": "爱尔兰",
+      "is_home": false,
+      "gf": 0,
+      "ga": 1,
+      "result": "L",
+      "home": "爱尔兰",
+      "away": "卡塔尔",
+      "score": "1-0",
+      "note": null
+    }
+  ]
+}

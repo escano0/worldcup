@@ -1,0 +1,103 @@
+{
+  "team_id": "kulasuo",
+  "name": "库拉索",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 1,
+    "d": 1,
+    "l": 4,
+    "gf": 7,
+    "ga": 18,
+    "win_rate": 0.1667
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-21",
+      "competition": "男足世界杯",
+      "opponent": "厄瓜多尔",
+      "is_home": false,
+      "gf": 0,
+      "ga": 0,
+      "result": "D",
+      "home": "厄瓜多尔",
+      "away": "库拉索",
+      "score": "0-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-15",
+      "competition": "男足世界杯",
+      "opponent": "德国",
+      "is_home": false,
+      "gf": 1,
+      "ga": 7,
+      "result": "L",
+      "home": "德国",
+      "away": "库拉索",
+      "score": "7-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-07",
+      "competition": "国际赛",
+      "opponent": "阿鲁巴",
+      "is_home": true,
+      "gf": 4,
+      "ga": 0,
+      "result": "W",
+      "home": "库拉索",
+      "away": "阿鲁巴",
+      "score": "4-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-05-30",
+      "competition": "国际赛",
+      "opponent": "苏格兰",
+      "is_home": false,
+      "gf": 1,
+      "ga": 4,
+      "result": "L",
+      "home": "苏格兰",
+      "away": "库拉索",
+      "score": "4-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-31",
+      "competition": "FIFA系列赛",
+      "opponent": "澳大利亚",
+      "is_home": false,
+      "gf": 1,
+      "ga": 5,
+      "result": "L",
+      "home": "澳大利亚",
+      "away": "库拉索",
+      "score": "5-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-27",
+      "competition": "FIFA系列赛",
+      "opponent": "中国",
+      "is_home": false,
+      "gf": 0,
+      "ga": 2,
+      "result": "L",
+      "home": "中国",
+      "away": "库拉索",
+      "score": "2-0",
+      "note": null
+    }
+  ]
+}

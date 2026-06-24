@@ -1,0 +1,103 @@
+{
+  "team_id": "xinxilan1",
+  "name": "新西兰",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 1,
+    "d": 1,
+    "l": 4,
+    "gf": 7,
+    "ga": 13,
+    "win_rate": 0.1667
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-22",
+      "competition": "男足世界杯",
+      "opponent": "埃及",
+      "is_home": true,
+      "gf": 1,
+      "ga": 3,
+      "result": "L",
+      "home": "新西兰",
+      "away": "埃及",
+      "score": "1-3",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-16",
+      "competition": "男足世界杯",
+      "opponent": "伊朗",
+      "is_home": false,
+      "gf": 2,
+      "ga": 2,
+      "result": "D",
+      "home": "伊朗",
+      "away": "新西兰",
+      "score": "2-2",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-07",
+      "competition": "国际赛",
+      "opponent": "英格兰",
+      "is_home": false,
+      "gf": 0,
+      "ga": 1,
+      "result": "L",
+      "home": "英格兰",
+      "away": "新西兰",
+      "score": "1-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-03",
+      "competition": "国际赛",
+      "opponent": "海地",
+      "is_home": false,
+      "gf": 0,
+      "ga": 4,
+      "result": "L",
+      "home": "海地",
+      "away": "新西兰",
+      "score": "4-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-30",
+      "competition": "FIFA系列赛",
+      "opponent": "智利",
+      "is_home": true,
+      "gf": 4,
+      "ga": 1,
+      "result": "W",
+      "home": "新西兰",
+      "away": "智利",
+      "score": "4-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-27",
+      "competition": "FIFA系列赛",
+      "opponent": "芬兰",
+      "is_home": true,
+      "gf": 0,
+      "ga": 2,
+      "result": "L",
+      "home": "新西兰",
+      "away": "芬兰",
+      "score": "0-2",
+      "note": null
+    }
+  ]
+}

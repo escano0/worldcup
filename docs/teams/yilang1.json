@@ -1,0 +1,103 @@
+{
+  "team_id": "yilang1",
+  "name": "伊朗",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 3,
+    "d": 2,
+    "l": 1,
+    "gf": 13,
+    "ga": 5,
+    "win_rate": 0.5
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-22",
+      "competition": "男足世界杯",
+      "opponent": "比利时",
+      "is_home": false,
+      "gf": 0,
+      "ga": 0,
+      "result": "D",
+      "home": "比利时",
+      "away": "伊朗",
+      "score": "0-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-16",
+      "competition": "男足世界杯",
+      "opponent": "新西兰",
+      "is_home": true,
+      "gf": 2,
+      "ga": 2,
+      "result": "D",
+      "home": "伊朗",
+      "away": "新西兰",
+      "score": "2-2",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-05",
+      "competition": "国际赛",
+      "opponent": "马里",
+      "is_home": true,
+      "gf": 2,
+      "ga": 0,
+      "result": "W",
+      "home": "伊朗",
+      "away": "马里",
+      "score": "2-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-05-29",
+      "competition": "国际赛",
+      "opponent": "冈比亚",
+      "is_home": true,
+      "gf": 3,
+      "ga": 1,
+      "result": "W",
+      "home": "伊朗",
+      "away": "冈比亚",
+      "score": "3-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-31",
+      "competition": "国际赛",
+      "opponent": "哥斯达",
+      "is_home": false,
+      "gf": 5,
+      "ga": 0,
+      "result": "W",
+      "home": "哥斯达",
+      "away": "伊朗",
+      "score": "0-5",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-27",
+      "competition": "国际赛",
+      "opponent": "尼日利亚",
+      "is_home": true,
+      "gf": 1,
+      "ga": 2,
+      "result": "L",
+      "home": "伊朗",
+      "away": "尼日利亚",
+      "score": "1-2",
+      "note": null
+    }
+  ]
+}

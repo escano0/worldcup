@@ -1,0 +1,103 @@
+{
+  "team_id": "fodejiao1",
+  "name": "佛得角",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 2,
+    "d": 3,
+    "l": 1,
+    "gf": 11,
+    "ga": 7,
+    "win_rate": 0.3333
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-22",
+      "competition": "男足世界杯",
+      "opponent": "乌拉圭",
+      "is_home": false,
+      "gf": 2,
+      "ga": 2,
+      "result": "D",
+      "home": "乌拉圭",
+      "away": "佛得角",
+      "score": "2-2",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-16",
+      "competition": "男足世界杯",
+      "opponent": "西班牙",
+      "is_home": false,
+      "gf": 0,
+      "ga": 0,
+      "result": "D",
+      "home": "西班牙",
+      "away": "佛得角",
+      "score": "0-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-07",
+      "competition": "国际赛",
+      "opponent": "百慕大群岛",
+      "is_home": true,
+      "gf": 3,
+      "ga": 0,
+      "result": "W",
+      "home": "佛得角",
+      "away": "百慕大群岛",
+      "score": "3-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-05-31",
+      "competition": "国际赛",
+      "opponent": "塞尔维亚",
+      "is_home": true,
+      "gf": 3,
+      "ga": 0,
+      "result": "W",
+      "home": "佛得角",
+      "away": "塞尔维亚",
+      "score": "3-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-30",
+      "competition": "FIFA系列赛",
+      "opponent": "芬兰",
+      "is_home": true,
+      "gf": 1,
+      "ga": 1,
+      "result": "D",
+      "home": "佛得角",
+      "away": "芬兰",
+      "score": "1-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-27",
+      "competition": "FIFA系列赛",
+      "opponent": "智利",
+      "is_home": false,
+      "gf": 2,
+      "ga": 4,
+      "result": "L",
+      "home": "智利",
+      "away": "佛得角",
+      "score": "4-2",
+      "note": null
+    }
+  ]
+}

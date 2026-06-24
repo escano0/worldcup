@@ -1,0 +1,103 @@
+{
+  "team_id": "yuedan1",
+  "name": "约旦",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 0,
+    "d": 2,
+    "l": 4,
+    "gf": 7,
+    "ga": 15,
+    "win_rate": 0.0
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-23",
+      "competition": "男足世界杯",
+      "opponent": "阿尔及利亚",
+      "is_home": true,
+      "gf": 1,
+      "ga": 2,
+      "result": "L",
+      "home": "约旦",
+      "away": "阿尔及利亚",
+      "score": "1-2",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-17",
+      "competition": "男足世界杯",
+      "opponent": "奥地利",
+      "is_home": false,
+      "gf": 1,
+      "ga": 3,
+      "result": "L",
+      "home": "奥地利",
+      "away": "约旦",
+      "score": "3-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-08",
+      "competition": "国际赛",
+      "opponent": "哥伦比亚",
+      "is_home": false,
+      "gf": 0,
+      "ga": 2,
+      "result": "L",
+      "home": "哥伦比亚",
+      "away": "约旦",
+      "score": "2-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-05-31",
+      "competition": "国际赛",
+      "opponent": "瑞士",
+      "is_home": false,
+      "gf": 1,
+      "ga": 4,
+      "result": "L",
+      "home": "瑞士",
+      "away": "约旦",
+      "score": "4-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-04-01",
+      "competition": "国际赛",
+      "opponent": "尼日利亚",
+      "is_home": true,
+      "gf": 2,
+      "ga": 2,
+      "result": "D",
+      "home": "约旦",
+      "away": "尼日利亚",
+      "score": "2-2",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-28",
+      "competition": "国际赛",
+      "opponent": "哥斯达",
+      "is_home": true,
+      "gf": 2,
+      "ga": 2,
+      "result": "D",
+      "home": "约旦",
+      "away": "哥斯达",
+      "score": "2-2",
+      "note": null
+    }
+  ]
+}
