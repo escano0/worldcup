@@ -1,0 +1,103 @@
+{
+  "team_id": "hanguo1",
+  "name": "韩国",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 3,
+    "d": 0,
+    "l": 3,
+    "gf": 8,
+    "ga": 7,
+    "win_rate": 0.5
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-19",
+      "competition": "男足世界杯",
+      "opponent": "墨西哥",
+      "is_home": false,
+      "gf": 0,
+      "ga": 1,
+      "result": "L",
+      "home": "墨西哥",
+      "away": "韩国",
+      "score": "1-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-12",
+      "competition": "男足世界杯",
+      "opponent": "捷克",
+      "is_home": true,
+      "gf": 2,
+      "ga": 1,
+      "result": "W",
+      "home": "韩国",
+      "away": "捷克",
+      "score": "2-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-04",
+      "competition": "国际赛",
+      "opponent": "萨尔瓦多",
+      "is_home": true,
+      "gf": 1,
+      "ga": 0,
+      "result": "W",
+      "home": "韩国",
+      "away": "萨尔瓦多",
+      "score": "1-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-05-31",
+      "competition": "国际赛",
+      "opponent": "特立尼达和多巴哥",
+      "is_home": true,
+      "gf": 5,
+      "ga": 0,
+      "result": "W",
+      "home": "韩国",
+      "away": "特立尼达和多巴哥",
+      "score": "5-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-04-01",
+      "competition": "国际赛",
+      "opponent": "奥地利",
+      "is_home": false,
+      "gf": 0,
+      "ga": 1,
+      "result": "L",
+      "home": "奥地利",
+      "away": "韩国",
+      "score": "1-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-28",
+      "competition": "国际赛",
+      "opponent": "科特迪瓦",
+      "is_home": true,
+      "gf": 0,
+      "ga": 4,
+      "result": "L",
+      "home": "韩国",
+      "away": "科特迪瓦",
+      "score": "0-4",
+      "note": null
+    }
+  ]
+}

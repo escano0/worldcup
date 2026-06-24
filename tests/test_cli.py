@@ -12,6 +12,7 @@ def test_all_games_failing_exits_nonzero(monkeypatch, tmp_path):
             "--out", str(tmp_path / "o.json"),
             "--schema", "data/recent-form.schema.json",
             "--delay", "0",
+            "--docs-dir", str(tmp_path / "teams"),
         ])
     assert ei.value.code == 1
 
@@ -42,4 +43,5 @@ def test_partial_failure_does_not_exit_nonzero(monkeypatch, tmp_path):
         "--out", str(tmp_path / "o.json"),
         "--schema", "data/recent-form.schema.json",
         "--delay", "0",
+        "--docs-dir", str(tmp_path / "teams"),
     ])  # returns normally, no SystemExit

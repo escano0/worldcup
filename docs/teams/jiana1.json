@@ -1,0 +1,103 @@
+{
+  "team_id": "jiana1",
+  "name": "加纳",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 1,
+    "d": 2,
+    "l": 3,
+    "gf": 4,
+    "ga": 10,
+    "win_rate": 0.1667
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-24",
+      "competition": "男足世界杯",
+      "opponent": "英格兰",
+      "is_home": false,
+      "gf": 0,
+      "ga": 0,
+      "result": "D",
+      "home": "英格兰",
+      "away": "加纳",
+      "score": "0-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-18",
+      "competition": "男足世界杯",
+      "opponent": "巴拿马",
+      "is_home": true,
+      "gf": 1,
+      "ga": 0,
+      "result": "W",
+      "home": "加纳",
+      "away": "巴拿马",
+      "score": "1-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-03",
+      "competition": "国际赛",
+      "opponent": "威尔士",
+      "is_home": false,
+      "gf": 1,
+      "ga": 1,
+      "result": "D",
+      "home": "威尔士",
+      "away": "加纳",
+      "score": "1-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-05-23",
+      "competition": "国际赛",
+      "opponent": "墨西哥",
+      "is_home": false,
+      "gf": 0,
+      "ga": 2,
+      "result": "L",
+      "home": "墨西哥",
+      "away": "加纳",
+      "score": "2-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-31",
+      "competition": "国际赛",
+      "opponent": "德国",
+      "is_home": false,
+      "gf": 1,
+      "ga": 2,
+      "result": "L",
+      "home": "德国",
+      "away": "加纳",
+      "score": "2-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-28",
+      "competition": "国际赛",
+      "opponent": "奥地利",
+      "is_home": false,
+      "gf": 1,
+      "ga": 5,
+      "result": "L",
+      "home": "奥地利",
+      "away": "加纳",
+      "score": "5-1",
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "team_id": "haidi",
+  "name": "海地",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 1,
+    "d": 1,
+    "l": 4,
+    "gf": 6,
+    "ga": 8,
+    "win_rate": 0.1667
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-20",
+      "competition": "男足世界杯",
+      "opponent": "巴西",
+      "is_home": false,
+      "gf": 0,
+      "ga": 3,
+      "result": "L",
+      "home": "巴西",
+      "away": "海地",
+      "score": "3-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-14",
+      "competition": "男足世界杯",
+      "opponent": "苏格兰",
+      "is_home": true,
+      "gf": 0,
+      "ga": 1,
+      "result": "L",
+      "home": "海地",
+      "away": "苏格兰",
+      "score": "0-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-06",
+      "competition": "国际赛",
+      "opponent": "秘鲁",
+      "is_home": true,
+      "gf": 1,
+      "ga": 2,
+      "result": "L",
+      "home": "海地",
+      "away": "秘鲁",
+      "score": "1-2",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-03",
+      "competition": "国际赛",
+      "opponent": "新西兰",
+      "is_home": true,
+      "gf": 4,
+      "ga": 0,
+      "result": "W",
+      "home": "海地",
+      "away": "新西兰",
+      "score": "4-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-04-01",
+      "competition": "国际赛",
+      "opponent": "冰岛",
+      "is_home": true,
+      "gf": 1,
+      "ga": 1,
+      "result": "D",
+      "home": "海地",
+      "away": "冰岛",
+      "score": "1-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-29",
+      "competition": "国际赛",
+      "opponent": "突尼斯",
+      "is_home": true,
+      "gf": 0,
+      "ga": 1,
+      "result": "L",
+      "home": "海地",
+      "away": "突尼斯",
+      "score": "0-1",
+      "note": null
+    }
+  ]
+}

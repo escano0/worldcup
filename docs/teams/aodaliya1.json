@@ -1,0 +1,103 @@
+{
+  "team_id": "aodaliya1",
+  "name": "澳大利亚",
+  "name_en": null,
+  "rank": null,
+  "group": null,
+  "form": {
+    "played": 6,
+    "w": 3,
+    "d": 1,
+    "l": 2,
+    "gf": 9,
+    "ga": 5,
+    "win_rate": 0.5
+  },
+  "updated_at": "2026-06-25T00:00:52+08:00",
+  "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-20",
+      "competition": "男足世界杯",
+      "opponent": "美国",
+      "is_home": false,
+      "gf": 0,
+      "ga": 2,
+      "result": "L",
+      "home": "美国",
+      "away": "澳大利亚",
+      "score": "2-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-14",
+      "competition": "男足世界杯",
+      "opponent": "土耳其",
+      "is_home": true,
+      "gf": 2,
+      "ga": 0,
+      "result": "W",
+      "home": "澳大利亚",
+      "away": "土耳其",
+      "score": "2-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-06-07",
+      "competition": "国际赛",
+      "opponent": "瑞士",
+      "is_home": true,
+      "gf": 1,
+      "ga": 1,
+      "result": "D",
+      "home": "澳大利亚",
+      "away": "瑞士",
+      "score": "1-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-05-31",
+      "competition": "国际赛",
+      "opponent": "墨西哥",
+      "is_home": false,
+      "gf": 0,
+      "ga": 1,
+      "result": "L",
+      "home": "墨西哥",
+      "away": "澳大利亚",
+      "score": "1-0",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-31",
+      "competition": "FIFA系列赛",
+      "opponent": "库拉索",
+      "is_home": true,
+      "gf": 5,
+      "ga": 1,
+      "result": "W",
+      "home": "澳大利亚",
+      "away": "库拉索",
+      "score": "5-1",
+      "note": null
+    },
+    {
+      "match_id": null,
+      "date": "2026-03-27",
+      "competition": "FIFA系列赛",
+      "opponent": "喀麦隆",
+      "is_home": true,
+      "gf": 1,
+      "ga": 0,
+      "result": "W",
+      "home": "澳大利亚",
+      "away": "喀麦隆",
+      "score": "1-0",
+      "note": null
+    }
+  ]
+}
