@@ -43,7 +43,7 @@ _TEAM_HEADER_RE = re.compile(
     r"(\S+)\s+进球(\d+)/失球(\d+)/胜率([\d.]+)%\s*(\d+)胜\s*(\d+)平\s*(\d+)负"
 )
 _ROW_RE = re.compile(
-    r"(\d{4}-\d{2}-\d{2})\s+(\S+)\s+(\S+)\s+(\d+)\s*-\s*(\d+)\s+(\S+)"
+    r"(\d{4}-\d{2}-\d{2})\s+(\D+?)\s+(\S+)\s+(\d+)\s*-\s*(\d+)\s+(\S+)"
 )
 
 
@@ -73,6 +73,10 @@ def parse_team_blocks(text: str, updated_at: str):
             date, comp, home = r.group(1), r.group(2), r.group(3)
             hg, ag, away = int(r.group(4)), int(r.group(5)), r.group(6)
             recent.append(build_match_record(name, date, comp, home, hg, ag, away))
+        if played != len(recent):
+            raise ValueError(
+                f"{name}: header says {played} matches but parsed {len(recent)} rows"
+            )
         win_rate = round(w / played, 4) if played else 0.0
         form = {"played": played, "w": w, "d": d, "l": l,
                 "gf": gf_total, "ga": ga_total, "win_rate": win_rate}
