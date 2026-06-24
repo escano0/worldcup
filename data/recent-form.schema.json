@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "World Cup Recent Form",
+  "type": "object",
+  "required": ["schema_version", "source", "generated_at", "teams"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "source": { "type": "string" },
+    "tournament": { "type": "string" },
+    "generated_at": { "type": "string" },
+    "teams": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/definitions/team" }
+    }
+  },
+  "definitions": {
+    "team": {
+      "type": "object",
+      "required": ["name", "form", "recent", "updated_at"],
+      "properties": {
+        "team_id": { "type": ["string", "null"] },
+        "name": { "type": "string" },
+        "name_en": { "type": ["string", "null"] },
+        "rank": { "type": ["integer", "null"] },
+        "group": { "type": ["string", "null"] },
+        "form": {
+          "type": "object",
+          "required": ["played", "w", "d", "l", "gf", "ga", "win_rate"],
+          "properties": {
+            "played": { "type": "integer", "minimum": 0 },
+            "w": { "type": "integer", "minimum": 0 },
+            "d": { "type": "integer", "minimum": 0 },
+            "l": { "type": "integer", "minimum": 0 },
+            "gf": { "type": "integer", "minimum": 0 },
+            "ga": { "type": "integer", "minimum": 0 },
+            "win_rate": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        },
+        "recent": { "type": "array", "items": { "$ref": "#/definitions/match" } },
+        "updated_at": { "type": "string" }
+      }
+    },
+    "match": {
+      "type": "object",
+      "required": ["date", "competition", "opponent", "is_home", "gf", "ga", "result", "home", "away", "score"],
+      "properties": {
+        "match_id": { "type": ["string", "null"] },
+        "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "competition": { "type": "string" },
+        "opponent": { "type": "string" },
+        "is_home": { "type": "boolean" },
+        "gf": { "type": "integer", "minimum": 0 },
+        "ga": { "type": "integer", "minimum": 0 },
+        "result": { "type": "string", "enum": ["W", "D", "L"] },
+        "home": { "type": "string" },
+        "away": { "type": "string" },
+        "score": { "type": "string" },
+        "note": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
