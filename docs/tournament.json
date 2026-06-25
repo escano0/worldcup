@@ -1,0 +1,892 @@
+{
+  "tournament": "2026-world-cup",
+  "generated_at": "2026-06-25T18:29:44+08:00",
+  "groups": [
+    {
+      "group": "A",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "墨西哥",
+          "slug": "moxige1",
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "points": 9,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "南非",
+          "slug": "nanfei",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "韩国",
+          "slug": "hanguo1",
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "points": 3,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "捷克",
+          "slug": "jieke1",
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "points": 1,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "瑞士",
+          "slug": "ruishi",
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "points": 7,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "加拿大",
+          "slug": "jianada1",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "波黑",
+          "slug": "bohei1",
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "points": 4,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "卡塔尔",
+          "slug": "kataer1",
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "points": 1,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "巴西",
+          "slug": "baxi1",
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "points": 7,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "摩洛哥",
+          "slug": "moluoge",
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "points": 7,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "苏格兰",
+          "slug": "sugelan",
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "points": 3,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "海地",
+          "slug": "haidi",
+          "w": 0,
+          "d": 0,
+          "l": 3,
+          "points": 0,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "美国",
+          "slug": "meiguo1",
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "points": 6,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "澳大利亚",
+          "slug": "aodaliya1",
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "points": 3,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "巴拉圭",
+          "slug": "balagui",
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "points": 3,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "土耳其",
+          "slug": "tuerqi1",
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "points": 0,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "德国",
+          "slug": "deguo1",
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "points": 6,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "科特迪瓦",
+          "slug": "ketediwa1",
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "points": 3,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "厄瓜多尔",
+          "slug": "eguaduoer",
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "points": 1,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "库拉索",
+          "slug": "kulasuo",
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "points": 1,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "荷兰",
+          "slug": "helan1",
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "日本",
+          "slug": "riben1",
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "瑞典",
+          "slug": "ruidian1",
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "points": 3,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "突尼斯",
+          "slug": "tunisi1",
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "points": 0,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "埃及",
+          "slug": "aiji1",
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "伊朗",
+          "slug": "yilang1",
+          "w": 0,
+          "d": 2,
+          "l": 0,
+          "points": 2,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "比利时",
+          "slug": "bilishi1",
+          "w": 0,
+          "d": 2,
+          "l": 0,
+          "points": 2,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "新西兰",
+          "slug": "xinxilan1",
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "points": 1,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "西班牙",
+          "slug": "xibanya1",
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "乌拉圭",
+          "slug": "wulagui",
+          "w": 0,
+          "d": 2,
+          "l": 0,
+          "points": 2,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "佛得角",
+          "slug": "fodejiao1",
+          "w": 0,
+          "d": 2,
+          "l": 0,
+          "points": 2,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "沙特阿拉伯",
+          "slug": "shatealabo",
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "points": 1,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "法国",
+          "slug": "faguo1",
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "points": 6,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "挪威",
+          "slug": "nuowei",
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "points": 6,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "塞内加尔",
+          "slug": "saineijiaer",
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "points": 0,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "伊拉克",
+          "slug": "yilake1",
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "points": 0,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "阿根廷",
+          "slug": "agenting",
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "points": 6,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "奥地利",
+          "slug": "aodili",
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "points": 3,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "阿尔及利亚",
+          "slug": "aerjiliya",
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "points": 3,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "约旦",
+          "slug": "yuedan1",
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "points": 0,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "哥伦比亚",
+          "slug": "gelunbiya",
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "points": 6,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "葡萄牙",
+          "slug": "putaoya",
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "民主刚果",
+          "slug": "minzhugangguo",
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "points": 1,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "乌兹别克斯坦",
+          "slug": "wuzibiekesitan",
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "points": 0,
+          "zone": "晋级待定"
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "standings": [
+        {
+          "rank": 1,
+          "team": "英格兰",
+          "slug": "yinggelan",
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 2,
+          "team": "加纳",
+          "slug": "jiana1",
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "points": 4,
+          "zone": "晋级32强"
+        },
+        {
+          "rank": 3,
+          "team": "克罗地亚",
+          "slug": "keluodiya1",
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "points": 3,
+          "zone": "晋级待定"
+        },
+        {
+          "rank": 4,
+          "team": "巴拿马",
+          "slug": "banama",
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "points": 0,
+          "zone": "晋级待定"
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "stage": "group",
+      "group": "B",
+      "round": 3,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "status": "finished",
+      "home": "瑞士",
+      "away": "加拿大",
+      "score": "2-1",
+      "ht": "0-0",
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "B",
+      "round": 3,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "status": "finished",
+      "home": "波黑",
+      "away": "卡塔尔",
+      "score": "3-1",
+      "ht": "2-1",
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "round": 3,
+      "date": "2026-06-25",
+      "time": "06:00",
+      "status": "finished",
+      "home": "苏格兰",
+      "away": "巴西",
+      "score": "0-3",
+      "ht": "0-2",
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "C",
+      "round": 3,
+      "date": "2026-06-25",
+      "time": "06:00",
+      "status": "finished",
+      "home": "摩洛哥",
+      "away": "海地",
+      "score": "4-2",
+      "ht": "2-2",
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "A",
+      "round": 3,
+      "date": "2026-06-25",
+      "time": "09:00",
+      "status": "finished",
+      "home": "捷克",
+      "away": "墨西哥",
+      "score": "0-3",
+      "ht": "0-0",
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "A",
+      "round": 3,
+      "date": "2026-06-25",
+      "time": "09:00",
+      "status": "finished",
+      "home": "南非",
+      "away": "韩国",
+      "score": "1-0",
+      "ht": "0-0",
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "round": 3,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "status": "scheduled",
+      "home": "厄瓜多尔",
+      "away": "德国",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "E",
+      "round": 3,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "status": "scheduled",
+      "home": "库拉索",
+      "away": "科特迪瓦",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "round": 3,
+      "date": "2026-06-26",
+      "time": "07:00",
+      "status": "scheduled",
+      "home": "突尼斯",
+      "away": "荷兰",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "F",
+      "round": 3,
+      "date": "2026-06-26",
+      "time": "07:00",
+      "status": "scheduled",
+      "home": "日本",
+      "away": "瑞典",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "round": 3,
+      "date": "2026-06-26",
+      "time": "10:00",
+      "status": "scheduled",
+      "home": "土耳其",
+      "away": "美国",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "D",
+      "round": 3,
+      "date": "2026-06-26",
+      "time": "10:00",
+      "status": "scheduled",
+      "home": "巴拉圭",
+      "away": "澳大利亚",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "I",
+      "round": 3,
+      "date": "2026-06-27",
+      "time": "03:00",
+      "status": "scheduled",
+      "home": "挪威",
+      "away": "法国",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "I",
+      "round": 3,
+      "date": "2026-06-27",
+      "time": "03:00",
+      "status": "scheduled",
+      "home": "塞内加尔",
+      "away": "伊拉克",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "round": 3,
+      "date": "2026-06-27",
+      "time": "08:00",
+      "status": "scheduled",
+      "home": "乌拉圭",
+      "away": "西班牙",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "H",
+      "round": 3,
+      "date": "2026-06-27",
+      "time": "08:00",
+      "status": "scheduled",
+      "home": "佛得角",
+      "away": "沙特阿拉伯",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "round": 3,
+      "date": "2026-06-27",
+      "time": "11:00",
+      "status": "scheduled",
+      "home": "新西兰",
+      "away": "比利时",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "G",
+      "round": 3,
+      "date": "2026-06-27",
+      "time": "11:00",
+      "status": "scheduled",
+      "home": "埃及",
+      "away": "伊朗",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "L",
+      "round": 3,
+      "date": "2026-06-28",
+      "time": "05:00",
+      "status": "scheduled",
+      "home": "巴拿马",
+      "away": "英格兰",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "L",
+      "round": 3,
+      "date": "2026-06-28",
+      "time": "05:00",
+      "status": "scheduled",
+      "home": "克罗地亚",
+      "away": "加纳",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "K",
+      "round": 3,
+      "date": "2026-06-28",
+      "time": "07:30",
+      "status": "scheduled",
+      "home": "哥伦比亚",
+      "away": "葡萄牙",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "K",
+      "round": 3,
+      "date": "2026-06-28",
+      "time": "07:30",
+      "status": "scheduled",
+      "home": "民主刚果",
+      "away": "乌兹别克斯坦",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "J",
+      "round": 3,
+      "date": "2026-06-28",
+      "time": "10:00",
+      "status": "scheduled",
+      "home": "约旦",
+      "away": "阿根廷",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    },
+    {
+      "stage": "group",
+      "group": "J",
+      "round": 3,
+      "date": "2026-06-28",
+      "time": "10:00",
+      "status": "scheduled",
+      "home": "阿尔及利亚",
+      "away": "奥地利",
+      "score": null,
+      "ht": null,
+      "game_id": null
+    }
+  ],
+  "bracket": [
+    {
+      "stage": "round_of_32",
+      "slots": 16,
+      "matches": []
+    },
+    {
+      "stage": "round_of_16",
+      "slots": 8,
+      "matches": []
+    },
+    {
+      "stage": "quarter_final",
+      "slots": 4,
+      "matches": []
+    },
+    {
+      "stage": "semi_final",
+      "slots": 2,
+      "matches": []
+    },
+    {
+      "stage": "third_place",
+      "slots": 1,
+      "matches": []
+    },
+    {
+      "stage": "final",
+      "slots": 1,
+      "matches": []
+    }
+  ]
+}

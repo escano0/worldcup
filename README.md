@@ -25,6 +25,18 @@ PYTHONPATH=src python -m worldcup.cli --all --docs-dir docs/teams --out data/rec
 参数:`--docs-dir`(每队文件输出目录,默认 `docs/teams`)、`--out`(可选聚合快照)、`--delay`(批量每场间隔秒,默认 0.5)、`--schema`(校验用 schema 路径)。
 `--all` 模式下个别未开赛/无战绩的场次会被跳过并打印 `skip ...`;**全部场次都失败时进程以非 0 退出**(便于自动化区分"个别跳过"与"整体崩了")。
 
+### 赛事树/积分(tournament.json)
+
+```bash
+# 生成 docs/tournament.json:各组积分 + 赛程(往期+未来)+ 淘汰赛树骨架
+PYTHONPATH=src python -m worldcup.tournament --out docs/tournament.json
+```
+
+`docs/tournament.json` 顶层:
+- `groups`:12 组(A–L)积分榜,每队 `rank/team/slug/w/d/l/points/zone`(zone=晋级32强|晋级待定)。
+- `matches`:赛程页当前窗口的小组赛(往期 `status:finished` 带 `score`/`ht`,未来 `status:scheduled`)。
+- `bracket`:淘汰赛树骨架 `round_of_32→round_of_16→quarter_final→semi_final→third_place→final`,每轮带 `slots`;对阵随源公布填入 `matches`(当前小组赛未完,均为空)。
+
 ## 数据结构
 
 每个 `docs/teams/{slug}.json` 是一支球队对象(以球队为中心,方案 A):
@@ -63,6 +75,7 @@ PYTHONPATH=src python -m pytest -q     # 30 passed
 ```
 
 ## 已知限制
-- `rank`/`group` 暂为 null;`match_id` 暂为 null(可后续从来源补采)。
+- 每队战绩文件的 `rank`/`group`/`match_id` 暂为 null(可后续从来源补采)。
 - 点球大战仅以 `note` 文本保留。
+- `tournament.json` 的 `matches` 是赛程页的**当前窗口**(临近几日),非全部 72 场小组赛历史;完整往期结果由 `groups` 积分汇总体现。`matches[].game_id` 暂为 null(源页链接数与比赛数非 1:1,best-effort 跳过)。淘汰赛对阵待小组赛结束后由源公布再生成。
 - 反爬:批量抓取已内置 `--delay`;高频使用请自行控频。
