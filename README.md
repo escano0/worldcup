@@ -84,6 +84,20 @@ API key 三选一提供(**勿提交进仓库**):`--api-key`、环境变量 `ODDS
 
 `docs/odds.json` 顶层:`source/sport/regions/markets/generated_at/match_count/matches`。每场 `matches[]` 含 `home/away/commence` 与 `bookmakers[]`,每家博彩 `markets` 按类型成 dict:`h2h`(胜平负)、`spreads`(让球/亚盘,含 `point`)、`totals`(大小球,含 `point`)。实测一次取到 19 场、~41 家博彩(h2h 761 / totals 323 / spreads 131 条)。
 
+### 价值投注推荐(recommendations.json)
+
+基于 **Dixon-Coles 概率模型**(`docs/teams` 战绩拟合)对比 **`docs/odds.json` 盘口**,找正期望(value)的 胜平负/大小球/让球,并用**分数凯利**给注码。
+
+```bash
+PYTHONPATH=src python -m worldcup.recommend --out docs/recommendations.json
+# 调参:--edge 价值阈值(默认0.03) --kelly 凯利分数(默认0.25)
+#       --max-odds 滤冷门(默认7.0) --max-stake 单注上限%(默认5.0)
+```
+
+`docs/recommendations.json`:`matches[].value_bets[]{market, selection, model_prob, implied_prob, edge, odds, bookmaker, kelly_stake_pct}`。流程:盘口去水(devig)→ `edge = 模型概率 − 隐含概率` → 正EV 才推 → 分数凯利注码 → 冷门/注码护栏。
+
+> ⚠️ **免责 / 重要**:这是**统计建模实验,不是稳赚系统**。当前用的是稀疏数据上的简化 Dixon-Coles(每队约 10 场),且**未做历史回测**,所以会产出**偏多、偏噪声**的"价值"信号(一次 ~100 注/19 场,真实可信优势远少于此)。护栏只挡掉了极端冷门和大注码,**不代表这些注有真实正收益**。仅供个人研究/娱乐参考,博彩有风险。要变可靠需:历史数据回测 + 更严格拟合(MLE)/ML——这部分已暂缓。
+
 ## 架构
 
 ```
@@ -95,10 +109,13 @@ cli.py       编排:enumerate → fetch → parse → build → validate → 写
 tournament.py 积分/赛程/bracket → docs/tournament.json
 squad.py     阵容/身价/伤停 → docs/squads/{slug}.json
 odds.py      The Odds API 盘口 → docs/odds.json
+dixon_coles.py 进球泊松概率引擎(攻防强度+τ修正)
+teamnames.py  队名映射 en<->zh<->slug(48队)
+recommend.py  DC概率 vs 去水盘口 → 价值投注 → docs/recommendations.json
 models.py    MatchRecord / TeamForm
 ```
 
-`docs/` 产物:`teams/{slug}.json`(48 队战绩)、`squads/{slug}.json`(48 队阵容/身价/伤停)、`tournament.json`(积分+赛程+树)、`odds.json`(盘口)。
+`docs/` 产物:`teams/{slug}.json`(48 队战绩)、`squads/{slug}.json`(48 队阵容/身价/伤停)、`profiles/{slug}.json`(每队聚合)、`tournament.json`(积分+赛程+树)、`odds.json`(盘口)、`recommendations.json`(价值投注,实验性)。
 
 ## 测试
 
