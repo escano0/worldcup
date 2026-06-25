@@ -1,7 +1,12 @@
+import argparse
+import json
 import re
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
+from .fetcher import fetch_game_page
 from .parser import html_to_text, parse_team_slugs
-from .schedule import parse_game_ids
+from .schedule import fetch_schedule_html, parse_game_ids
 
 # 淘汰赛骨架(stage, 该轮比赛数);当前对阵未公布,matches 留空待填
 BRACKET_SKELETON = [
@@ -112,3 +117,36 @@ def build_tournament(groups, matches, generated_at):
         "matches": matches,
         "bracket": bracket,
     }
+
+
+_CST = timezone(timedelta(hours=8))
+
+
+def _now_iso():
+    return datetime.now(_CST).isoformat(timespec="seconds")
+
+
+def main(argv=None):
+    p = argparse.ArgumentParser(description="生成世界杯赛事树/积分 docs/tournament.json")
+    p.add_argument("--out", default="docs/tournament.json")
+    args = p.parse_args(argv)
+
+    sched_html = fetch_schedule_html()
+    matches = parse_schedule_matches(sched_html)
+    game_ids = parse_game_ids(sched_html)
+    if not game_ids:
+        raise SystemExit("赛程页未找到 game id,无法取积分榜")
+    # 任一比赛页都含全部 12 组积分榜
+    standings_html = fetch_game_page(game_ids[0])
+    groups = parse_standings(standings_html)
+
+    doc = build_tournament(groups, matches, _now_iso())
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(doc, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"wrote {args.out}: {len(groups)} groups, {len(matches)} matches, "
+          f"{len(doc['bracket'])} bracket rounds")
+
+
+if __name__ == "__main__":
+    main()

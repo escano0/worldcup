@@ -60,3 +60,18 @@ def test_build_tournament_assembles_with_bracket_skeleton():
     assert all(b["matches"] == [] for b in doc["bracket"])     # knockout TBD
     r32 = doc["bracket"][0]
     assert r32["stage"] == "round_of_32" and r32["slots"] == 16
+
+
+def test_main_writes_tournament_json(monkeypatch, tmp_path):
+    import json
+    import worldcup.tournament as T
+    monkeypatch.setattr(T, "fetch_schedule_html", lambda **kw: SCHED_HTML)
+    monkeypatch.setattr(T, "fetch_game_page", lambda gid, **kw: STANDINGS_HTML)
+    out = tmp_path / "tournament.json"
+    T.main(["--out", str(out)])
+    doc = json.loads(out.read_text(encoding="utf-8"))
+    assert doc["tournament"] == "2026-world-cup"
+    assert len(doc["groups"]) == 2          # from STANDINGS_HTML
+    assert len(doc["matches"]) == 2         # from SCHED_HTML
+    assert doc["bracket"][0]["stage"] == "round_of_32"
+    assert doc["generated_at"]               # non-empty timestamp
