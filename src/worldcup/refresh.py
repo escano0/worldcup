@@ -1,6 +1,6 @@
 import argparse
 
-from . import cli, odds, profile, squad, tournament
+from . import cli, odds, profile, recommend, squad, tournament
 
 
 def main(argv=None):
@@ -18,6 +18,8 @@ def main(argv=None):
         steps.append(("odds", lambda: odds.main(["--out", "docs/odds.json"])))
     if not args.skip_profiles:
         steps.append(("profile", lambda: profile.main(["--docs-dir", "docs/profiles"])))
+    if not args.skip_odds:  # 价值投注依赖盘口
+        steps.append(("recommend", lambda: recommend.main(["--out", "docs/recommendations.json"])))
 
     results = {}
     for name, fn in steps:

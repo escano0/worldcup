@@ -8,18 +8,20 @@ def test_refresh_runs_all_steps_in_order(monkeypatch):
     monkeypatch.setattr(refresh.squad, "main", lambda argv: calls.append(("squad", argv)))
     monkeypatch.setattr(refresh.odds, "main", lambda argv: calls.append(("odds", argv)))
     monkeypatch.setattr(refresh.profile, "main", lambda argv: calls.append(("profile", argv)))
+    monkeypatch.setattr(refresh.recommend, "main", lambda argv: calls.append(("recommend", argv)))
     refresh.main([])
     names = [c[0] for c in calls]
-    assert names == ["teams", "tournament", "squad", "odds", "profile"]
+    assert names == ["teams", "tournament", "squad", "odds", "profile", "recommend"]
 
 
 def test_refresh_skip_flags(monkeypatch):
     calls = []
-    for mod in ("cli", "tournament", "squad", "odds", "profile"):
+    for mod in ("cli", "tournament", "squad", "odds", "profile", "recommend"):
         monkeypatch.setattr(getattr(refresh, mod), "main",
                             lambda argv, _m=mod: calls.append(_m))
     refresh.main(["--skip-odds", "--skip-profiles"])
     assert "odds" not in calls and "profile" not in calls
+    assert "recommend" not in calls   # 依赖盘口,skip-odds 时一并跳过
     assert "cli" in calls and "tournament" in calls and "squad" in calls
 
 
@@ -31,5 +33,6 @@ def test_refresh_continues_after_step_error(monkeypatch):
     monkeypatch.setattr(refresh.squad, "main", lambda argv: calls.append("squad"))
     monkeypatch.setattr(refresh.odds, "main", lambda argv: calls.append("odds"))
     monkeypatch.setattr(refresh.profile, "main", lambda argv: calls.append("profile"))
+    monkeypatch.setattr(refresh.recommend, "main", lambda argv: calls.append("recommend"))
     refresh.main([])  # must NOT raise even though teams step failed
-    assert calls == ["tournament", "squad", "odds", "profile"]
+    assert calls == ["tournament", "squad", "odds", "profile", "recommend"]
