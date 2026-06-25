@@ -1,0 +1,321 @@
+{
+  "team_id": "deguo1",
+  "name": "德国",
+  "group": "E",
+  "coach": "朱利安·纳格尔斯曼",
+  "squad_updated": "2026/6/22 20:21",
+  "formation": null,
+  "player_count": 25,
+  "squad": {
+    "守门员": [
+      {
+        "name": "鲍曼",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "2800万欧元",
+        "height": "195cm",
+        "weight": "94kg",
+        "foot": "右脚",
+        "dob": "1996-02-11",
+        "age": 30,
+        "nationality": "德国"
+      },
+      {
+        "name": "诺伊尔",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "1800万欧元",
+        "height": "189cm",
+        "weight": "86kg",
+        "foot": "右脚",
+        "dob": "1996-07-20",
+        "age": 29,
+        "nationality": "德国"
+      },
+      {
+        "name": "努贝尔",
+        "position": "守门员",
+        "number": 21,
+        "market_value": "1200万欧元",
+        "height": "189cm",
+        "weight": "82kg",
+        "foot": "右脚",
+        "dob": "1995-02-06",
+        "age": 31,
+        "nationality": "德国"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "吕迪格",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "600万欧元",
+        "height": "191cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1993-03-03",
+        "age": 33,
+        "nationality": "德国"
+      },
+      {
+        "name": "塔",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "250万欧元",
+        "height": "181cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1991-06-15",
+        "age": 35,
+        "nationality": "德国"
+      },
+      {
+        "name": "劳姆",
+        "position": "后卫",
+        "number": 22,
+        "market_value": "400万欧元",
+        "height": "193cm",
+        "weight": "90kg",
+        "foot": "右脚",
+        "dob": "1986-03-27",
+        "age": 40,
+        "nationality": "德国"
+      },
+      {
+        "name": "安东",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "1亿欧元",
+        "height": "184cm",
+        "weight": "71kg",
+        "foot": "右脚",
+        "dob": "2003-02-26",
+        "age": 23,
+        "nationality": "德国"
+      },
+      {
+        "name": "布朗",
+        "position": "后卫",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "佳夫",
+        "position": "后卫",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "基米希",
+        "position": "中场",
+        "number": 6,
+        "market_value": "3500万欧元",
+        "height": "177cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1995-02-08",
+        "age": 31,
+        "nationality": "德国"
+      },
+      {
+        "name": "维尔茨",
+        "position": "中场",
+        "number": 17,
+        "market_value": "250万欧元",
+        "height": "187cm",
+        "weight": "82kg",
+        "foot": "右脚",
+        "dob": "1990-06-02",
+        "age": 36,
+        "nationality": "德国"
+      },
+      {
+        "name": "格罗斯",
+        "position": "中场",
+        "number": 13,
+        "market_value": "2500万欧元",
+        "height": "181cm",
+        "weight": "83kg",
+        "foot": "左脚",
+        "dob": "1998-04-22",
+        "age": 28,
+        "nationality": "德国"
+      },
+      {
+        "name": "穆西亚拉",
+        "position": "中场",
+        "number": 10,
+        "market_value": "4000万欧元",
+        "height": "183cm",
+        "weight": "64kg",
+        "foot": "右脚",
+        "dob": "2002-10-17",
+        "age": 23,
+        "nationality": "德国"
+      },
+      {
+        "name": "斯蒂勒",
+        "position": "中场",
+        "number": 16,
+        "market_value": "5000万欧元",
+        "height": "190cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "2000-10-10",
+        "age": 25,
+        "nationality": "德国"
+      },
+      {
+        "name": "帕夫洛维奇",
+        "position": "中场",
+        "number": 5,
+        "market_value": "1700万欧元",
+        "height": "180cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1996-10-27",
+        "age": 29,
+        "nationality": "德国"
+      },
+      {
+        "name": "恩梅查",
+        "position": "中场",
+        "number": 23,
+        "market_value": "5500万欧元",
+        "height": "198cm",
+        "weight": "92kg",
+        "foot": "右脚",
+        "dob": "2002-02-14",
+        "age": 24,
+        "nationality": "德国"
+      },
+      {
+        "name": "阿米里",
+        "position": "中场",
+        "number": 20,
+        "market_value": "4000万欧元",
+        "height": "176cm",
+        "weight": "60kg",
+        "foot": "左脚",
+        "dob": "2003-06-16",
+        "age": 23,
+        "nationality": "德国"
+      },
+      {
+        "name": "格雷茨卡",
+        "position": "中场",
+        "number": 8,
+        "market_value": "2800万欧元",
+        "height": "191cm",
+        "weight": "82kg",
+        "foot": "右脚",
+        "dob": "2006-05-09",
+        "age": 20,
+        "nationality": "德国"
+      },
+      {
+        "name": "韦德拉奥果",
+        "position": "中场",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "萨内",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "2000万欧元",
+        "height": "183cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "1996-01-11",
+        "age": 30,
+        "nationality": "德国"
+      },
+      {
+        "name": "哈弗茨",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "1亿欧元",
+        "height": "175cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "2003-05-03",
+        "age": 23,
+        "nationality": "德国"
+      },
+      {
+        "name": "拜尔",
+        "position": "前锋",
+        "number": 14,
+        "market_value": "4500万欧元",
+        "height": "183cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "2001-04-04",
+        "age": 25,
+        "nationality": "德国"
+      },
+      {
+        "name": "昂达夫",
+        "position": "前锋",
+        "number": 26,
+        "market_value": "1200万欧元",
+        "height": "193cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1996-09-30",
+        "age": 29,
+        "nationality": "德国"
+      },
+      {
+        "name": "勒威林",
+        "position": "前锋",
+        "number": 9,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "沃尔特马德",
+        "position": "前锋",
+        "number": 11,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

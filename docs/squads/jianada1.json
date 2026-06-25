@@ -1,0 +1,350 @@
+{
+  "team_id": "jianada1",
+  "name": "加拿大",
+  "group": "B",
+  "coach": "杰西·马希",
+  "squad_updated": "2026/6/10 11:01",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "戴恩·圣克莱尔",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "2500万欧元",
+        "height": "188cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "2002-06-16",
+        "age": 24,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "克里普尔",
+        "position": "守门员",
+        "number": 16,
+        "market_value": "700万欧元",
+        "height": "190cm",
+        "weight": "83kg",
+        "foot": "右脚",
+        "dob": "2000-03-30",
+        "age": 26,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "古德曼",
+        "position": "守门员",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": 1,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "里奇·拉里亚",
+        "position": "后卫",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "约翰斯顿",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "600万欧元",
+        "height": "178cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "1996-12-21",
+        "age": 29,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "科内柳斯",
+        "position": "后卫",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "戴维斯",
+        "position": "后卫",
+        "number": 19,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "吕克·德富热罗勒",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "波姆比托",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "80万欧元",
+        "height": "175cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "1999-02-07",
+        "age": 27,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "乔尔·沃特曼",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "200万欧元",
+        "height": "170cm",
+        "weight": "66kg",
+        "foot": "右脚",
+        "dob": "2002-09-26",
+        "age": 23,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "尼科·西古尔",
+        "position": "后卫",
+        "number": 23,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "琼斯",
+        "position": "后卫",
+        "number": 3,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "奥索里奥",
+        "position": "中场",
+        "number": 21,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "科内",
+        "position": "中场",
+        "number": 8,
+        "market_value": "800万欧元",
+        "height": "180cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1998-10-08",
+        "age": 27,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "欧斯塔基奥",
+        "position": "中场",
+        "number": 7,
+        "market_value": "1200万欧元",
+        "height": "183cm",
+        "weight": "71kg",
+        "foot": "右脚",
+        "dob": "1999-02-08",
+        "age": 27,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "利亚姆·米勒",
+        "position": "中场",
+        "number": 11,
+        "market_value": "3000万欧元",
+        "height": "178cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "2000-01-14",
+        "age": 26,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "布坎南",
+        "position": "中场",
+        "number": 17,
+        "market_value": "250万欧元",
+        "height": "187cm",
+        "weight": "86kg",
+        "foot": "右脚",
+        "dob": "1995-04-17",
+        "age": 31,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "阿里·艾哈迈德",
+        "position": "中场",
+        "number": 20,
+        "market_value": "250万欧元",
+        "height": "178cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "1999-11-26",
+        "age": 26,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "乔尼瑞",
+        "position": "中场",
+        "number": 6,
+        "market_value": "700万欧元",
+        "height": "187cm",
+        "weight": "79kg",
+        "foot": "左脚",
+        "dob": "2000-05-15",
+        "age": 26,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "沙菲尔伯格",
+        "position": "中场",
+        "number": 14,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "纳坦-迪伦·萨利巴",
+        "position": "中场",
+        "number": 25,
+        "market_value": "600万欧元",
+        "height": "191cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "1997-10-07",
+        "age": 28,
+        "nationality": "英格兰"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "戴维",
+        "position": "前锋",
+        "number": 10,
+        "market_value": "4000万欧元",
+        "height": "181cm",
+        "weight": "72kg",
+        "foot": "左脚",
+        "dob": "2000-11-02",
+        "age": 25,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "拉林",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "180万欧元",
+        "height": "181cm",
+        "weight": "87kg",
+        "foot": "右脚",
+        "dob": "1994-05-11",
+        "age": 32,
+        "nationality": "加拿大"
+      },
+      {
+        "name": "奥卢瓦塞伊",
+        "position": "前锋",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "尼尔森",
+        "position": "前锋",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "普罗米斯·戴维",
+        "position": "前锋",
+        "number": 24,
+        "market_value": "55万欧元",
+        "height": "193cm",
+        "weight": "86kg",
+        "foot": "左脚",
+        "dob": "2003-11-27",
+        "age": 22,
+        "nationality": "加拿大"
+      }
+    ]
+  },
+  "injuries": [
+    {
+      "name": "琼斯",
+      "position": "后卫",
+      "number": 5,
+      "reason": "肌肉挫伤",
+      "status": "受伤",
+      "date": "06-18"
+    },
+    {
+      "name": "科内",
+      "position": "中场",
+      "number": 90,
+      "reason": "小腿骨折",
+      "status": "受伤",
+      "date": "06-19"
+    }
+  ],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

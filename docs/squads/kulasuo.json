@@ -1,0 +1,333 @@
+{
+  "team_id": "kulasuo",
+  "name": "库拉索",
+  "group": "E",
+  "coach": "迪克·艾德沃卡特",
+  "squad_updated": "2026/6/10 11:29",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "罗姆",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "15万欧元",
+        "height": "188cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1989-02-06",
+        "age": 37,
+        "nationality": "库拉索"
+      },
+      {
+        "name": "博达克",
+        "position": "守门员",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "特雷弗·多恩布施",
+        "position": "守门员",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "朱利安·加里",
+        "position": "后卫",
+        "number": 3,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "弗洛拉努斯",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "80万欧元",
+        "height": "181cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1998-08-23",
+        "age": 27,
+        "nationality": "库拉索"
+      },
+      {
+        "name": "罗森·范艾玛",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "约书亚·布雷内特",
+        "position": "后卫",
+        "number": 20,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "桑博",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "130万欧元",
+        "height": "174cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "2001-08-19",
+        "age": 24,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "里赫德利·巴佐尔",
+        "position": "后卫",
+        "number": 23,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿尔曼多·奥比斯波",
+        "position": "后卫",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "德弗伦·丰维尔",
+        "position": "后卫",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "儒尼尼奥·巴库纳",
+        "position": "中场",
+        "number": 7,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "凯文·费利达",
+        "position": "中场",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "霍德弗里德·罗默拉托",
+        "position": "中场",
+        "number": 6,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "马萨",
+        "position": "中场",
+        "number": 15,
+        "market_value": "70万欧元",
+        "height": "180cm",
+        "weight": "67kg",
+        "foot": "左脚",
+        "dob": "2003-09-04",
+        "age": 22,
+        "nationality": "库拉索"
+      },
+      {
+        "name": "科梅内西亚",
+        "position": "中场",
+        "number": 8,
+        "market_value": "50万欧元",
+        "height": "191cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "2004-02-03",
+        "age": 22,
+        "nationality": "库拉索"
+      },
+      {
+        "name": "L.巴库纳",
+        "position": "中场",
+        "number": 10,
+        "market_value": "25万欧元",
+        "height": "187cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1991-08-21",
+        "age": 34,
+        "nationality": "库拉索"
+      },
+      {
+        "name": "诺斯林",
+        "position": "中场",
+        "number": 13,
+        "market_value": "75万欧元",
+        "height": "182cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "2002-09-11",
+        "age": 23,
+        "nationality": "库拉索"
+      },
+      {
+        "name": "陈达毅",
+        "position": "中场",
+        "number": 21,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "赫尔瓦内·卡斯塔内尔",
+        "position": "前锋",
+        "number": 19,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "库瓦斯",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "25万欧元",
+        "height": "178cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "1992-09-19",
+        "age": 33,
+        "nationality": "库拉索"
+      },
+      {
+        "name": "洛卡迪亚",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "20万欧元",
+        "height": "191cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "1993-11-07",
+        "age": 32,
+        "nationality": "库拉索"
+      },
+      {
+        "name": "肯伊·霍勒",
+        "position": "前锋",
+        "number": 14,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "杰尔·马加里塔",
+        "position": "前锋",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "耶雷米·安东尼塞",
+        "position": "前锋",
+        "number": 11,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "松切·汉森",
+        "position": "前锋",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

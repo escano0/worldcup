@@ -57,6 +57,19 @@ PYTHONPATH=src python -m worldcup.tournament --out docs/tournament.json
 
 `--out` 写出的聚合快照则把所有球队收进顶层 `teams` map(键为 slug),并带 `schema_version`/`generated_at` 等元数据,字段约束见 `data/recent-form.schema.json`。设计与计划详见 `docs/superpowers/specs/` 与 `docs/superpowers/plans/`。
 
+### 阵容/身价/伤停(squads/{slug}.json)
+
+```bash
+# 抓各队阵容页 + 伤停 -> docs/squads/{slug}.json(48 队)
+PYTHONPATH=src python -m worldcup.squad --docs-dir docs/squads
+```
+
+每个 `docs/squads/{slug}.json`:`team_id/name/group/coach/squad_updated/formation/player_count/squad/injuries`。
+- `squad`:按位置分组 `守门员/后卫/中场/前锋`(即"战略部署框架"),每名球员含 `name/position/number` 及 `market_value`(身价)/`height`/`weight`/`foot`/`dob`/`age`/`nationality`。
+- `coach`:主教练;`formation`:阵型源头未公布(临场首发才有)→ 固定 `null`。
+- `injuries`:伤停球员(姓名/位置/号码/伤情/状态/日期)。
+参数:`--delay`、`--no-injuries`(跳过伤停以加速)。
+
 ### 盘口/赔率(odds.json)
 
 球迷屋无结构化赔率,故盘口数据来自 **[The Odds API](https://the-odds-api.com)**(`soccer_fifa_world_cup`)。
@@ -80,11 +93,12 @@ parser.py    html_to_text + parse_team_blocks(战绩) + parse_team_slugs(team_id
 builder.py   构建快照 dict / Schema 校验 / 写每队文件 write_team_files / 写聚合
 cli.py       编排:enumerate → fetch → parse → build → validate → 写 docs/teams [→ 聚合]
 tournament.py 积分/赛程/bracket → docs/tournament.json
+squad.py     阵容/身价/伤停 → docs/squads/{slug}.json
 odds.py      The Odds API 盘口 → docs/odds.json
 models.py    MatchRecord / TeamForm
 ```
 
-`docs/` 产物:`teams/{slug}.json`(48 队战绩)、`tournament.json`(积分+赛程+树)、`odds.json`(盘口)。
+`docs/` 产物:`teams/{slug}.json`(48 队战绩)、`squads/{slug}.json`(48 队阵容/身价/伤停)、`tournament.json`(积分+赛程+树)、`odds.json`(盘口)。
 
 ## 测试
 
@@ -96,4 +110,5 @@ PYTHONPATH=src python -m pytest -q     # 30 passed
 - 每队战绩文件的 `rank`/`group`/`match_id` 暂为 null(可后续从来源补采)。
 - 点球大战仅以 `note` 文本保留。
 - `tournament.json` 的 `matches` 是赛程页的**当前窗口**(临近几日),非全部 72 场小组赛历史;完整往期结果由 `groups` 积分汇总体现。`matches[].game_id` 暂为 null(源页链接数与比赛数非 1:1,best-effort 跳过)。淘汰赛对阵待小组赛结束后由源公布再生成。
+- `squads/*.json` 的 `formation` 恒为 null(源头无阵型,临场首发才有);`injuries` 仅覆盖出现在当前赛程窗口比赛页里的球队(约 10+ 队有数据,其余为空);部分球员 `market_value` 等为 null(源页用 `-` 占位)。
 - 反爬:批量抓取已内置 `--delay`;高频使用请自行控频。

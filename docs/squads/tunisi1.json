@@ -1,0 +1,333 @@
+{
+  "team_id": "tunisi1",
+  "name": "突尼斯",
+  "group": "F",
+  "coach": "萨米·特拉贝西",
+  "squad_updated": "2026/6/10 11:41",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "艾门·达门",
+        "position": "守门员",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "萨布里·本·黑森",
+        "position": "守门员",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿卜杜勒穆希卜·沙马赫",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "阿卜迪",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "200万欧元",
+        "height": "183cm",
+        "weight": "73kg",
+        "foot": "左脚",
+        "dob": "1993-12-20",
+        "age": 32,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "迪伦·布龙",
+        "position": "后卫",
+        "number": 6,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "塔尔比",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "800万欧元",
+        "height": "190cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1998-05-26",
+        "age": 28,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "瓦勒尔",
+        "position": "后卫",
+        "number": 20,
+        "market_value": "150万欧元",
+        "height": "185cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1999-02-22",
+        "age": 27,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "哈米达",
+        "position": "后卫",
+        "number": 21,
+        "market_value": "100万欧元",
+        "height": "181cm",
+        "weight": "73kg",
+        "foot": "左脚",
+        "dob": "1995-12-15",
+        "age": 30,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "穆塔兹·纳法提",
+        "position": "后卫",
+        "number": 23,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿德姆·阿鲁斯",
+        "position": "后卫",
+        "number": 5,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "雷基克",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "50万欧元",
+        "height": "188cm",
+        "weight": "83kg",
+        "foot": "右脚",
+        "dob": "2001-12-20",
+        "age": 24,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "拉伊德·奇卡维",
+        "position": "后卫",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "斯希里",
+        "position": "中场",
+        "number": 17,
+        "market_value": "500万欧元",
+        "height": "185cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "1995-05-10",
+        "age": 31,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "穆罕默德·哈吉·马哈茂德",
+        "position": "中场",
+        "number": 15,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "萨阿德",
+        "position": "中场",
+        "number": 8,
+        "market_value": "200万欧元",
+        "height": "185cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1999-12-27",
+        "age": 26,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "穆尔塔达·本·瓦内斯",
+        "position": "中场",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "梅布里",
+        "position": "中场",
+        "number": 10,
+        "market_value": "1500万欧元",
+        "height": "183cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2003-01-21",
+        "age": 23,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "阿尼斯·本·苏莱曼",
+        "position": "中场",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "加尔比",
+        "position": "中场",
+        "number": 11,
+        "market_value": "500万欧元",
+        "height": "173cm",
+        "weight": "61kg",
+        "foot": "右脚",
+        "dob": "2004-04-10",
+        "age": 22,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "赫迪拉",
+        "position": "中场",
+        "number": 13,
+        "market_value": "200万欧元",
+        "height": "188cm",
+        "weight": "84kg",
+        "foot": "右脚",
+        "dob": "1994-01-27",
+        "age": 32,
+        "nationality": "德国"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "阿乔里",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "300万欧元",
+        "height": "177cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "1999-02-10",
+        "age": 27,
+        "nationality": "突尼斯"
+      },
+      {
+        "name": "哈齐姆·马斯图里",
+        "position": "前锋",
+        "number": 9,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "菲拉斯·沙瓦",
+        "position": "前锋",
+        "number": 19,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "塞巴斯蒂安·图内克蒂",
+        "position": "前锋",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "拉扬·埃卢米",
+        "position": "前锋",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "哈利勒·阿亚里",
+        "position": "前锋",
+        "number": 14,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

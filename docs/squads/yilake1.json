@@ -1,0 +1,333 @@
+{
+  "team_id": "yilake1",
+  "name": "伊拉克",
+  "group": "I",
+  "coach": "格雷厄姆·阿诺德",
+  "squad_updated": "2026/6/10 11:54",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "哈桑",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "25万欧元",
+        "height": "188cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1991-05-18",
+        "age": 35,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "法赫德·塔利布",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "巴希尔",
+        "position": "守门员",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "苏拉卡",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "10万欧元",
+        "height": "192cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1992-04-12",
+        "age": 34,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "侯赛因·阿里",
+        "position": "后卫",
+        "number": 3,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "扎伊德·塔赫辛",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "尤尼斯",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "30万欧元",
+        "height": "184cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1996-11-16",
+        "age": 29,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "艾哈迈德·麦肯齐",
+        "position": "后卫",
+        "number": 15,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "梅尔查斯·多斯基",
+        "position": "后卫",
+        "number": 23,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿卡姆·哈希姆",
+        "position": "后卫",
+        "number": 5,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "巴耶什",
+        "position": "中场",
+        "number": 8,
+        "market_value": "80万欧元",
+        "height": "180cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "2000-05-01",
+        "age": 26,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "阿米尔·阿马里",
+        "position": "中场",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "穆斯塔法·萨杜恩",
+        "position": "中场",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "齐达内·伊克巴尔",
+        "position": "中场",
+        "number": 14,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿明",
+        "position": "中场",
+        "number": 7,
+        "market_value": "55万欧元",
+        "height": "175cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "2003-08-21",
+        "age": 22,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "弗兰斯·普特罗斯",
+        "position": "中场",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "凯文·雅克布",
+        "position": "中场",
+        "number": 19,
+        "market_value": "50万欧元",
+        "height": "185cm",
+        "weight": "73kg",
+        "foot": null,
+        "dob": "2002-01-03",
+        "age": 24,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "伊斯梅尔",
+        "position": "中场",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "艾马尔·谢尔",
+        "position": "中场",
+        "number": 20,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "胡塞恩",
+        "position": "前锋",
+        "number": 18,
+        "market_value": "40万欧元",
+        "height": "189cm",
+        "weight": "84kg",
+        "foot": "右脚",
+        "dob": "1996-03-22",
+        "age": 30,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "贾西姆",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "50万欧元",
+        "height": "175cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "2004-01-20",
+        "age": 22,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "莫哈纳德·阿里",
+        "position": "前锋",
+        "number": 10,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "法吉",
+        "position": "前锋",
+        "number": 21,
+        "market_value": "170万欧元",
+        "height": "184cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "2004-03-16",
+        "age": 22,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "埃尔哈马迪",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "150万欧元",
+        "height": "185cm",
+        "weight": "82kg",
+        "foot": "右脚",
+        "dob": "2002-03-01",
+        "age": 24,
+        "nationality": "伊拉克"
+      },
+      {
+        "name": "艾哈迈德·卡西姆",
+        "position": "前锋",
+        "number": 11,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿里·优素福",
+        "position": "前锋",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

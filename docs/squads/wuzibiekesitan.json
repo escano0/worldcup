@@ -1,0 +1,333 @@
+{
+  "team_id": "wuzibiekesitan",
+  "name": "乌兹别克斯坦",
+  "group": "K",
+  "coach": "法比奥·卡纳瓦罗",
+  "squad_updated": "2026/6/18 9:22",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "尤索波夫",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "50万欧元",
+        "height": "185cm",
+        "weight": "83kg",
+        "foot": "右脚",
+        "dob": "1991-01-04",
+        "age": 35,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "内马托夫",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "150万欧元",
+        "height": "182cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2001-03-20",
+        "age": 25,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "博季拉利·埃尔加舍夫",
+        "position": "守门员",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "法鲁赫·萨伊菲耶夫",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "胡桑诺夫",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "5000万欧元",
+        "height": "187cm",
+        "weight": "86kg",
+        "foot": "右脚",
+        "dob": "2004-02-29",
+        "age": 22,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "阿卜杜拉·阿卜杜拉耶夫",
+        "position": "后卫",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "埃什穆罗多夫",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "45万欧元",
+        "height": "185cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1992-11-30",
+        "age": 33,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "拉斯塔马乔·阿舒马托夫",
+        "position": "后卫",
+        "number": 5,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "夏尔佐德·纳斯鲁拉耶夫",
+        "position": "后卫",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿瓦兹别克·乌尔马萨利耶夫",
+        "position": "后卫",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "乌罗佐夫",
+        "position": "后卫",
+        "number": 26,
+        "market_value": "60万欧元",
+        "height": "190cm",
+        "weight": "82kg",
+        "foot": "左脚",
+        "dob": "2004-01-18",
+        "age": 22,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "B.卡里莫夫",
+        "position": "后卫",
+        "number": 24,
+        "market_value": "35万欧元",
+        "height": "172cm",
+        "weight": "65kg",
+        "foot": "右脚",
+        "dob": "2007-08-07",
+        "age": 18,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "霍贾克巴尔·阿利贾诺夫",
+        "position": "后卫",
+        "number": 3,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "奥塔贝克·舒库罗夫",
+        "position": "中场",
+        "number": 7,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "贾姆什德·伊斯坎德罗夫",
+        "position": "中场",
+        "number": 8,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿克玛·莫兹戈沃伊",
+        "position": "中场",
+        "number": 6,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿齐兹·加涅耶夫",
+        "position": "中场",
+        "number": 19,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "坎罗布科夫",
+        "position": "中场",
+        "number": 9,
+        "market_value": "100万欧元",
+        "height": "180cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "1996-02-13",
+        "age": 30,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "谢尔佐德·伊萨诺夫",
+        "position": "中场",
+        "number": 23,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "法伊祖拉耶夫",
+        "position": "前锋",
+        "number": 22,
+        "market_value": "700万欧元",
+        "height": "169cm",
+        "weight": "59kg",
+        "foot": "右脚",
+        "dob": "2003-10-03",
+        "age": 22,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "阿兹别克·阿莫诺夫",
+        "position": "前锋",
+        "number": 20,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "肖穆罗多夫",
+        "position": "前锋",
+        "number": 14,
+        "market_value": "700万欧元",
+        "height": "190cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1995-06-29",
+        "age": 30,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "乌鲁诺夫",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "200万欧元",
+        "height": "183cm",
+        "weight": "82kg",
+        "foot": "右脚",
+        "dob": "2000-12-19",
+        "age": 25,
+        "nationality": "乌兹别克斯坦"
+      },
+      {
+        "name": "鲁斯兰别克·吉亚诺夫",
+        "position": "前锋",
+        "number": 10,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "伊戈尔·谢尔盖耶夫",
+        "position": "前锋",
+        "number": 21,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "多斯顿别克·汉达莫夫",
+        "position": "前锋",
+        "number": 17,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

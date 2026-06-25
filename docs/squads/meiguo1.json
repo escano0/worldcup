@@ -1,0 +1,342 @@
+{
+  "team_id": "meiguo1",
+  "name": "美国",
+  "group": "D",
+  "coach": "毛里西奥·波切蒂诺",
+  "squad_updated": "2026/6/10 11:13",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "特纳",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "250万欧元",
+        "height": "191cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "1994-06-24",
+        "age": 32,
+        "nationality": "美国"
+      },
+      {
+        "name": "马修·弗里兹",
+        "position": "守门员",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "克里斯·布雷迪",
+        "position": "守门员",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "罗宾逊",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "2200万欧元",
+        "height": "183cm",
+        "weight": "73kg",
+        "foot": "左脚",
+        "dob": "1997-08-08",
+        "age": 28,
+        "nationality": "美国"
+      },
+      {
+        "name": "里姆",
+        "position": "后卫",
+        "number": 13,
+        "market_value": "15万欧元",
+        "height": "186cm",
+        "weight": "72kg",
+        "foot": "左脚",
+        "dob": "1987-10-05",
+        "age": 38,
+        "nationality": "美国"
+      },
+      {
+        "name": "斯凯利",
+        "position": "后卫",
+        "number": 23,
+        "market_value": "700万欧元",
+        "height": "184cm",
+        "weight": "67kg",
+        "foot": "右脚",
+        "dob": "2002-12-31",
+        "age": 23,
+        "nationality": "美国"
+      },
+      {
+        "name": "理查兹",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "2800万欧元",
+        "height": "188cm",
+        "weight": "87kg",
+        "foot": "右脚",
+        "dob": "2000-03-28",
+        "age": 26,
+        "nationality": "美国"
+      },
+      {
+        "name": "迈尔斯·罗宾逊",
+        "position": "后卫",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "麦肯齐",
+        "position": "后卫",
+        "number": 22,
+        "market_value": "700万欧元",
+        "height": "184cm",
+        "weight": "83kg",
+        "foot": "左脚",
+        "dob": "1999-02-25",
+        "age": 27,
+        "nationality": "美国"
+      },
+      {
+        "name": "弗里曼",
+        "position": "后卫",
+        "number": 16,
+        "market_value": "350万欧元",
+        "height": "188cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "2004-08-09",
+        "age": 21,
+        "nationality": "美国"
+      },
+      {
+        "name": "奥斯顿·特拉斯蒂",
+        "position": "后卫",
+        "number": 6,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "德斯特",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "1800万欧元",
+        "height": "175cm",
+        "weight": "62kg",
+        "foot": "右脚",
+        "dob": "2000-11-03",
+        "age": 25,
+        "nationality": "美国"
+      }
+    ],
+    "中场": [
+      {
+        "name": "麦肯尼",
+        "position": "中场",
+        "number": 8,
+        "market_value": "3000万欧元",
+        "height": "185cm",
+        "weight": "84kg",
+        "foot": "右脚",
+        "dob": "1998-08-28",
+        "age": 27,
+        "nationality": "美国"
+      },
+      {
+        "name": "维阿",
+        "position": "中场",
+        "number": 21,
+        "market_value": "2000万欧元",
+        "height": "185cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2000-02-22",
+        "age": 26,
+        "nationality": "美国"
+      },
+      {
+        "name": "阿伦森",
+        "position": "中场",
+        "number": 11,
+        "market_value": "2200万欧元",
+        "height": "178cm",
+        "weight": "66kg",
+        "foot": "右脚",
+        "dob": "2000-10-22",
+        "age": 25,
+        "nationality": "美国"
+      },
+      {
+        "name": "蒂尔曼",
+        "position": "中场",
+        "number": 17,
+        "market_value": "3000万欧元",
+        "height": "187cm",
+        "weight": "71kg",
+        "foot": "右脚",
+        "dob": "2002-05-28",
+        "age": 24,
+        "nationality": "美国"
+      },
+      {
+        "name": "亚当斯",
+        "position": "中场",
+        "number": 4,
+        "market_value": "2500万欧元",
+        "height": "175cm",
+        "weight": "66kg",
+        "foot": "右脚",
+        "dob": "1999-02-14",
+        "age": 27,
+        "nationality": "美国"
+      },
+      {
+        "name": "雷纳",
+        "position": "中场",
+        "number": 7,
+        "market_value": "400万欧元",
+        "height": "185cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "2002-11-13",
+        "age": 23,
+        "nationality": "美国"
+      },
+      {
+        "name": "贝哈特",
+        "position": "中场",
+        "number": 14,
+        "market_value": "800万欧元",
+        "height": "175cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "2001-05-10",
+        "age": 25,
+        "nationality": "英格兰"
+      },
+      {
+        "name": "罗丹",
+        "position": "中场",
+        "number": 15,
+        "market_value": "350万欧元",
+        "height": "172cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1995-06-03",
+        "age": 31,
+        "nationality": "美国"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "普利西奇",
+        "position": "前锋",
+        "number": 10,
+        "market_value": "4000万欧元",
+        "height": "177cm",
+        "weight": "63kg",
+        "foot": "右脚",
+        "dob": "1998-09-18",
+        "age": 27,
+        "nationality": "美国"
+      },
+      {
+        "name": "巴洛贡",
+        "position": "前锋",
+        "number": 20,
+        "market_value": "4000万欧元",
+        "height": "179cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "2001-07-03",
+        "age": 24,
+        "nationality": "美国"
+      },
+      {
+        "name": "佩皮",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "3000万欧元",
+        "height": "185cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2003-01-09",
+        "age": 23,
+        "nationality": "美国"
+      },
+      {
+        "name": "赖特",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "1600万欧元",
+        "height": "193cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1998-03-27",
+        "age": 28,
+        "nationality": "美国"
+      },
+      {
+        "name": "马克斯·阿夫斯滕",
+        "position": "前锋",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "森德哈斯",
+        "position": "前锋",
+        "number": 26,
+        "market_value": "1000万欧元",
+        "height": "167cm",
+        "weight": "66kg",
+        "foot": "左脚",
+        "dob": "1998-02-07",
+        "age": 28,
+        "nationality": "美国"
+      }
+    ]
+  },
+  "injuries": [
+    {
+      "name": "普利西奇",
+      "position": "中场",
+      "number": 11,
+      "reason": "小腿肌肉拉伤",
+      "status": "受伤",
+      "date": "06-14"
+    }
+  ],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

@@ -1,0 +1,342 @@
+{
+  "team_id": "balagui",
+  "name": "巴拉圭",
+  "group": "D",
+  "coach": "古斯塔沃·阿尔法罗",
+  "squad_updated": "2026/6/10 11:13",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "罗伯托·费尔南德斯",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "奥兰多·吉尔",
+        "position": "守门员",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "加斯顿·奥利维拉",
+        "position": "守门员",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "戈麦斯",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "350万欧元",
+        "height": "185cm",
+        "weight": "89kg",
+        "foot": "右脚",
+        "dob": "1993-05-06",
+        "age": 33,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "阿隆索",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "150万欧元",
+        "height": "184cm",
+        "weight": "83kg",
+        "foot": "左脚",
+        "dob": "1993-02-09",
+        "age": 33,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "巴尔布埃纳",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "90万欧元",
+        "height": "188cm",
+        "weight": "82kg",
+        "foot": "右脚",
+        "dob": "1991-08-23",
+        "age": 34,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "阿尔德雷特",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "1300万欧元",
+        "height": "187cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "1996-12-26",
+        "age": 29,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "古斯塔沃·贝拉斯克斯",
+        "position": "后卫",
+        "number": 2,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "胡安·卡塞雷斯",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "何塞·卡纳莱",
+        "position": "后卫",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "亚历山德罗·迈达纳",
+        "position": "后卫",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "库瓦斯",
+        "position": "中场",
+        "number": 14,
+        "market_value": "450万欧元",
+        "height": "166cm",
+        "weight": "60kg",
+        "foot": "右脚",
+        "dob": "1996-05-11",
+        "age": 30,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "索萨",
+        "position": "中场",
+        "number": 7,
+        "market_value": "1000万欧元",
+        "height": "177cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "1999-08-31",
+        "age": 26,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "达米安·博瓦迪利亚",
+        "position": "中场",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "D.戈麦斯",
+        "position": "中场",
+        "number": 8,
+        "market_value": "2500万欧元",
+        "height": "183cm",
+        "weight": "89kg",
+        "foot": "右脚",
+        "dob": "2003-03-27",
+        "age": 23,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "加拉萨",
+        "position": "中场",
+        "number": 23,
+        "market_value": "300万欧元",
+        "height": "176cm",
+        "weight": "67kg",
+        "foot": "左脚",
+        "dob": "2002-02-11",
+        "age": 24,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "布莱安·奥赫达",
+        "position": "中场",
+        "number": 20,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "毛里西奥",
+        "position": "中场",
+        "number": 11,
+        "market_value": "1500万欧元",
+        "height": "175cm",
+        "weight": "74kg",
+        "foot": "左脚",
+        "dob": "2001-06-22",
+        "age": 25,
+        "nationality": "巴西"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "阿尔米隆",
+        "position": "前锋",
+        "number": 10,
+        "market_value": "700万欧元",
+        "height": "174cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "1994-02-10",
+        "age": 32,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "卡库",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "450万欧元",
+        "height": "171cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "1995-01-11",
+        "age": 31,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "恩西索",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "2500万欧元",
+        "height": "173cm",
+        "weight": "64kg",
+        "foot": "右脚",
+        "dob": "2004-01-23",
+        "age": 22,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "阿尔斯",
+        "position": "前锋",
+        "number": 18,
+        "market_value": "350万欧元",
+        "height": "187cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1995-06-16",
+        "age": 31,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "萨纳布里亚",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "180万欧元",
+        "height": "181cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1996-03-04",
+        "age": 30,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "皮塔",
+        "position": "前锋",
+        "number": 25,
+        "market_value": "750万欧元",
+        "height": "183cm",
+        "weight": "87kg",
+        "foot": "右脚",
+        "dob": "1999-08-14",
+        "age": 26,
+        "nationality": "巴拉圭"
+      },
+      {
+        "name": "加布里埃尔·阿瓦洛斯",
+        "position": "前锋",
+        "number": 21,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "古斯塔沃·卡瓦列罗",
+        "position": "前锋",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [
+    {
+      "name": "阿尔米隆",
+      "position": "前锋",
+      "number": 10,
+      "reason": "红牌停赛",
+      "status": "停赛",
+      "date": "06-21"
+    }
+  ],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

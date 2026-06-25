@@ -1,0 +1,333 @@
+{
+  "team_id": "haidi",
+  "name": "海地",
+  "group": "C",
+  "coach": "塞巴斯蒂安·米涅",
+  "squad_updated": "2026/6/12 1:08",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "若苏埃·迪韦尔热",
+        "position": "守门员",
+        "number": 23,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "亚历山大·皮埃尔",
+        "position": "守门员",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "普拉西德",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "15万欧元",
+        "height": "181cm",
+        "weight": "89kg",
+        "foot": "右脚",
+        "dob": "1988-01-29",
+        "age": 38,
+        "nationality": "海地"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "里卡多·阿德",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿库斯",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "180万欧元",
+        "height": "180cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1996-06-28",
+        "age": 29,
+        "nationality": "海地"
+      },
+      {
+        "name": "维尔贡·波甘",
+        "position": "后卫",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "加文·梅图萨拉",
+        "position": "后卫",
+        "number": 14,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "马库斯·拉克鲁瓦",
+        "position": "后卫",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "杜凡恩",
+        "position": "后卫",
+        "number": 22,
+        "market_value": "200万欧元",
+        "height": "184cm",
+        "weight": "71kg",
+        "foot": "右脚",
+        "dob": "1997-07-12",
+        "age": 28,
+        "nationality": "海地"
+      },
+      {
+        "name": "马丁·埃克斯佩里昂斯",
+        "position": "后卫",
+        "number": 8,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "凯托·泰蒙西",
+        "position": "后卫",
+        "number": 3,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "德尔克鲁瓦",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "200万欧元",
+        "height": "185cm",
+        "weight": "80kg",
+        "foot": "左脚",
+        "dob": "1999-02-28",
+        "age": 27,
+        "nationality": "比利时"
+      }
+    ],
+    "中场": [
+      {
+        "name": "当利·让·雅克",
+        "position": "中场",
+        "number": 17,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "卡尔·圣特",
+        "position": "中场",
+        "number": 6,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "贝莱加德",
+        "position": "中场",
+        "number": 10,
+        "market_value": "1600万欧元",
+        "height": "172cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "1998-06-27",
+        "age": 27,
+        "nationality": "法国"
+      },
+      {
+        "name": "伍登斯基·皮埃尔",
+        "position": "中场",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "多米尼克·西蒙",
+        "position": "中场",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "杜肯斯·纳宗",
+        "position": "前锋",
+        "number": 9,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "艾蒂安",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "80万欧元",
+        "height": "178cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "1996-11-25",
+        "age": 29,
+        "nationality": "海地"
+      },
+      {
+        "name": "弗朗茨迪·皮埃罗",
+        "position": "前锋",
+        "number": 20,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "鲁宾·普罗维登斯",
+        "position": "前锋",
+        "number": 15,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "路易修斯·迪德森",
+        "position": "前锋",
+        "number": 11,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "卡西米尔",
+        "position": "前锋",
+        "number": 21,
+        "market_value": "300万欧元",
+        "height": "178cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "2001-09-24",
+        "age": 24,
+        "nationality": "法国"
+      },
+      {
+        "name": "亚辛·福蒂内",
+        "position": "前锋",
+        "number": 19,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "伊西多尔",
+        "position": "前锋",
+        "number": 18,
+        "market_value": "1800万欧元",
+        "height": "184cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "2000-08-27",
+        "age": 25,
+        "nationality": "法国"
+      },
+      {
+        "name": "约瑟夫",
+        "position": "前锋",
+        "number": 16,
+        "market_value": "200万欧元",
+        "height": "183cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2000-10-12",
+        "age": 25,
+        "nationality": "法国"
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

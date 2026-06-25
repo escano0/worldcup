@@ -1,0 +1,333 @@
+{
+  "team_id": "ruidian1",
+  "name": "瑞典",
+  "group": "F",
+  "coach": "格雷厄姆·波特",
+  "squad_updated": "2026/6/10 11:40",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "诺德菲尔特",
+        "position": "守门员",
+        "number": 23,
+        "market_value": "18万欧元",
+        "height": "190cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1989-06-23",
+        "age": 37,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "约翰逊",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "1200万欧元",
+        "height": "187cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "1998-09-14",
+        "age": 27,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "雅各布·塞特斯特伦",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "林德洛夫",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "500万欧元",
+        "height": "187cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1994-07-17",
+        "age": 31,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "希恩",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "2200万欧元",
+        "height": "191cm",
+        "weight": "86kg",
+        "foot": "右脚",
+        "dob": "1999-01-13",
+        "age": 27,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "艾克达",
+        "position": "后卫",
+        "number": 14,
+        "market_value": "500万欧元",
+        "height": "187cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1998-10-21",
+        "age": 27,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "斯塔费尔特",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "450万欧元",
+        "height": "187cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1995-06-01",
+        "age": 31,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "古德蒙德森",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "2000万欧元",
+        "height": "180cm",
+        "weight": "78kg",
+        "foot": "左脚",
+        "dob": "1999-04-29",
+        "age": 27,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "史文森",
+        "position": "后卫",
+        "number": 8,
+        "market_value": "2200万欧元",
+        "height": "183cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "2002-02-12",
+        "age": 24,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "拉格比尔克",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "1000万欧元",
+        "height": "191cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "2000-04-10",
+        "age": 26,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "约翰逊",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "180万欧元",
+        "height": "190cm",
+        "weight": "84kg",
+        "foot": "右脚",
+        "dob": "1997-10-16",
+        "age": 28,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "斯特劳德",
+        "position": "后卫",
+        "number": 24,
+        "market_value": "500万欧元",
+        "height": "185cm",
+        "weight": "80kg",
+        "foot": "左脚",
+        "dob": "2002-06-22",
+        "age": 24,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "史密斯",
+        "position": "后卫",
+        "number": 20,
+        "market_value": "500万欧元",
+        "height": "192cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1997-01-08",
+        "age": 29,
+        "nationality": "瑞典"
+      }
+    ],
+    "中场": [
+      {
+        "name": "斯万贝里",
+        "position": "中场",
+        "number": 19,
+        "market_value": "800万欧元",
+        "height": "185cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1999-01-05",
+        "age": 27,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "肯·塞马",
+        "position": "中场",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "贝里瓦尔",
+        "position": "中场",
+        "number": 7,
+        "market_value": "3500万欧元",
+        "height": "187cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2006-02-02",
+        "age": 20,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "阿亚里",
+        "position": "中场",
+        "number": 18,
+        "market_value": "3500万欧元",
+        "height": "172cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "2003-10-06",
+        "age": 22,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "卡尔斯特罗姆",
+        "position": "中场",
+        "number": 16,
+        "market_value": "400万欧元",
+        "height": "185cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "1995-06-21",
+        "age": 31,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "贝斯福特·泽内利",
+        "position": "中场",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "哲凯赖什",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "6500万欧元",
+        "height": "189cm",
+        "weight": "94kg",
+        "foot": "右脚",
+        "dob": "1998-06-04",
+        "age": 28,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "古斯塔夫·尼尔松",
+        "position": "前锋",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "伊萨克",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "8500万欧元",
+        "height": "192cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1999-09-21",
+        "age": 26,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "埃兰加",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "3200万欧元",
+        "height": "178cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2002-04-27",
+        "age": 24,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "伯恩哈德森",
+        "position": "前锋",
+        "number": 21,
+        "market_value": "300万欧元",
+        "height": "185cm",
+        "weight": "80kg",
+        "foot": "左脚",
+        "dob": "1998-09-08",
+        "age": 27,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "尼格伦",
+        "position": "前锋",
+        "number": 10,
+        "market_value": "1400万欧元",
+        "height": "184cm",
+        "weight": "73kg",
+        "foot": "左脚",
+        "dob": "2001-07-08",
+        "age": 24,
+        "nationality": "瑞典"
+      },
+      {
+        "name": "阿里",
+        "position": "前锋",
+        "number": 26,
+        "market_value": "150万欧元",
+        "height": "174cm",
+        "weight": "63kg",
+        "foot": "右脚",
+        "dob": "1998-07-01",
+        "age": 27,
+        "nationality": "瑞典"
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

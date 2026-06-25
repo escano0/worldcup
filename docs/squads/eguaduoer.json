@@ -1,0 +1,333 @@
+{
+  "team_id": "eguaduoer",
+  "name": "厄瓜多尔",
+  "group": "E",
+  "coach": "塞瓦斯蒂安·贝卡切切",
+  "squad_updated": "2026/6/10 11:31",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "埃尔南·加林德斯",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "莫伊塞斯·拉米雷斯",
+        "position": "守门员",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "贡萨洛·巴列",
+        "position": "守门员",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "托雷斯",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "100万欧元",
+        "height": "187cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "1997-01-11",
+        "age": 29,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "安赫洛·普雷西亚多",
+        "position": "后卫",
+        "number": 17,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "辛卡皮",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "5000万欧元",
+        "height": "184cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "2002-01-09",
+        "age": 24,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "帕乔",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "8000万欧元",
+        "height": "188cm",
+        "weight": "81kg",
+        "foot": "左脚",
+        "dob": "2001-10-16",
+        "age": 24,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "奥多涅斯",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "3300万欧元",
+        "height": "188cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "2004-04-21",
+        "age": 22,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "波罗佐",
+        "position": "后卫",
+        "number": 25,
+        "market_value": "250万欧元",
+        "height": "192cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "2000-08-04",
+        "age": 25,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "埃斯图皮尼安",
+        "position": "后卫",
+        "number": 7,
+        "market_value": "1200万欧元",
+        "height": "175cm",
+        "weight": "73kg",
+        "foot": "左脚",
+        "dob": "1998-01-21",
+        "age": 28,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "亚马尔·梅迪纳",
+        "position": "后卫",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "弗兰科",
+        "position": "中场",
+        "number": 21,
+        "market_value": "450万欧元",
+        "height": "176cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1998-08-21",
+        "age": 27,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "凯塞多",
+        "position": "中场",
+        "number": 23,
+        "market_value": "1亿欧元",
+        "height": "178cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2001-11-02",
+        "age": 24,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "派兹",
+        "position": "中场",
+        "number": 10,
+        "market_value": "800万欧元",
+        "height": "178cm",
+        "weight": "72kg",
+        "foot": "左脚",
+        "dob": "2007-05-04",
+        "age": 19,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "叶博亚",
+        "position": "中场",
+        "number": 9,
+        "market_value": "550万欧元",
+        "height": "170cm",
+        "weight": "66kg",
+        "foot": "右脚",
+        "dob": "2000-06-23",
+        "age": 26,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "佩德罗·比特",
+        "position": "中场",
+        "number": 15,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "卡斯蒂略",
+        "position": "中场",
+        "number": 18,
+        "market_value": "700万欧元",
+        "height": "187cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "2004-03-24",
+        "age": 22,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "霍尔迪·阿尔西瓦",
+        "position": "中场",
+        "number": 5,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "罗德里格斯",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "600万欧元",
+        "height": "190cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "2000-03-04",
+        "age": 26,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "霍尔迪·凯塞多",
+        "position": "前锋",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "米恩达",
+        "position": "前锋",
+        "number": 14,
+        "market_value": "300万欧元",
+        "height": "171cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "2003-05-14",
+        "age": 23,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "瓦伦西亚",
+        "position": "前锋",
+        "number": 13,
+        "market_value": "100万欧元",
+        "height": "177cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1989-11-04",
+        "age": 36,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "普拉塔",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "900万欧元",
+        "height": "178cm",
+        "weight": "65kg",
+        "foot": "左脚",
+        "dob": "2000-11-01",
+        "age": 25,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "安戈洛",
+        "position": "前锋",
+        "number": 20,
+        "market_value": "1700万欧元",
+        "height": "184cm",
+        "weight": "65kg",
+        "foot": "右脚",
+        "dob": "2003-06-19",
+        "age": 23,
+        "nationality": "厄瓜多尔"
+      },
+      {
+        "name": "安东尼·巴伦西亚",
+        "position": "前锋",
+        "number": 8,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿雷瓦洛",
+        "position": "前锋",
+        "number": 24,
+        "market_value": "700万欧元",
+        "height": "182cm",
+        "weight": "84kg",
+        "foot": "左脚",
+        "dob": "2005-03-19",
+        "age": 21,
+        "nationality": "厄瓜多尔"
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

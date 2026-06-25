@@ -1,0 +1,333 @@
+{
+  "team_id": "putaoya",
+  "name": "葡萄牙",
+  "group": "K",
+  "coach": "罗伯托·马丁内斯",
+  "squad_updated": "2026/6/2 17:27",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "科斯塔",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "1.4亿欧元",
+        "height": "172cm",
+        "weight": "64kg",
+        "foot": "右脚",
+        "dob": "2000-02-13",
+        "age": 26,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "若泽·萨",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "5500万欧元",
+        "height": "186cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1997-05-14",
+        "age": 29,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "席尔瓦",
+        "position": "守门员",
+        "number": 22,
+        "market_value": "3000万欧元",
+        "height": "187cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "2002-05-16",
+        "age": 24,
+        "nationality": "葡萄牙"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "坎塞洛",
+        "position": "后卫",
+        "number": 20,
+        "market_value": "4000万欧元",
+        "height": "186cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1999-09-19",
+        "age": 26,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "迪亚斯",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "2800万欧元",
+        "height": "181cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "1999-11-10",
+        "age": 26,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "伊纳西奥",
+        "position": "后卫",
+        "number": 14,
+        "market_value": "1.4亿欧元",
+        "height": "174cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "2004-09-27",
+        "age": 21,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "达洛特",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "600万欧元",
+        "height": "177cm",
+        "weight": "67kg",
+        "foot": "右脚",
+        "dob": "1993-11-16",
+        "age": 32,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "塞梅多",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "8000万欧元",
+        "height": "180cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "2002-06-19",
+        "age": 24,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "门德斯",
+        "position": "后卫",
+        "number": 25,
+        "market_value": "3000万欧元",
+        "height": "170cm",
+        "weight": "65kg",
+        "foot": "左脚",
+        "dob": "2002-12-14",
+        "age": 23,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "努内斯",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "2500万欧元",
+        "height": "190cm",
+        "weight": "83kg",
+        "foot": "左脚",
+        "dob": "2003-07-29",
+        "age": 22,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "维加",
+        "position": "后卫",
+        "number": 13,
+        "market_value": "4000万欧元",
+        "height": "184cm",
+        "weight": "69kg",
+        "foot": "左脚",
+        "dob": "1999-12-29",
+        "age": 26,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "阿劳霍",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "1500万欧元",
+        "height": "185cm",
+        "weight": "80kg",
+        "foot": "左脚",
+        "dob": "2000-11-27",
+        "age": 25,
+        "nationality": "葡萄牙"
+      }
+    ],
+    "中场": [
+      {
+        "name": "B席",
+        "position": "中场",
+        "number": 10,
+        "market_value": "3500万欧元",
+        "height": "179cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "1994-09-08",
+        "age": 31,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "B费",
+        "position": "中场",
+        "number": 8,
+        "market_value": "800万欧元",
+        "height": "182cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1994-05-27",
+        "age": 32,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "维蒂尼亚",
+        "position": "中场",
+        "number": 23,
+        "market_value": "350万欧元",
+        "height": "192cm",
+        "weight": "84kg",
+        "foot": "右脚",
+        "dob": "1993-01-17",
+        "age": 33,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "内维斯",
+        "position": "中场",
+        "number": 15,
+        "market_value": "2500万欧元",
+        "height": "180cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1997-03-13",
+        "age": 29,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "R.内维斯",
+        "position": "中场",
+        "number": 21,
+        "market_value": "3000万欧元",
+        "height": "183cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1999-03-18",
+        "age": 27,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "科斯塔",
+        "position": "中场",
+        "number": 24,
+        "market_value": "600万欧元",
+        "height": "180cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "1996-11-29",
+        "age": 29,
+        "nationality": "葡萄牙"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "C罗",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "2200万欧元",
+        "height": "173cm",
+        "weight": "64kg",
+        "foot": "左脚",
+        "dob": "1994-08-10",
+        "age": 31,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "菲利克斯",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "3000万欧元",
+        "height": "184cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "2001-06-20",
+        "age": 25,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "拉莫斯",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "4000万欧元",
+        "height": "186cm",
+        "weight": "81kg",
+        "foot": "左脚",
+        "dob": "2001-08-25",
+        "age": 24,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "孔塞桑",
+        "position": "前锋",
+        "number": 26,
+        "market_value": "5000万欧元",
+        "height": "188cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1999-06-10",
+        "age": 27,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "莱奥",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "6000万欧元",
+        "height": "172cm",
+        "weight": "62kg",
+        "foot": "左脚",
+        "dob": "2000-03-09",
+        "age": 26,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "内托",
+        "position": "前锋",
+        "number": 18,
+        "market_value": "5000万欧元",
+        "height": "183cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1998-08-27",
+        "age": 27,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "特林康",
+        "position": "前锋",
+        "number": 16,
+        "market_value": "700万欧元",
+        "height": "191cm",
+        "weight": "91kg",
+        "foot": "右脚",
+        "dob": "1994-02-07",
+        "age": 32,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "格德斯",
+        "position": "前锋",
+        "number": 19,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}
