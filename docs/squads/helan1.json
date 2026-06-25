@@ -1,0 +1,342 @@
+{
+  "team_id": "helan1",
+  "name": "荷兰",
+  "group": "F",
+  "coach": "罗纳德·科曼",
+  "squad_updated": "2026/6/9 2:01",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "费布吕亨",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "4000万欧元",
+        "height": "193cm",
+        "weight": "88kg",
+        "foot": "右脚",
+        "dob": "2002-08-18",
+        "age": 23,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "弗莱肯",
+        "position": "守门员",
+        "number": 23,
+        "market_value": "2000万欧元",
+        "height": "184cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "2000-07-18",
+        "age": 25,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "罗夫斯",
+        "position": "守门员",
+        "number": 13,
+        "market_value": "320万欧元",
+        "height": "185cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1991-03-29",
+        "age": 35,
+        "nationality": "荷兰"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "邓弗里斯",
+        "position": "后卫",
+        "number": 22,
+        "market_value": "2500万欧元",
+        "height": "189cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1996-04-18",
+        "age": 30,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "范戴克",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "1500万欧元",
+        "height": "193cm",
+        "weight": "92kg",
+        "foot": "右脚",
+        "dob": "1991-07-08",
+        "age": 34,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "海特勒伊达",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "700万欧元",
+        "height": "176cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1994-02-13",
+        "age": 32,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "阿克",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "5000万欧元",
+        "height": "193cm",
+        "weight": "81kg",
+        "foot": "左脚",
+        "dob": "2001-04-19",
+        "age": 25,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "范德芬",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "8000万欧元",
+        "height": "190cm",
+        "weight": "83kg",
+        "foot": "右脚",
+        "dob": "2002-05-16",
+        "age": 24,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "范黑克",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "2500万欧元",
+        "height": "179cm",
+        "weight": "71kg",
+        "foot": "右脚",
+        "dob": "2001-06-17",
+        "age": 25,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "哈托",
+        "position": "后卫",
+        "number": 25,
+        "market_value": "1500万欧元",
+        "height": "185cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1997-12-22",
+        "age": 28,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "韦弗",
+        "position": "后卫",
+        "number": 12,
+        "market_value": "2800万欧元",
+        "height": "193cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "2003-01-17",
+        "age": 23,
+        "nationality": "荷兰"
+      }
+    ],
+    "中场": [
+      {
+        "name": "赖因德斯",
+        "position": "中场",
+        "number": 14,
+        "market_value": "5000万欧元",
+        "height": "185cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1998-07-29",
+        "age": 27,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "赫拉芬贝赫",
+        "position": "中场",
+        "number": 8,
+        "market_value": "3000万欧元",
+        "height": "180cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "2002-02-01",
+        "age": 24,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "Q.廷贝尔",
+        "position": "中场",
+        "number": 26,
+        "market_value": "2500万欧元",
+        "height": "172cm",
+        "weight": "66kg",
+        "foot": "右脚",
+        "dob": "1999-05-05",
+        "age": 27,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "蒂尔",
+        "position": "中场",
+        "number": 16,
+        "market_value": "3500万欧元",
+        "height": "181cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1997-05-12",
+        "age": 29,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "德容",
+        "position": "中场",
+        "number": 21,
+        "market_value": "1400万欧元",
+        "height": "183cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "1998-02-28",
+        "age": 28,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "库普梅纳斯",
+        "position": "中场",
+        "number": 20,
+        "market_value": "2200万欧元",
+        "height": "173cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "1999-06-17",
+        "age": 27,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "德容恩",
+        "position": "中场",
+        "number": 3,
+        "market_value": "3500万欧元",
+        "height": "174cm",
+        "weight": "63kg",
+        "foot": "右脚",
+        "dob": "2001-10-30",
+        "age": 24,
+        "nationality": "荷兰"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "韦霍斯特",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "200万欧元",
+        "height": "197cm",
+        "weight": "84kg",
+        "foot": "右脚",
+        "dob": "1992-08-07",
+        "age": 33,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "马伦",
+        "position": "前锋",
+        "number": 18,
+        "market_value": "4500万欧元",
+        "height": "176cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "1999-01-19",
+        "age": 27,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "加克波",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "6000万欧元",
+        "height": "189cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1999-05-07",
+        "age": 27,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "德佩",
+        "position": "前锋",
+        "number": 10,
+        "market_value": "1200万欧元",
+        "height": "180cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "1995-02-18",
+        "age": 31,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "布罗比",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "4500万欧元",
+        "height": "189cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "2000-06-08",
+        "age": 26,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "克鲁伊维特",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "4000万欧元",
+        "height": "182cm",
+        "weight": "76kg",
+        "foot": "左脚",
+        "dob": "2006-03-07",
+        "age": 20,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "朗",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "2500万欧元",
+        "height": "188cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1999-11-16",
+        "age": 26,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "萨默维尔",
+        "position": "前锋",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [
+    {
+      "name": "Q.廷贝尔",
+      "position": "中场",
+      "number": 27,
+      "reason": "轻微脑震荡",
+      "status": "受伤",
+      "date": "06-19"
+    }
+  ],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

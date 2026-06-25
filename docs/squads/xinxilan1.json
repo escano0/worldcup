@@ -1,0 +1,333 @@
+{
+  "team_id": "xinxilan1",
+  "name": "新西兰",
+  "group": "G",
+  "coach": "达伦·贝兹利",
+  "squad_updated": "2026/6/16 7:27",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "保尔森",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "50万欧元",
+        "height": "193cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "2002-07-04",
+        "age": 23,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "沃德",
+        "position": "守门员",
+        "number": 22,
+        "market_value": "40万欧元",
+        "height": "196cm",
+        "weight": "89kg",
+        "foot": "右脚",
+        "dob": "1999-01-16",
+        "age": 27,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "马克斯·克罗科姆",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "汤米·史密斯",
+        "position": "后卫",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "佩恩",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "35万欧元",
+        "height": "179cm",
+        "weight": "73kg",
+        "foot": "左脚",
+        "dob": "1994-01-10",
+        "age": 32,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "卡卡塞",
+        "position": "后卫",
+        "number": 13,
+        "market_value": "250万欧元",
+        "height": "183cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "2000-09-27",
+        "age": 25,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "南多·派纳克",
+        "position": "后卫",
+        "number": 15,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "迈克尔·博克索尔",
+        "position": "后卫",
+        "number": 5,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "泰勒·宾登",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "芬恩·苏尔曼",
+        "position": "后卫",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "德弗里斯",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "90万欧元",
+        "height": "176cm",
+        "weight": "71kg",
+        "foot": "右脚",
+        "dob": "2002-08-19",
+        "age": 23,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "卡伦·埃利奥特",
+        "position": "后卫",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "贝尔",
+        "position": "中场",
+        "number": 6,
+        "market_value": "350万欧元",
+        "height": "182cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1999-04-27",
+        "age": 27,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "斯特梅克",
+        "position": "中场",
+        "number": 8,
+        "market_value": "300万欧元",
+        "height": "188cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "2002-02-19",
+        "age": 24,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "萨普里特·辛格",
+        "position": "中场",
+        "number": 10,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "鲁弗",
+        "position": "中场",
+        "number": 14,
+        "market_value": "40万欧元",
+        "height": "182cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "1998-05-28",
+        "age": 28,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "瑞安·托马斯",
+        "position": "中场",
+        "number": 23,
+        "market_value": "55万欧元",
+        "height": "179cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "2002-07-24",
+        "age": 23,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "贝利斯",
+        "position": "中场",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "伍德",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "500万欧元",
+        "height": "191cm",
+        "weight": "91kg",
+        "foot": "右脚",
+        "dob": "1991-12-07",
+        "age": 34,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "贾斯特",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "250万欧元",
+        "height": "174cm",
+        "weight": "68kg",
+        "foot": "左脚",
+        "dob": "2000-05-01",
+        "age": 26,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "卡勒姆·麦考瓦特",
+        "position": "前锋",
+        "number": 20,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "韦恩",
+        "position": "前锋",
+        "number": 18,
+        "market_value": "40万欧元",
+        "height": "179cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "2001-06-11",
+        "age": 25,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "巴巴洛塞斯",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "180万欧元",
+        "height": "173cm",
+        "weight": "67kg",
+        "foot": "左脚",
+        "dob": "2002-08-13",
+        "age": 23,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "奥尔德",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "60万欧元",
+        "height": "184cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1996-06-12",
+        "age": 30,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "罗杰森",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "60万欧元",
+        "height": "188cm",
+        "weight": "82kg",
+        "foot": "左脚",
+        "dob": "1994-11-28",
+        "age": 31,
+        "nationality": "新西兰"
+      },
+      {
+        "name": "兰德尔",
+        "position": "前锋",
+        "number": 21,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

@@ -1,0 +1,333 @@
+{
+  "team_id": "aiji1",
+  "name": "埃及",
+  "group": "G",
+  "coach": "霍萨姆·哈桑",
+  "squad_updated": "2026/6/10 11:44",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "希纳维",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "50万欧元",
+        "height": "191cm",
+        "weight": "86kg",
+        "foot": "右脚",
+        "dob": "1988-12-18",
+        "age": 37,
+        "nationality": "埃及"
+      },
+      {
+        "name": "肖贝尔",
+        "position": "守门员",
+        "number": 23,
+        "market_value": "120万欧元",
+        "height": "185cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "2000-05-15",
+        "age": 26,
+        "nationality": "埃及"
+      },
+      {
+        "name": "马赫迪·苏莱曼",
+        "position": "守门员",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "穆罕默德·阿拉",
+        "position": "守门员",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "法蒂",
+        "position": "后卫",
+        "number": 14,
+        "market_value": "180万欧元",
+        "height": "180cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1994-09-29",
+        "age": 31,
+        "nationality": "埃及"
+      },
+      {
+        "name": "艾哈迈德·法图赫",
+        "position": "后卫",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "汉尼",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "150万欧元",
+        "height": "175cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "1996-02-02",
+        "age": 30,
+        "nationality": "埃及"
+      },
+      {
+        "name": "阿卜杜勒莫奈姆",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "250万欧元",
+        "height": "183cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1999-02-01",
+        "age": 27,
+        "nationality": "埃及"
+      },
+      {
+        "name": "易卜拉欣",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "28万欧元",
+        "height": "185cm",
+        "weight": "83kg",
+        "foot": "右脚",
+        "dob": "1993-02-10",
+        "age": 33,
+        "nationality": "埃及"
+      },
+      {
+        "name": "拉比亚",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "60万欧元",
+        "height": "184cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1993-05-20",
+        "age": 33,
+        "nationality": "埃及"
+      },
+      {
+        "name": "阿卜杜勒马吉德",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "200万欧元",
+        "height": "193cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "2001-04-30",
+        "age": 25,
+        "nationality": "埃及"
+      },
+      {
+        "name": "塔雷克·阿拉",
+        "position": "后卫",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "卡里姆·哈菲兹",
+        "position": "后卫",
+        "number": 15,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "特雷泽盖",
+        "position": "中场",
+        "number": 7,
+        "market_value": "450万欧元",
+        "height": "180cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1994-10-01",
+        "age": 31,
+        "nationality": "埃及"
+      },
+      {
+        "name": "萨拉赫",
+        "position": "中场",
+        "number": 10,
+        "market_value": "2200万欧元",
+        "height": "176cm",
+        "weight": "71kg",
+        "foot": "左脚",
+        "dob": "1992-06-15",
+        "age": 34,
+        "nationality": "埃及"
+      },
+      {
+        "name": "齐佐",
+        "position": "中场",
+        "number": 25,
+        "market_value": "350万欧元",
+        "height": "174cm",
+        "weight": "64kg",
+        "foot": "右脚",
+        "dob": "1996-01-10",
+        "age": 30,
+        "nationality": "埃及"
+      },
+      {
+        "name": "阿舒尔",
+        "position": "中场",
+        "number": 8,
+        "market_value": "400万欧元",
+        "height": "182cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1998-02-20",
+        "age": 28,
+        "nationality": "埃及"
+      },
+      {
+        "name": "莫哈纳德·拉欣",
+        "position": "中场",
+        "number": 17,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿提亚",
+        "position": "中场",
+        "number": 19,
+        "market_value": "400万欧元",
+        "height": "176cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "1998-08-12",
+        "age": 27,
+        "nationality": "埃及"
+      },
+      {
+        "name": "阿德尔",
+        "position": "中场",
+        "number": 20,
+        "market_value": "250万欧元",
+        "height": "178cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2001-04-23",
+        "age": 25,
+        "nationality": "埃及"
+      },
+      {
+        "name": "纳比尔·东加",
+        "position": "中场",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "萨贝尔",
+        "position": "中场",
+        "number": 21,
+        "market_value": "150万欧元",
+        "height": "170cm",
+        "weight": "65kg",
+        "foot": "右脚",
+        "dob": "2001-07-30",
+        "age": 24,
+        "nationality": "埃及"
+      },
+      {
+        "name": "穆斯塔法·济科",
+        "position": "中场",
+        "number": 11,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "哈桑",
+        "position": "中场",
+        "number": 12,
+        "market_value": "350万欧元",
+        "height": "175cm",
+        "weight": "71kg",
+        "foot": "左脚",
+        "dob": "2002-02-08",
+        "age": 24,
+        "nationality": "法国"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "马尔穆什",
+        "position": "前锋",
+        "number": 22,
+        "market_value": "5000万欧元",
+        "height": "183cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1999-02-07",
+        "age": 27,
+        "nationality": "埃及"
+      },
+      {
+        "name": "哈姆扎·阿卜杜勒卡里姆",
+        "position": "前锋",
+        "number": 9,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

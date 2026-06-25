@@ -1,0 +1,350 @@
+{
+  "team_id": "bilishi1",
+  "name": "比利时",
+  "group": "G",
+  "coach": "鲁迪·加西亚",
+  "squad_updated": "2026/6/10 11:43",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "库尔图瓦",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "拉曼斯",
+        "position": "守门员",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "彭德斯",
+        "position": "守门员",
+        "number": 13,
+        "market_value": "2500万欧元",
+        "height": "183cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "2003-06-10",
+        "age": 23,
+        "nationality": "比利时"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "卡斯塔涅",
+        "position": "后卫",
+        "number": 21,
+        "market_value": "800万欧元",
+        "height": "185cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1995-12-05",
+        "age": 30,
+        "nationality": "比利时"
+      },
+      {
+        "name": "泰特",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "1700万欧元",
+        "height": "185cm",
+        "weight": "81kg",
+        "foot": "左脚",
+        "dob": "2000-05-25",
+        "age": 26,
+        "nationality": "比利时"
+      },
+      {
+        "name": "德巴斯特",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "150万欧元",
+        "height": "190cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1991-09-12",
+        "age": 34,
+        "nationality": "比利时"
+      },
+      {
+        "name": "穆尼耶",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "120万欧元",
+        "height": "186cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "1989-01-12",
+        "age": 37,
+        "nationality": "比利时"
+      },
+      {
+        "name": "德库耶佩",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "2000万欧元",
+        "height": "180cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "1999-06-27",
+        "age": 26,
+        "nationality": "比利时"
+      },
+      {
+        "name": "德温特",
+        "position": "后卫",
+        "number": 16,
+        "market_value": "1500万欧元",
+        "height": "199cm",
+        "weight": "94kg",
+        "foot": "左脚",
+        "dob": "1992-05-11",
+        "age": 34,
+        "nationality": "比利时"
+      },
+      {
+        "name": "布兰登·梅赫勒",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "2500万欧元",
+        "height": "200cm",
+        "weight": "95kg",
+        "foot": "左脚",
+        "dob": "2005-07-31",
+        "age": 20,
+        "nationality": "比利时"
+      },
+      {
+        "name": "西斯",
+        "position": "后卫",
+        "number": 18,
+        "market_value": "3500万欧元",
+        "height": "188cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2005-02-03",
+        "age": 21,
+        "nationality": "比利时"
+      },
+      {
+        "name": "恩戈伊",
+        "position": "后卫",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "蒂莱曼斯",
+        "position": "中场",
+        "number": 8,
+        "market_value": "3000万欧元",
+        "height": "176cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "1997-05-07",
+        "age": 29,
+        "nationality": "比利时"
+      },
+      {
+        "name": "奥纳纳",
+        "position": "中场",
+        "number": 24,
+        "market_value": "2800万欧元",
+        "height": "189cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2003-10-24",
+        "age": 22,
+        "nationality": "比利时"
+      },
+      {
+        "name": "维特塞尔",
+        "position": "中场",
+        "number": 6,
+        "market_value": "800万欧元",
+        "height": "181cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "1991-06-28",
+        "age": 34,
+        "nationality": "比利时"
+      },
+      {
+        "name": "德布劳内",
+        "position": "中场",
+        "number": 7,
+        "market_value": "2200万欧元",
+        "height": "182cm",
+        "weight": "72kg",
+        "foot": "左脚",
+        "dob": "2000-12-22",
+        "age": 25,
+        "nationality": "比利时"
+      },
+      {
+        "name": "萨勒马科尔斯",
+        "position": "中场",
+        "number": 22,
+        "market_value": "2300万欧元",
+        "height": "188cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2002-06-12",
+        "age": 24,
+        "nationality": "比利时"
+      },
+      {
+        "name": "尼古拉·拉斯坎",
+        "position": "中场",
+        "number": 23,
+        "market_value": "2000万欧元",
+        "height": "178cm",
+        "weight": "63kg",
+        "foot": "左脚",
+        "dob": "2005-03-28",
+        "age": 21,
+        "nationality": "比利时"
+      },
+      {
+        "name": "范纳肯",
+        "position": "中场",
+        "number": 20,
+        "market_value": "2500万欧元",
+        "height": "179cm",
+        "weight": "64kg",
+        "foot": "左脚",
+        "dob": "2004-08-06",
+        "age": 21,
+        "nationality": "葡萄牙"
+      },
+      {
+        "name": "迭戈·莫雷拉",
+        "position": "中场",
+        "number": 19,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "卢卡库",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "600万欧元",
+        "height": "190cm",
+        "weight": "94kg",
+        "foot": "左脚",
+        "dob": "1993-05-13",
+        "age": 33,
+        "nationality": "比利时"
+      },
+      {
+        "name": "多库",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "7500万欧元",
+        "height": "171cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "2002-05-27",
+        "age": 24,
+        "nationality": "比利时"
+      },
+      {
+        "name": "卢克巴吉奥",
+        "position": "前锋",
+        "number": 14,
+        "market_value": "1500万欧元",
+        "height": "187cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "1997-09-24",
+        "age": 28,
+        "nationality": "比利时"
+      },
+      {
+        "name": "特罗萨德",
+        "position": "前锋",
+        "number": 10,
+        "market_value": "1800万欧元",
+        "height": "172cm",
+        "weight": "61kg",
+        "foot": "右脚",
+        "dob": "1994-12-04",
+        "age": 31,
+        "nationality": "比利时"
+      },
+      {
+        "name": "德凯特拉雷",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "3000万欧元",
+        "height": "192cm",
+        "weight": "74kg",
+        "foot": "左脚",
+        "dob": "2001-03-10",
+        "age": 25,
+        "nationality": "比利时"
+      },
+      {
+        "name": "帕尔多",
+        "position": "前锋",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [
+    {
+      "name": "多库",
+      "position": "前锋",
+      "number": 11,
+      "reason": "患病",
+      "status": "受伤",
+      "date": "06-21"
+    },
+    {
+      "name": "恩戈伊",
+      "position": "后卫",
+      "number": 3,
+      "reason": "红牌停赛",
+      "status": "停赛",
+      "date": "06-23"
+    }
+  ],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

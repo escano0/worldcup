@@ -1,0 +1,333 @@
+{
+  "team_id": "keluodiya1",
+  "name": "克罗地亚",
+  "group": "L",
+  "coach": "兹拉特科·达利奇",
+  "squad_updated": "2026/6/9 11:26",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "利瓦科维奇",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "400万欧元",
+        "height": "193cm",
+        "weight": "88kg",
+        "foot": "右脚",
+        "dob": "1998-01-24",
+        "age": 28,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "多米尼克·科塔尔斯基",
+        "position": "守门员",
+        "number": 23,
+        "market_value": "280万欧元",
+        "height": "193cm",
+        "weight": "89kg",
+        "foot": "右脚",
+        "dob": "1996-09-17",
+        "age": 29,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "潘杜",
+        "position": "守门员",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "斯塔尼西奇",
+        "position": "后卫",
+        "number": 2,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "埃尔里奇",
+        "position": "后卫",
+        "number": 25,
+        "market_value": "250万欧元",
+        "height": "177cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "1991-06-19",
+        "age": 35,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "约瑟普·舒塔洛",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "7000万欧元",
+        "height": "185cm",
+        "weight": "80kg",
+        "foot": "左脚",
+        "dob": "2002-01-23",
+        "age": 24,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "格瓦迪奥尔",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "650万欧元",
+        "height": "190cm",
+        "weight": "95kg",
+        "foot": "右脚",
+        "dob": "1997-09-11",
+        "age": 28,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "庞格拉契奇",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "3000万欧元",
+        "height": "172cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "2003-02-16",
+        "age": 23,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "卡尔",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "900万欧元",
+        "height": "178cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "2001-03-09",
+        "age": 25,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "武斯科维奇",
+        "position": "后卫",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": 1,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "莫德里奇",
+        "position": "中场",
+        "number": 10,
+        "market_value": "400万欧元",
+        "height": "188cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1995-01-09",
+        "age": 31,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "帕萨利奇",
+        "position": "中场",
+        "number": 15,
+        "market_value": "4000万欧元",
+        "height": "187cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2000-04-02",
+        "age": 26,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "克拉马里奇",
+        "position": "中场",
+        "number": 9,
+        "market_value": "1000万欧元",
+        "height": "185cm",
+        "weight": "74kg",
+        "foot": "左脚",
+        "dob": "2002-09-08",
+        "age": 23,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "苏契奇",
+        "position": "中场",
+        "number": 21,
+        "market_value": "650万欧元",
+        "height": "177cm",
+        "weight": "74kg",
+        "foot": "左脚",
+        "dob": "2000-09-14",
+        "age": 25,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "巴图里纳",
+        "position": "中场",
+        "number": 16,
+        "market_value": "1000万欧元",
+        "height": "178cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "1997-10-04",
+        "age": 28,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "弗拉西奇",
+        "position": "中场",
+        "number": 13,
+        "market_value": "2200万欧元",
+        "height": "195cm",
+        "weight": "90kg",
+        "foot": "右脚",
+        "dob": "2003-03-31",
+        "age": 23,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "科瓦契奇",
+        "position": "中场",
+        "number": 8,
+        "market_value": "700万欧元",
+        "height": "184cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1998-03-12",
+        "age": 28,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "莫罗",
+        "position": "中场",
+        "number": 7,
+        "market_value": "4000万欧元",
+        "height": "183cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "2003-10-25",
+        "age": 22,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "雅基奇",
+        "position": "中场",
+        "number": 18,
+        "market_value": "6000万欧元",
+        "height": "193cm",
+        "weight": "86kg",
+        "foot": "右脚",
+        "dob": "2007-02-24",
+        "age": 19,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "苏契奇",
+        "position": "中场",
+        "number": 17,
+        "market_value": "1200万欧元",
+        "height": "190cm",
+        "weight": "86kg",
+        "foot": "右脚",
+        "dob": "1998-03-04",
+        "age": 28,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "弗鲁克",
+        "position": "中场",
+        "number": 19,
+        "market_value": "450万欧元",
+        "height": "187cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "2000-03-25",
+        "age": 26,
+        "nationality": "克罗地亚"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "帕沙利奇",
+        "position": "前锋",
+        "number": 24,
+        "market_value": "280万欧元",
+        "height": "190cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "1991-07-22",
+        "age": 34,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "布迪米尔",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "1000万欧元",
+        "height": "178cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1994-05-06",
+        "age": 32,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "佩里西奇",
+        "position": "前锋",
+        "number": 14,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "马塔诺维奇",
+        "position": "前锋",
+        "number": 20,
+        "market_value": "600万欧元",
+        "height": "181cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1997-05-14",
+        "age": 29,
+        "nationality": "克罗地亚"
+      },
+      {
+        "name": "穆萨",
+        "position": "前锋",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": 1,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

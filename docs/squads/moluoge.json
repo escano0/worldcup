@@ -1,0 +1,333 @@
+{
+  "team_id": "moluoge",
+  "name": "摩洛哥",
+  "group": "C",
+  "coach": "瓦利德·雷格拉吉",
+  "squad_updated": "2026/6/11 13:20",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "布努",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "300万欧元",
+        "height": "195cm",
+        "weight": "78kg",
+        "foot": "左脚",
+        "dob": "1991-04-05",
+        "age": 35,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "卡朱伊",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "60万欧元",
+        "height": "190cm",
+        "weight": "88kg",
+        "foot": "右脚",
+        "dob": "1989-05-10",
+        "age": 37,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "艾哈迈德·塔格纳乌蒂",
+        "position": "守门员",
+        "number": 22,
+        "market_value": "5000万欧元",
+        "height": "186cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "2007-10-02",
+        "age": 18,
+        "nationality": "法国"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "阿什拉夫",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "8000万欧元",
+        "height": "181cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "1998-11-04",
+        "age": 27,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "马兹拉维",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "1800万欧元",
+        "height": "183cm",
+        "weight": "65kg",
+        "foot": "右脚",
+        "dob": "1997-11-14",
+        "age": 28,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "里亚德",
+        "position": "后卫",
+        "number": 18,
+        "market_value": "1500万欧元",
+        "height": "187cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "2003-06-17",
+        "age": 23,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "瓦赫迪",
+        "position": "后卫",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "优素福·贝拉马里",
+        "position": "后卫",
+        "number": 19,
+        "market_value": "1000万欧元",
+        "height": "182cm",
+        "weight": "62kg",
+        "foot": "右脚",
+        "dob": "2000-04-19",
+        "age": 26,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "埃丁",
+        "position": "后卫",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "马尔万·萨阿丹",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "800万欧元",
+        "height": "194cm",
+        "weight": "92kg",
+        "foot": "右脚",
+        "dob": "1997-01-09",
+        "age": 29,
+        "nationality": "法国"
+      },
+      {
+        "name": "迪奥普",
+        "position": "后卫",
+        "number": 14,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "拉德万·哈勒哈勒",
+        "position": "后卫",
+        "number": 25,
+        "market_value": "2200万欧元",
+        "height": "187cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "2005-10-06",
+        "age": 20,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "阿姆拉巴特",
+        "position": "中场",
+        "number": 4,
+        "market_value": "1000万欧元",
+        "height": "183cm",
+        "weight": "82kg",
+        "foot": "右脚",
+        "dob": "1996-08-21",
+        "age": 29,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "汉努斯",
+        "position": "中场",
+        "number": 23,
+        "market_value": "3500万欧元",
+        "height": "180cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "2004-05-10",
+        "age": 22,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "塞巴里",
+        "position": "中场",
+        "number": 11,
+        "market_value": "4000万欧元",
+        "height": "185cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "2001-01-28",
+        "age": 25,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "奥纳希",
+        "position": "中场",
+        "number": 8,
+        "market_value": "2300万欧元",
+        "height": "185cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2001-07-02",
+        "age": 24,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "艾纳奥伊",
+        "position": "中场",
+        "number": 24,
+        "market_value": "2500万欧元",
+        "height": "175cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "2005-05-09",
+        "age": 21,
+        "nationality": "比利时"
+      },
+      {
+        "name": "穆拉贝特",
+        "position": "中场",
+        "number": 15,
+        "market_value": "1200万欧元",
+        "height": "172cm",
+        "weight": "60kg",
+        "foot": "左脚",
+        "dob": "2005-11-22",
+        "age": 20,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "布阿迪",
+        "position": "中场",
+        "number": 6,
+        "market_value": "1000万欧元",
+        "height": "179cm",
+        "weight": "72kg",
+        "foot": "左脚",
+        "dob": "2004-11-30",
+        "age": 21,
+        "nationality": "摩洛哥"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "卡比",
+        "position": "前锋",
+        "number": 20,
+        "market_value": "450万欧元",
+        "height": "182cm",
+        "weight": "76kg",
+        "foot": "左脚",
+        "dob": "1993-06-25",
+        "age": 32,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "迪亚斯",
+        "position": "前锋",
+        "number": 10,
+        "market_value": "600万欧元",
+        "height": "181cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "1996-06-02",
+        "age": 30,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "拉希米",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "1700万欧元",
+        "height": "173cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "2001-12-31",
+        "age": 24,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "塔尔比",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "1200万欧元",
+        "height": "181cm",
+        "weight": "66kg",
+        "foot": "左脚",
+        "dob": "2002-01-18",
+        "age": 24,
+        "nationality": "荷兰"
+      },
+      {
+        "name": "亚辛",
+        "position": "前锋",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "埃奇古亚卜",
+        "position": "前锋",
+        "number": 21,
+        "market_value": "400万欧元",
+        "height": "175cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "2000-11-05",
+        "age": 25,
+        "nationality": "摩洛哥"
+      },
+      {
+        "name": "斯拜",
+        "position": "前锋",
+        "number": 17,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

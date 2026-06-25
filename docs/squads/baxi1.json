@@ -1,0 +1,333 @@
+{
+  "team_id": "baxi1",
+  "name": "巴西",
+  "group": "C",
+  "coach": "卡洛·安切洛蒂",
+  "squad_updated": "2026/6/10 11:05",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "阿利森",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "1500万欧元",
+        "height": "191cm",
+        "weight": "91kg",
+        "foot": "右脚",
+        "dob": "1992-10-02",
+        "age": 33,
+        "nationality": "巴西"
+      },
+      {
+        "name": "埃德森",
+        "position": "守门员",
+        "number": 23,
+        "market_value": "1000万欧元",
+        "height": "188cm",
+        "weight": "86kg",
+        "foot": "左脚",
+        "dob": "1993-08-17",
+        "age": 32,
+        "nationality": "巴西"
+      },
+      {
+        "name": "韦弗顿",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "70万欧元",
+        "height": "189cm",
+        "weight": "89kg",
+        "foot": "右脚",
+        "dob": "1987-12-13",
+        "age": 38,
+        "nationality": "巴西"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "达尼洛",
+        "position": "后卫",
+        "number": 13,
+        "market_value": "200万欧元",
+        "height": "184cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1991-07-15",
+        "age": 34,
+        "nationality": "巴西"
+      },
+      {
+        "name": "加布里埃尔",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "7500万欧元",
+        "height": "190cm",
+        "weight": "78kg",
+        "foot": "左脚",
+        "dob": "1997-12-19",
+        "age": 28,
+        "nationality": "巴西"
+      },
+      {
+        "name": "马尔基尼奥斯",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "2800万欧元",
+        "height": "183cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1994-05-14",
+        "age": 32,
+        "nationality": "巴西"
+      },
+      {
+        "name": "桑德罗",
+        "position": "后卫",
+        "number": 6,
+        "market_value": "100万欧元",
+        "height": "181cm",
+        "weight": "80kg",
+        "foot": "左脚",
+        "dob": "1991-01-26",
+        "age": 35,
+        "nationality": "巴西"
+      },
+      {
+        "name": "道格拉斯·桑托斯",
+        "position": "后卫",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "布雷默",
+        "position": "后卫",
+        "number": 14,
+        "market_value": "3500万欧元",
+        "height": "188cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1997-03-18",
+        "age": 29,
+        "nationality": "巴西"
+      },
+      {
+        "name": "佩雷拉",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "1200万欧元",
+        "height": "189cm",
+        "weight": "83kg",
+        "foot": "左脚",
+        "dob": "1996-01-31",
+        "age": 30,
+        "nationality": "巴西"
+      },
+      {
+        "name": "罗热·伊巴涅斯",
+        "position": "后卫",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "吉马良斯",
+        "position": "中场",
+        "number": 8,
+        "market_value": "7000万欧元",
+        "height": "182cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1997-11-16",
+        "age": 28,
+        "nationality": "巴西"
+      },
+      {
+        "name": "帕奎塔",
+        "position": "中场",
+        "number": 20,
+        "market_value": "3200万欧元",
+        "height": "180cm",
+        "weight": "72kg",
+        "foot": "左脚",
+        "dob": "1997-08-27",
+        "age": 28,
+        "nationality": "巴西"
+      },
+      {
+        "name": "艾德森",
+        "position": "中场",
+        "number": 2,
+        "market_value": "4500万欧元",
+        "height": "183cm",
+        "weight": "83kg",
+        "foot": "右脚",
+        "dob": "1999-07-07",
+        "age": 26,
+        "nationality": "巴西"
+      },
+      {
+        "name": "卡塞米罗",
+        "position": "中场",
+        "number": 5,
+        "market_value": "600万欧元",
+        "height": "185cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1992-02-23",
+        "age": 34,
+        "nationality": "巴西"
+      },
+      {
+        "name": "法比尼奥",
+        "position": "中场",
+        "number": 17,
+        "market_value": "1200万欧元",
+        "height": "188cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1993-10-23",
+        "age": 32,
+        "nationality": "巴西"
+      },
+      {
+        "name": "达尼洛",
+        "position": "中场",
+        "number": 18,
+        "market_value": "3200万欧元",
+        "height": "177cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "2001-04-29",
+        "age": 25,
+        "nationality": "巴西"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "维尼修斯",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "1.4亿欧元",
+        "height": "176cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2000-07-12",
+        "age": 25,
+        "nationality": "巴西"
+      },
+      {
+        "name": "恩德里克",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "4000万欧元",
+        "height": "173cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "2006-07-21",
+        "age": 19,
+        "nationality": "巴西"
+      },
+      {
+        "name": "路易斯·恩里克",
+        "position": "前锋",
+        "number": 21,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "马丁内利",
+        "position": "前锋",
+        "number": 22,
+        "market_value": "4500万欧元",
+        "height": "178cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "2001-06-18",
+        "age": 25,
+        "nationality": "巴西"
+      },
+      {
+        "name": "拉菲尼亚",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "7000万欧元",
+        "height": "176cm",
+        "weight": "68kg",
+        "foot": "左脚",
+        "dob": "1996-12-14",
+        "age": 29,
+        "nationality": "巴西"
+      },
+      {
+        "name": "库尼亚",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "7500万欧元",
+        "height": "183cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1999-05-27",
+        "age": 27,
+        "nationality": "巴西"
+      },
+      {
+        "name": "罗德里格斯",
+        "position": "前锋",
+        "number": 25,
+        "market_value": "6500万欧元",
+        "height": "188cm",
+        "weight": "88kg",
+        "foot": "右脚",
+        "dob": "2001-06-26",
+        "age": 24,
+        "nationality": "巴西"
+      },
+      {
+        "name": "罗查",
+        "position": "前锋",
+        "number": 26,
+        "market_value": "6000万欧元",
+        "height": "185cm",
+        "weight": "79kg",
+        "foot": "左脚",
+        "dob": "2006-08-03",
+        "age": 19,
+        "nationality": null
+      },
+      {
+        "name": "内马尔",
+        "position": "前锋",
+        "number": 10,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

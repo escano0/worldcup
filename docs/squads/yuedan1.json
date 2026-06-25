@@ -1,0 +1,333 @@
+{
+  "team_id": "yuedan1",
+  "name": "约旦",
+  "group": "J",
+  "coach": "贾马尔·塞拉米",
+  "squad_updated": "2026/6/10 11:59",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "阿布莱拉",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "30万欧元",
+        "height": "188cm",
+        "weight": "88kg",
+        "foot": "右脚",
+        "dob": "1993-01-08",
+        "age": 33,
+        "nationality": "约旦"
+      },
+      {
+        "name": "阿卜杜拉·法胡里",
+        "position": "守门员",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "努尔·巴尼·阿提亚",
+        "position": "守门员",
+        "number": 12,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "穆罕默德·阿布哈希什",
+        "position": "后卫",
+        "number": 2,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "亚赞",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "100万欧元",
+        "height": "185cm",
+        "weight": "87kg",
+        "foot": "左脚",
+        "dob": "1996-01-31",
+        "age": 30,
+        "nationality": "约旦"
+      },
+      {
+        "name": "纳西布",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "40万欧元",
+        "height": "184cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "1994-02-25",
+        "age": 32,
+        "nationality": "约旦"
+      },
+      {
+        "name": "赛义德·罗桑",
+        "position": "后卫",
+        "number": 19,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "穆罕默德·阿布塔哈",
+        "position": "后卫",
+        "number": 20,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "穆罕默德·阿布纳迪",
+        "position": "后卫",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "胡萨姆·阿布达哈卜",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "萨利姆·奥贝德",
+        "position": "后卫",
+        "number": 17,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿纳斯·巴达维",
+        "position": "后卫",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "穆罕默德·阿布·古什",
+        "position": "后卫",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "伊赫桑·哈达德",
+        "position": "中场",
+        "number": 23,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "努尔·拉瓦卜迪赫",
+        "position": "中场",
+        "number": 8,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "拉贾伊·阿伊德",
+        "position": "中场",
+        "number": 14,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "易卜拉欣·萨德",
+        "position": "中场",
+        "number": 15,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "拉什丹",
+        "position": "中场",
+        "number": 21,
+        "market_value": "60万欧元",
+        "height": "183cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1999-03-23",
+        "age": 27,
+        "nationality": "约旦"
+      },
+      {
+        "name": "贾穆斯",
+        "position": "中场",
+        "number": 6,
+        "market_value": "50万欧元",
+        "height": "177cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "2002-07-03",
+        "age": 23,
+        "nationality": "约旦"
+      },
+      {
+        "name": "穆罕默德·达乌德",
+        "position": "中场",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "马哈茂德·马尔迪",
+        "position": "前锋",
+        "number": 13,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "奥尔万",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "80万欧元",
+        "height": "182cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "2000-03-26",
+        "age": 26,
+        "nationality": "约旦"
+      },
+      {
+        "name": "塔马里",
+        "position": "前锋",
+        "number": 10,
+        "market_value": "1000万欧元",
+        "height": "176cm",
+        "weight": "74kg",
+        "foot": "左脚",
+        "dob": "1997-06-10",
+        "age": 29,
+        "nationality": "约旦"
+      },
+      {
+        "name": "穆罕默德·阿布扎赖基",
+        "position": "前锋",
+        "number": 7,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "法胡里",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "35万欧元",
+        "height": "180cm",
+        "weight": "67kg",
+        "foot": "右脚",
+        "dob": "2005-11-20",
+        "age": 20,
+        "nationality": "约旦"
+      },
+      {
+        "name": "阿扎伊泽",
+        "position": "前锋",
+        "number": 24,
+        "market_value": "33万欧元",
+        "height": "178cm",
+        "weight": "73kg",
+        "foot": "左脚",
+        "dob": "2004-04-13",
+        "age": 22,
+        "nationality": "约旦"
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

@@ -57,3 +57,41 @@ def test_parse_injuries_by_team():
 def test_parse_injuries_handles_none():
     html = "<div>伤停球员 法国 原因 状态 时间 暂无数据 最佳球员 x</div>"
     assert parse_injuries(html) == {"法国": []}
+
+
+def test_build_squad_doc_assembles():
+    from worldcup.squad import build_squad_doc, parse_roster
+    roster = parse_roster(ROSTER_HTML)
+    injuries = [{"name": "穆海姆", "position": "后卫", "number": 28,
+                 "reason": "拉伤", "status": "受伤", "date": "06-19"}]
+    doc = build_squad_doc("baxi1", "巴西", "C", roster, injuries, "2026-06-25T12:00:00+08:00")
+    assert doc["team_id"] == "baxi1" and doc["name"] == "巴西" and doc["group"] == "C"
+    assert doc["coach"] == "安切洛蒂"
+    assert doc["formation"] is None              # 源头无阵型
+    assert doc["player_count"] == 5
+    assert doc["squad"]["前锋"][0]["name"] == "维尼修斯"
+    assert doc["injuries"] == injuries
+    assert doc["generated_at"] == "2026-06-25T12:00:00+08:00"
+    assert doc["squad_updated"] == "2026/6/10 11:05"
+
+
+def test_fetch_team_roster_judges_by_content():
+    import worldcup.squad as S
+
+    class _Resp:
+        def __init__(self, text, status): self.text = text; self.status_code = status
+    class _Sess:
+        def __init__(self, resp): self._r = resp; self.last_url = None; self.last_headers = None
+        def get(self, url, headers=None, timeout=None):
+            self.last_url = url; self.last_headers = headers; return self._r
+
+    ok = _Sess(_Resp("...主教练 X 最新阵容...", 404))
+    html = S.fetch_team_roster("baxi1", session=ok)
+    assert "主教练" in html
+    assert ok.last_url == "https://www.qiumiwu.com/team/baxi1/roster"
+    assert "User-Agent" in ok.last_headers
+
+    bad = _Sess(_Resp("<html>nope</html>", 200))
+    import pytest
+    with pytest.raises(RuntimeError):
+        S.fetch_team_roster("x", session=bad)

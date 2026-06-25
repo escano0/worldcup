@@ -1,0 +1,333 @@
+{
+  "team_id": "xibanya1",
+  "name": "西班牙",
+  "group": "H",
+  "coach": "路易斯·德拉富恩特",
+  "squad_updated": "2026/6/10 11:46",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "西蒙",
+        "position": "守门员",
+        "number": 23,
+        "market_value": "2200万欧元",
+        "height": "190cm",
+        "weight": "88kg",
+        "foot": "右脚",
+        "dob": "1997-06-11",
+        "age": 29,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "拉亚",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "3000万欧元",
+        "height": "183cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1995-09-15",
+        "age": 30,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "加西亚",
+        "position": "守门员",
+        "number": 13,
+        "market_value": "3500万欧元",
+        "height": "190cm",
+        "weight": "86kg",
+        "foot": "右脚",
+        "dob": "2003-06-20",
+        "age": 23,
+        "nationality": "西班牙"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "格里马尔多",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "2000万欧元",
+        "height": "171cm",
+        "weight": "69kg",
+        "foot": "左脚",
+        "dob": "1995-09-20",
+        "age": 30,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "拉波尔特",
+        "position": "后卫",
+        "number": 14,
+        "market_value": "800万欧元",
+        "height": "191cm",
+        "weight": "87kg",
+        "foot": "左脚",
+        "dob": "1994-05-27",
+        "age": 32,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "库库雷利亚",
+        "position": "后卫",
+        "number": 24,
+        "market_value": "5000万欧元",
+        "height": "173cm",
+        "weight": "66kg",
+        "foot": "左脚",
+        "dob": "1998-07-22",
+        "age": 27,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "波罗",
+        "position": "后卫",
+        "number": 12,
+        "market_value": "8000万欧元",
+        "height": "183cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "2007-01-22",
+        "age": 19,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "库巴西",
+        "position": "后卫",
+        "number": 22,
+        "market_value": "3000万欧元",
+        "height": "174cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "2004-08-05",
+        "age": 21,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "略伦特",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "280万欧元",
+        "height": "187cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "1993-01-17",
+        "age": 33,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "普比尔",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "4000万欧元",
+        "height": "182cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2001-01-09",
+        "age": 25,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "加西亚",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "鲁伊斯",
+        "position": "中场",
+        "number": 8,
+        "market_value": "3000万欧元",
+        "height": "189cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "1996-04-03",
+        "age": 30,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "梅里诺",
+        "position": "中场",
+        "number": 6,
+        "market_value": "2500万欧元",
+        "height": "189cm",
+        "weight": "83kg",
+        "foot": "左脚",
+        "dob": "1996-06-22",
+        "age": 30,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "祖比门迪",
+        "position": "中场",
+        "number": 18,
+        "market_value": "7500万欧元",
+        "height": "181cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1999-02-02",
+        "age": 27,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "巴埃纳",
+        "position": "中场",
+        "number": 15,
+        "market_value": "4000万欧元",
+        "height": "174cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "2001-07-20",
+        "age": 24,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "罗德里",
+        "position": "中场",
+        "number": 16,
+        "market_value": "5000万欧元",
+        "height": "191cm",
+        "weight": "82kg",
+        "foot": "右脚",
+        "dob": "1996-06-22",
+        "age": 30,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "奥尔莫",
+        "position": "中场",
+        "number": 10,
+        "market_value": "6000万欧元",
+        "height": "180cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "1998-05-07",
+        "age": 28,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "佩德里",
+        "position": "中场",
+        "number": 20,
+        "market_value": "1.5亿欧元",
+        "height": "174cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "2002-11-25",
+        "age": 23,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "加维",
+        "position": "中场",
+        "number": 9,
+        "market_value": "2000万欧元",
+        "height": "184cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1995-01-30",
+        "age": 31,
+        "nationality": "西班牙"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "N.威廉姆斯",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "4000万欧元",
+        "height": "181cm",
+        "weight": "67kg",
+        "foot": "右脚",
+        "dob": "2002-07-12",
+        "age": 23,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "亚马尔",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "2亿欧元",
+        "height": "180cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "2007-07-13",
+        "age": 18,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "奥亚萨瓦尔",
+        "position": "前锋",
+        "number": 21,
+        "market_value": "2500万欧元",
+        "height": "181cm",
+        "weight": "78kg",
+        "foot": "左脚",
+        "dob": "1997-04-21",
+        "age": 29,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "托雷斯",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "5000万欧元",
+        "height": "184cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2000-02-29",
+        "age": 26,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "皮诺",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "3000万欧元",
+        "height": "172cm",
+        "weight": "65kg",
+        "foot": "右脚",
+        "dob": "2002-10-20",
+        "age": 23,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "伊格莱西亚斯",
+        "position": "前锋",
+        "number": 26,
+        "market_value": "3000万欧元",
+        "height": "173cm",
+        "weight": "71kg",
+        "foot": "右脚",
+        "dob": "2003-07-13",
+        "age": 22,
+        "nationality": "西班牙"
+      },
+      {
+        "name": "穆尼奥斯",
+        "position": "前锋",
+        "number": 25,
+        "market_value": "4500万欧元",
+        "height": "193cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "2001-05-04",
+        "age": 25,
+        "nationality": "西班牙"
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

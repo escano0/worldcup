@@ -1,0 +1,333 @@
+{
+  "team_id": "ruishi",
+  "name": "瑞士",
+  "group": "B",
+  "coach": "穆拉特·雅金",
+  "squad_updated": "2026/6/10 11:04",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "姆沃戈",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "250万欧元",
+        "height": "190cm",
+        "weight": "90kg",
+        "foot": "右脚",
+        "dob": "1994-06-06",
+        "age": 32,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "科贝尔",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "4000万欧元",
+        "height": "195cm",
+        "weight": "88kg",
+        "foot": "右脚",
+        "dob": "1997-12-06",
+        "age": 28,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "马文·凯勒",
+        "position": "守门员",
+        "number": 21,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "罗德里格斯",
+        "position": "后卫",
+        "number": 13,
+        "market_value": "140万欧元",
+        "height": "180cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "1992-08-25",
+        "age": 33,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "埃尔维迪",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "800万欧元",
+        "height": "189cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1996-09-30",
+        "age": 29,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "阿坎吉",
+        "position": "后卫",
+        "number": 5,
+        "market_value": "1700万欧元",
+        "height": "187cm",
+        "weight": "91kg",
+        "foot": "右脚",
+        "dob": "1995-07-19",
+        "age": 30,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "威德默",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "80万欧元",
+        "height": "182cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "1993-03-05",
+        "age": 33,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "穆海姆",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "500万欧元",
+        "height": "182cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "1998-03-24",
+        "age": 28,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "科默特",
+        "position": "后卫",
+        "number": 18,
+        "market_value": "250万欧元",
+        "height": "183cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1998-02-04",
+        "age": 28,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "阿曼达",
+        "position": "后卫",
+        "number": 24,
+        "market_value": "1000万欧元",
+        "height": "194cm",
+        "weight": "90kg",
+        "foot": "右脚",
+        "dob": "2003-07-31",
+        "age": 22,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "贾克斯",
+        "position": "后卫",
+        "number": 25,
+        "market_value": "1000万欧元",
+        "height": "187cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "2003-06-02",
+        "age": 23,
+        "nationality": "瑞士"
+      }
+    ],
+    "中场": [
+      {
+        "name": "扎卡",
+        "position": "中场",
+        "number": 10,
+        "market_value": "800万欧元",
+        "height": "185cm",
+        "weight": "82kg",
+        "foot": "左脚",
+        "dob": "1992-09-27",
+        "age": 33,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "弗罗伊勒",
+        "position": "中场",
+        "number": 8,
+        "market_value": "300万欧元",
+        "height": "181cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1992-04-15",
+        "age": 34,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "扎卡里亚",
+        "position": "中场",
+        "number": 6,
+        "market_value": "2500万欧元",
+        "height": "191cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1996-11-20",
+        "age": 29,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "阿比切尔",
+        "position": "中场",
+        "number": 20,
+        "market_value": "400万欧元",
+        "height": "183cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1997-01-06",
+        "age": 29,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "贾萨里",
+        "position": "中场",
+        "number": 14,
+        "market_value": "2500万欧元",
+        "height": "181cm",
+        "weight": "82kg",
+        "foot": "左脚",
+        "dob": "2002-07-30",
+        "age": 23,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "里德尔",
+        "position": "中场",
+        "number": 22,
+        "market_value": "1200万欧元",
+        "height": "179cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "2002-02-16",
+        "age": 24,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "曼赞比",
+        "position": "中场",
+        "number": 9,
+        "market_value": "5000万欧元",
+        "height": "183cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "2005-10-14",
+        "age": 20,
+        "nationality": null
+      },
+      {
+        "name": "索乌",
+        "position": "中场",
+        "number": 15,
+        "market_value": "750万欧元",
+        "height": "184cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1997-02-06",
+        "age": 29,
+        "nationality": "瑞士"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "巴尔加斯",
+        "position": "前锋",
+        "number": 17,
+        "market_value": "1200万欧元",
+        "height": "179cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "1998-08-05",
+        "age": 27,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "阿姆杜尼",
+        "position": "前锋",
+        "number": 23,
+        "market_value": "700万欧元",
+        "height": "185cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "2000-12-04",
+        "age": 25,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "恩多耶",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "3200万欧元",
+        "height": "184cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "2000-10-25",
+        "age": 25,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "奥卡福",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "2500万欧元",
+        "height": "185cm",
+        "weight": "85kg",
+        "foot": "左脚",
+        "dob": "2000-05-24",
+        "age": 26,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "恩博洛",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "1500万欧元",
+        "height": "187cm",
+        "weight": "88kg",
+        "foot": "右脚",
+        "dob": "1997-02-14",
+        "age": 29,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "伊顿",
+        "position": "前锋",
+        "number": 26,
+        "market_value": "180万欧元",
+        "height": "189cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1996-12-27",
+        "age": 29,
+        "nationality": "瑞士"
+      },
+      {
+        "name": "克里斯蒂安·法斯纳赫特",
+        "position": "前锋",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

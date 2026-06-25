@@ -1,0 +1,342 @@
+{
+  "team_id": "aerjiliya",
+  "name": "阿尔及利亚",
+  "group": "J",
+  "coach": "弗拉基米尔·佩特科维奇",
+  "squad_updated": "2026/6/10 11:56",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "乌萨马·本博特",
+        "position": "守门员",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "卢卡·齐达内",
+        "position": "守门员",
+        "number": 23,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "梅尔文·马斯蒂尔",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "后卫": [
+      {
+        "name": "曼迪",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "100万欧元",
+        "height": "184cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1991-10-22",
+        "age": 34,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "本塞拜尼",
+        "position": "后卫",
+        "number": 21,
+        "market_value": "700万欧元",
+        "height": "187cm",
+        "weight": "80kg",
+        "foot": "左脚",
+        "dob": "1995-04-16",
+        "age": 31,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "图加",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "130万欧元",
+        "height": "186cm",
+        "weight": "79kg",
+        "foot": "右脚",
+        "dob": "2000-01-22",
+        "age": 26,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "努里",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "4000万欧元",
+        "height": "180cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "2001-06-06",
+        "age": 25,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "齐内丁·贝莱德",
+        "position": "后卫",
+        "number": 5,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "哈伊亚姆",
+        "position": "后卫",
+        "number": 13,
+        "market_value": "700万欧元",
+        "height": "185cm",
+        "weight": "83kg",
+        "foot": "左脚",
+        "dob": "2003-03-26",
+        "age": 23,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "贝尔加利",
+        "position": "后卫",
+        "number": 17,
+        "market_value": "700万欧元",
+        "height": "180cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2002-06-07",
+        "age": 24,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "谢尔吉",
+        "position": "后卫",
+        "number": 26,
+        "market_value": "300万欧元",
+        "height": "185cm",
+        "weight": "78kg",
+        "foot": "右脚",
+        "dob": "1999-02-06",
+        "age": 27,
+        "nationality": "法国"
+      },
+      {
+        "name": "阿什雷夫·阿巴达",
+        "position": "后卫",
+        "number": 3,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "拉米兹·泽鲁基",
+        "position": "中场",
+        "number": 6,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "查比",
+        "position": "中场",
+        "number": 10,
+        "market_value": "1500万欧元",
+        "height": "183cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "2002-11-28",
+        "age": 23,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "布杜維",
+        "position": "中场",
+        "number": 14,
+        "market_value": "1200万欧元",
+        "height": "175cm",
+        "weight": "61kg",
+        "foot": "右脚",
+        "dob": "1999-09-23",
+        "age": 26,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "本塔莱布",
+        "position": "中场",
+        "number": 19,
+        "market_value": "450万欧元",
+        "height": "189cm",
+        "weight": "78kg",
+        "foot": "左脚",
+        "dob": "1994-11-24",
+        "age": 31,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "奥亚尔",
+        "position": "中场",
+        "number": 8,
+        "market_value": "800万欧元",
+        "height": "175cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "1998-06-30",
+        "age": 27,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "马扎",
+        "position": "中场",
+        "number": 22,
+        "market_value": "4500万欧元",
+        "height": "180cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "2005-11-24",
+        "age": 20,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "布尔比纳",
+        "position": "中场",
+        "number": 20,
+        "market_value": "300万欧元",
+        "height": "183cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2003-05-02",
+        "age": 23,
+        "nationality": null
+      },
+      {
+        "name": "雅辛·蒂特拉维",
+        "position": "中场",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "前锋": [
+      {
+        "name": "马赫雷斯",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "500万欧元",
+        "height": "179cm",
+        "weight": "62kg",
+        "foot": "左脚",
+        "dob": "1991-02-21",
+        "age": 35,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "阿莫拉",
+        "position": "前锋",
+        "number": 18,
+        "market_value": "2000万欧元",
+        "height": "170cm",
+        "weight": "170kg",
+        "foot": "右脚",
+        "dob": "2000-05-09",
+        "age": 26,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "古伊里",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "2800万欧元",
+        "height": "180cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "2000-02-16",
+        "age": 26,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "穆萨",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "2300万欧元",
+        "height": "176cm",
+        "weight": "72kg",
+        "foot": "左脚",
+        "dob": "2002-02-11",
+        "age": 24,
+        "nationality": "阿尔及利亚"
+      },
+      {
+        "name": "法雷斯·盖杰米斯",
+        "position": "前锋",
+        "number": 25,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "本布利",
+        "position": "前锋",
+        "number": 12,
+        "market_value": "120万欧元",
+        "height": "190cm",
+        "weight": "84kg",
+        "foot": "左脚",
+        "dob": "2000-04-17",
+        "age": 26,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [
+    {
+      "name": "阿莫拉",
+      "position": "前锋",
+      "number": 9,
+      "reason": "腘绳肌损伤",
+      "status": "受伤",
+      "date": "06-22"
+    }
+  ],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

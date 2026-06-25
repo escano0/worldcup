@@ -1,6 +1,16 @@
+import argparse
+import json
 import re
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
+import requests
+
+from .fetcher import DEFAULT_UA, fetch_game_page
 from .parser import html_to_text
+from .schedule import fetch_schedule_html, parse_game_ids
+from .tournament import parse_standings
 
 _COACH_RE = re.compile(r"主教练\s+(\S+)")
 _SQUAD_UPDATED_RE = re.compile(r"最新阵容\s+([\d/]{6,}\s+[\d:]+)\s*更新")
@@ -84,3 +94,93 @@ def parse_injuries(html):
             })
         result[team] = players
     return result
+
+
+_ROSTER_URL = "https://www.qiumiwu.com/team/{slug}/roster"
+_CST = timezone(timedelta(hours=8))
+
+
+def _now_iso():
+    return datetime.now(_CST).isoformat(timespec="seconds")
+
+
+def fetch_team_roster(slug, *, session=None, timeout=20):
+    """抓取球队阵容页;按正文是否含『主教练/最新阵容』判断成功(站点 404 但有正文)。"""
+    sess = session or requests.Session()
+    resp = sess.get(_ROSTER_URL.format(slug=slug),
+                    headers={"User-Agent": DEFAULT_UA}, timeout=timeout)
+    if "主教练" not in resp.text and "最新阵容" not in resp.text:
+        raise RuntimeError(
+            f"roster page for {slug} missing squad (status={resp.status_code})"
+        )
+    return resp.text
+
+
+def build_squad_doc(slug, name, group, roster, injuries, generated_at):
+    """组装单队阵容文档。formation 源头无,固定 None(按位置分组的 squad 即部署框架)。"""
+    return {
+        "team_id": slug, "name": name, "group": group,
+        "coach": roster.get("coach"),
+        "squad_updated": roster.get("squad_updated"),
+        "formation": None,
+        "player_count": roster.get("player_count", 0),
+        "squad": roster.get("squad", {}),
+        "injuries": injuries,
+        "generated_at": generated_at,
+    }
+
+
+def main(argv=None):
+    p = argparse.ArgumentParser(description="抓取各队阵容/身价/伤停 -> docs/squads/{slug}.json")
+    p.add_argument("--docs-dir", default="docs/squads")
+    p.add_argument("--delay", type=float, default=0.4, help="每次抓取间隔秒")
+    p.add_argument("--no-injuries", action="store_true", help="跳过伤停(省去比赛页抓取)")
+    args = p.parse_args(argv)
+
+    ts = _now_iso()
+    sched_html = fetch_schedule_html()
+    game_ids = parse_game_ids(sched_html)
+    if not game_ids:
+        raise SystemExit("赛程页未找到 game id")
+
+    # 全部 48 队 (slug, 队名, 组)
+    groups = parse_standings(fetch_game_page(game_ids[0]))
+    teams = [(t["slug"], t["team"], g["group"]) for g in groups for t in g["standings"]]
+
+    # 伤停:逐个比赛页解析,按队名归并(首次出现为准)
+    injuries_by_team = {}
+    if not args.no_injuries:
+        for gid in game_ids:
+            try:
+                for tname, players in parse_injuries(fetch_game_page(gid)).items():
+                    injuries_by_team.setdefault(tname, players)
+            except Exception as e:
+                print(f"skip injuries {gid}: {e}")
+            time.sleep(args.delay)
+
+    out_dir = Path(args.docs_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    written, failed = 0, []
+    for slug, name, group in teams:
+        try:
+            roster = parse_roster(fetch_team_roster(slug))
+            doc = build_squad_doc(slug, name, group, roster,
+                                  injuries_by_team.get(name, []), ts)
+            (out_dir / f"{slug}.json").write_text(
+                json.dumps(doc, ensure_ascii=False, indent=2), encoding="utf-8")
+            written += 1
+        except Exception as e:
+            failed.append(slug)
+            print(f"skip {slug}: {e}")
+        time.sleep(args.delay)
+
+    msg = f"wrote {written} squad files to {args.docs_dir} ({len(teams)} teams)"
+    if failed:
+        msg += f" ({len(failed)} failed)"
+    print(msg)
+    if teams and len(failed) == len(teams):
+        raise SystemExit(1)
+
+
+if __name__ == "__main__":
+    main()

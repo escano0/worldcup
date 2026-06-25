@@ -1,0 +1,333 @@
+{
+  "team_id": "gelunbiya",
+  "name": "哥伦比亚",
+  "group": "K",
+  "coach": "内斯托尔·洛伦索",
+  "squad_updated": "2026/6/10 12:01",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "戴维·奥斯皮纳",
+        "position": "守门员",
+        "number": 1,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "阿尔瓦罗·蒙特罗",
+        "position": "守门员",
+        "number": 24,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "巴尔加斯",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "45万欧元",
+        "height": "185cm",
+        "weight": "87kg",
+        "foot": "左脚",
+        "dob": "1989-03-09",
+        "age": 37,
+        "nationality": "哥伦比亚"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "圣地亚哥·阿里亚斯",
+        "position": "后卫",
+        "number": 4,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "马查多",
+        "position": "后卫",
+        "number": 22,
+        "market_value": "180万欧元",
+        "height": "173cm",
+        "weight": "70kg",
+        "foot": "左脚",
+        "dob": "1993-09-02",
+        "age": 32,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "米纳",
+        "position": "后卫",
+        "number": 13,
+        "market_value": "250万欧元",
+        "height": "195cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "1994-09-23",
+        "age": 31,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "桑切斯",
+        "position": "后卫",
+        "number": 23,
+        "market_value": "1600万欧元",
+        "height": "187cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1996-06-12",
+        "age": 30,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "卢库米",
+        "position": "后卫",
+        "number": 3,
+        "market_value": "2200万欧元",
+        "height": "188cm",
+        "weight": "78kg",
+        "foot": "左脚",
+        "dob": "1998-06-26",
+        "age": 27,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "穆尼奥斯",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "2200万欧元",
+        "height": "181cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "1996-05-26",
+        "age": 30,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "莫西卡",
+        "position": "后卫",
+        "number": 17,
+        "market_value": "150万欧元",
+        "height": "185cm",
+        "weight": "66kg",
+        "foot": "左脚",
+        "dob": "1992-08-21",
+        "age": 33,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "维勒·迪塔",
+        "position": "后卫",
+        "number": 18,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ],
+    "中场": [
+      {
+        "name": "J罗",
+        "position": "中场",
+        "number": 10,
+        "market_value": "150万欧元",
+        "height": "180cm",
+        "weight": "75kg",
+        "foot": "左脚",
+        "dob": "1991-07-12",
+        "age": 34,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "莱尔马",
+        "position": "中场",
+        "number": 16,
+        "market_value": "600万欧元",
+        "height": "179cm",
+        "weight": "70kg",
+        "foot": "右脚",
+        "dob": "1994-10-25",
+        "age": 31,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "卡拉斯卡尔",
+        "position": "中场",
+        "number": 8,
+        "market_value": "1300万欧元",
+        "height": "180cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "1998-05-25",
+        "age": 28,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "卡斯塔尼奥",
+        "position": "中场",
+        "number": 5,
+        "market_value": "500万欧元",
+        "height": "177cm",
+        "weight": "75kg",
+        "foot": "右脚",
+        "dob": "2000-09-29",
+        "age": 25,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "里奥斯",
+        "position": "中场",
+        "number": 6,
+        "market_value": "2500万欧元",
+        "height": "187cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "2000-06-02",
+        "age": 26,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "金特罗",
+        "position": "中场",
+        "number": 20,
+        "market_value": "180万欧元",
+        "height": "168cm",
+        "weight": "67kg",
+        "foot": "左脚",
+        "dob": "1993-01-18",
+        "age": 33,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "胡安·波蒂利亚",
+        "position": "中场",
+        "number": 15,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "普埃塔",
+        "position": "中场",
+        "number": 14,
+        "market_value": "1000万欧元",
+        "height": "174cm",
+        "weight": "71kg",
+        "foot": "右脚",
+        "dob": "2003-07-23",
+        "age": 22,
+        "nationality": "哥伦比亚"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "迪亚斯",
+        "position": "前锋",
+        "number": 7,
+        "market_value": "7000万欧元",
+        "height": "180cm",
+        "weight": "65kg",
+        "foot": "右脚",
+        "dob": "1997-01-13",
+        "age": 29,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "科尔多瓦",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "1000万欧元",
+        "height": "188cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1993-05-11",
+        "age": 33,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "阿里亚斯",
+        "position": "前锋",
+        "number": 11,
+        "market_value": "1500万欧元",
+        "height": "168cm",
+        "weight": "68kg",
+        "foot": "右脚",
+        "dob": "1997-09-21",
+        "age": 28,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "埃尔南德斯",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "1800万欧元",
+        "height": "176cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "1999-04-20",
+        "age": 27,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "戈麦斯",
+        "position": "前锋",
+        "number": 26,
+        "market_value": "1100万欧元",
+        "height": "171cm",
+        "weight": "61kg",
+        "foot": "右脚",
+        "dob": "2002-09-12",
+        "age": 23,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "苏亚雷斯",
+        "position": "前锋",
+        "number": 25,
+        "market_value": "3000万欧元",
+        "height": "185cm",
+        "weight": "74kg",
+        "foot": "右脚",
+        "dob": "1997-12-02",
+        "age": 28,
+        "nationality": "哥伦比亚"
+      },
+      {
+        "name": "坎帕斯",
+        "position": "前锋",
+        "number": 21,
+        "market_value": "550万欧元",
+        "height": "168cm",
+        "weight": "68kg",
+        "foot": "左脚",
+        "dob": "2000-05-24",
+        "age": 26,
+        "nationality": "哥伦比亚"
+      }
+    ]
+  },
+  "injuries": [],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}

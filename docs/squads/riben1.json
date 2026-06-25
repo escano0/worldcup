@@ -1,0 +1,350 @@
+{
+  "team_id": "riben1",
+  "name": "日本",
+  "group": "F",
+  "coach": "森保一",
+  "squad_updated": "2026/6/22 20:19",
+  "formation": null,
+  "player_count": 26,
+  "squad": {
+    "守门员": [
+      {
+        "name": "大迫敬介",
+        "position": "守门员",
+        "number": 12,
+        "market_value": "200万欧元",
+        "height": "188cm",
+        "weight": "87kg",
+        "foot": "右脚",
+        "dob": "1999-07-28",
+        "age": 26,
+        "nationality": "日本"
+      },
+      {
+        "name": "铃木彩艳",
+        "position": "守门员",
+        "number": 1,
+        "market_value": "2000万欧元",
+        "height": "190cm",
+        "weight": "98kg",
+        "foot": "右脚",
+        "dob": "2002-08-21",
+        "age": 23,
+        "nationality": "日本"
+      },
+      {
+        "name": "早川友基",
+        "position": "守门员",
+        "number": 23,
+        "market_value": "1000万欧元",
+        "height": "188cm",
+        "weight": "67kg",
+        "foot": "右脚",
+        "dob": "2005-06-03",
+        "age": 21,
+        "nationality": "日本"
+      }
+    ],
+    "后卫": [
+      {
+        "name": "谷口彰悟",
+        "position": "后卫",
+        "number": 3,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "板仓滉",
+        "position": "后卫",
+        "number": 4,
+        "market_value": "800万欧元",
+        "height": "188cm",
+        "weight": "80kg",
+        "foot": "右脚",
+        "dob": "1997-01-27",
+        "age": 29,
+        "nationality": "日本"
+      },
+      {
+        "name": "菅原由势",
+        "position": "后卫",
+        "number": 2,
+        "market_value": "550万欧元",
+        "height": "179cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "2000-06-28",
+        "age": 25,
+        "nationality": "日本"
+      },
+      {
+        "name": "伊藤洋辉",
+        "position": "后卫",
+        "number": 21,
+        "market_value": "1800万欧元",
+        "height": "188cm",
+        "weight": "84kg",
+        "foot": "右脚",
+        "dob": "1999-05-12",
+        "age": 27,
+        "nationality": "日本"
+      },
+      {
+        "name": "富安健洋",
+        "position": "后卫",
+        "number": 22,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "长友佑都",
+        "position": "后卫",
+        "number": 5,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "濑古步梦",
+        "position": "后卫",
+        "number": 20,
+        "market_value": "500万欧元",
+        "height": "183cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "2000-06-07",
+        "age": 26,
+        "nationality": "日本"
+      },
+      {
+        "name": "渡边刚",
+        "position": "后卫",
+        "number": 16,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "铃木淳之介",
+        "position": "后卫",
+        "number": 25,
+        "market_value": "4000万欧元",
+        "height": "176cm",
+        "weight": "67kg",
+        "foot": "右脚",
+        "dob": "2000-12-30",
+        "age": 25,
+        "nationality": "日本"
+      }
+    ],
+    "中场": [
+      {
+        "name": "田中碧",
+        "position": "中场",
+        "number": 7,
+        "market_value": "1300万欧元",
+        "height": "177cm",
+        "weight": "69kg",
+        "foot": "右脚",
+        "dob": "1998-09-10",
+        "age": 27,
+        "nationality": "日本"
+      },
+      {
+        "name": "镰田大地",
+        "position": "中场",
+        "number": 15,
+        "market_value": "1000万欧元",
+        "height": "180cm",
+        "weight": "72kg",
+        "foot": "右脚",
+        "dob": "1996-08-05",
+        "age": 29,
+        "nationality": "日本"
+      },
+      {
+        "name": "堂安律",
+        "position": "中场",
+        "number": 10,
+        "market_value": "1700万欧元",
+        "height": "172cm",
+        "weight": "172kg",
+        "foot": "左脚",
+        "dob": "1998-06-16",
+        "age": 28,
+        "nationality": "日本"
+      },
+      {
+        "name": "铃木唯人",
+        "position": "中场",
+        "number": 17,
+        "market_value": "2400万欧元",
+        "height": "175cm",
+        "weight": "66kg",
+        "foot": "右脚",
+        "dob": "2001-10-25",
+        "age": 24,
+        "nationality": "日本"
+      },
+      {
+        "name": "佐野海舟",
+        "position": "中场",
+        "number": 24,
+        "market_value": "200万欧元",
+        "height": "187cm",
+        "weight": "81kg",
+        "foot": "右脚",
+        "dob": "1999-03-03",
+        "age": 27,
+        "nationality": "日本"
+      }
+    ],
+    "前锋": [
+      {
+        "name": "上田绮世",
+        "position": "前锋",
+        "number": 18,
+        "market_value": "1700万欧元",
+        "height": "182cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1998-08-28",
+        "age": 27,
+        "nationality": "日本"
+      },
+      {
+        "name": "前田大然",
+        "position": "前锋",
+        "number": 11,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      },
+      {
+        "name": "中村敬斗",
+        "position": "前锋",
+        "number": 13,
+        "market_value": "1000万欧元",
+        "height": "180cm",
+        "weight": "73kg",
+        "foot": "右脚",
+        "dob": "2000-07-28",
+        "age": 25,
+        "nationality": "日本"
+      },
+      {
+        "name": "小川航基",
+        "position": "前锋",
+        "number": 19,
+        "market_value": "200万欧元",
+        "height": "183cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "1997-08-08",
+        "age": 28,
+        "nationality": "日本"
+      },
+      {
+        "name": "久保建英",
+        "position": "前锋",
+        "number": 8,
+        "market_value": "2000万欧元",
+        "height": "182cm",
+        "weight": "76kg",
+        "foot": "左脚",
+        "dob": "2001-06-04",
+        "age": 25,
+        "nationality": "日本"
+      },
+      {
+        "name": "伊东纯也",
+        "position": "前锋",
+        "number": 14,
+        "market_value": "300万欧元",
+        "height": "176cm",
+        "weight": "66kg",
+        "foot": "右脚",
+        "dob": "1993-03-09",
+        "age": 33,
+        "nationality": "日本"
+      },
+      {
+        "name": "町野修斗",
+        "position": "前锋",
+        "number": 6,
+        "market_value": "1000万欧元",
+        "height": "184cm",
+        "weight": "76kg",
+        "foot": "右脚",
+        "dob": "1997-02-05",
+        "age": 29,
+        "nationality": "日本"
+      },
+      {
+        "name": "后藤启介",
+        "position": "前锋",
+        "number": 9,
+        "market_value": "800万欧元",
+        "height": "180cm",
+        "weight": "77kg",
+        "foot": "右脚",
+        "dob": "2005-03-26",
+        "age": 21,
+        "nationality": "日本"
+      },
+      {
+        "name": "盐井贤斗",
+        "position": "前锋",
+        "number": 26,
+        "market_value": null,
+        "height": null,
+        "weight": null,
+        "foot": null,
+        "dob": null,
+        "age": null,
+        "nationality": null
+      }
+    ]
+  },
+  "injuries": [
+    {
+      "name": "久保建英",
+      "position": "前锋",
+      "number": 14,
+      "reason": "受伤",
+      "status": "受伤",
+      "date": "06-19"
+    },
+    {
+      "name": "町野修斗",
+      "position": "前锋",
+      "number": 18,
+      "reason": "患病",
+      "status": "受伤",
+      "date": "06-21"
+    }
+  ],
+  "generated_at": "2026-06-25T19:51:00+08:00"
+}
