@@ -57,6 +57,20 @@ PYTHONPATH=src python -m worldcup.tournament --out docs/tournament.json
 
 `--out` 写出的聚合快照则把所有球队收进顶层 `teams` map(键为 slug),并带 `schema_version`/`generated_at` 等元数据,字段约束见 `data/recent-form.schema.json`。设计与计划详见 `docs/superpowers/specs/` 与 `docs/superpowers/plans/`。
 
+### 盘口/赔率(odds.json)
+
+球迷屋无结构化赔率,故盘口数据来自 **[The Odds API](https://the-odds-api.com)**(`soccer_fifa_world_cup`)。
+
+```bash
+# 拉取世界杯最新盘口 -> docs/odds.json(需 API key)
+PYTHONPATH=src python -m worldcup.odds --out docs/odds.json
+```
+
+API key 三选一提供(**勿提交进仓库**):`--api-key`、环境变量 `ODDS_API_KEY`,或仓库根的 `.odds_api_key` 文件(已 gitignore)。参数:`--regions`(默认 `eu,uk`)、`--markets`(默认 `h2h,spreads,totals`)。
+> 计费:The Odds API 免费档 500 次/月,每次成本 = markets 数 × regions 数(默认 3×2=6)。
+
+`docs/odds.json` 顶层:`source/sport/regions/markets/generated_at/match_count/matches`。每场 `matches[]` 含 `home/away/commence` 与 `bookmakers[]`,每家博彩 `markets` 按类型成 dict:`h2h`(胜平负)、`spreads`(让球/亚盘,含 `point`)、`totals`(大小球,含 `point`)。实测一次取到 19 场、~41 家博彩(h2h 761 / totals 323 / spreads 131 条)。
+
 ## 架构
 
 ```
@@ -65,8 +79,12 @@ fetcher.py   抓取 game 页(按正文判断成功,绕过站点 404 怪异)
 parser.py    html_to_text + parse_team_blocks(战绩) + parse_team_slugs(team_id)
 builder.py   构建快照 dict / Schema 校验 / 写每队文件 write_team_files / 写聚合
 cli.py       编排:enumerate → fetch → parse → build → validate → 写 docs/teams [→ 聚合]
+tournament.py 积分/赛程/bracket → docs/tournament.json
+odds.py      The Odds API 盘口 → docs/odds.json
 models.py    MatchRecord / TeamForm
 ```
+
+`docs/` 产物:`teams/{slug}.json`(48 队战绩)、`tournament.json`(积分+赛程+树)、`odds.json`(盘口)。
 
 ## 测试
 

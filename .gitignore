@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 data/recent-form.json
 .pytest_cache/
+
+# Odds API 密钥(勿提交)
+.odds_api_key
