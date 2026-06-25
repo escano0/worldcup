@@ -46,3 +46,38 @@ def test_value_bet_detected():
     home_bets = [b for b in bets if b["market"] == "1x2" and b["selection"] == "home"]
     assert home_bets and home_bets[0]["edge"] > 0
     assert home_bets[0]["odds"] == 1.7 and home_bets[0]["kelly_stake_pct"] > 0
+
+
+def test_max_odds_filters_longshots():
+    from worldcup.recommend import value_bets_for_match
+    # model favours home strongly; balanced h2h prices give a home value bet at 1.7
+    # a second bookmaker offers a very high-odds side bet that the cap should block
+    matrix = [[0.10, 0.05], [0.70, 0.15]]
+    match = {"home": "Germany", "away": "Ecuador", "commence": "x",
+             "bookmakers": [{"title": "B", "markets": {
+                 "h2h": [
+                     {"name": "Germany", "price": 1.7},
+                     {"name": "Draw", "price": 4.0},
+                     {"name": "Ecuador", "price": 5.0}],
+                 "totals": [
+                     {"name": "Over", "point": 0.5, "price": 8.0},
+                     {"name": "Under", "point": 0.5, "price": 1.1}]}}]}
+    # without cap a home value bet exists at 1.7
+    base = value_bets_for_match(matrix, match, edge_threshold=0.03, kelly_fraction=0.25)
+    assert any(b["odds"] == 1.7 for b in base)
+    # with a low max_odds the home bet (1.7) still allowed; nothing above cap
+    capped = value_bets_for_match(matrix, match, edge_threshold=0.03, kelly_fraction=0.25, max_odds=5.0)
+    assert all(b["odds"] <= 5.0 for b in capped)
+
+
+def test_max_stake_caps_kelly():
+    from worldcup.recommend import value_bets_for_match
+    # very strong model edge -> large raw kelly, must be capped
+    matrix = [[0.02, 0.01], [0.95, 0.02]]
+    match = {"home": "Germany", "away": "Ecuador", "commence": "x",
+             "bookmakers": [{"title": "B", "markets": {"h2h": [
+                 {"name": "Germany", "price": 1.9},
+                 {"name": "Draw", "price": 12.0},
+                 {"name": "Ecuador", "price": 15.0}]}}]}
+    bets = value_bets_for_match(matrix, match, edge_threshold=0.03, kelly_fraction=0.25, max_stake_pct=5.0)
+    assert bets and all(b["kelly_stake_pct"] <= 5.0 for b in bets)

@@ -9,6 +9,8 @@ from .teamnames import en_to_zh
 _CST = timezone(timedelta(hours=8))
 DEFAULT_EDGE = 0.03
 DEFAULT_KELLY = 0.25
+DEFAULT_MAX_ODDS = 7.0
+DEFAULT_MAX_STAKE_PCT = 5.0
 
 
 def _now_iso():
@@ -82,10 +84,19 @@ def _bet(market, selection, mp, ip, price, book, kfrac):
     }
 
 
-def value_bets_for_match(matrix, match, edge_threshold=DEFAULT_EDGE, kelly_fraction=DEFAULT_KELLY):
+def value_bets_for_match(matrix, match, edge_threshold=DEFAULT_EDGE, kelly_fraction=DEFAULT_KELLY,
+                         max_odds=DEFAULT_MAX_ODDS, max_stake_pct=DEFAULT_MAX_STAKE_PCT):
     home_en, away_en = match["home"], match["away"]
     books = match.get("bookmakers", [])
     bets = []
+
+    def add(market, selection, mp, ip, price, book):
+        if max_odds is not None and price > max_odds:
+            return
+        bet = _bet(market, selection, mp, ip, price, book, kelly_fraction)
+        if max_stake_pct is not None:
+            bet["kelly_stake_pct"] = min(bet["kelly_stake_pct"], max_stake_pct)
+        bets.append(bet)
 
     # ---- 1x2 (h2h) ----
     bp = best_prices(books, "h2h")
@@ -98,7 +109,7 @@ def value_bets_for_match(matrix, match, edge_threshold=DEFAULT_EDGE, kelly_fract
                                   ("away", away_en, model["away"], imp[2])):
             price, book = bp[name]
             if (mp - ip) > edge_threshold and mp * price > 1.0:
-                bets.append(_bet("1x2", sel, mp, ip, price, book, kelly_fraction))
+                add("1x2", sel, mp, ip, price, book)
 
     # ---- totals (大小球) ----
     bt = best_prices(books, "totals")
@@ -112,7 +123,7 @@ def value_bets_for_match(matrix, match, edge_threshold=DEFAULT_EDGE, kelly_fract
                                   ("Under", "under", 1.0 - over, imp[1])):
             price, book = bt[(L, name)]
             if (mp - ip) > edge_threshold and mp * price > 1.0:
-                bets.append(_bet(f"totals_{L}", sel, mp, ip, price, book, kelly_fraction))
+                add(f"totals_{L}", sel, mp, ip, price, book)
 
     # ---- spreads (让球, 仅半盘避免走盘) ----
     bs = best_prices(books, "spreads")
@@ -129,9 +140,9 @@ def value_bets_for_match(matrix, match, edge_threshold=DEFAULT_EDGE, kelly_fract
         hp = prob_cover(matrix, ph, "home")
         ap = prob_cover(matrix, pa, "away")
         if (hp - imp[0]) > edge_threshold and hp * ph_price > 1.0:
-            bets.append(_bet(f"handicap_{ph}", "home", hp, imp[0], ph_price, ph_book, kelly_fraction))
+            add(f"handicap_{ph}", "home", hp, imp[0], ph_price, ph_book)
         if (ap - imp[1]) > edge_threshold and ap * pa_price > 1.0:
-            bets.append(_bet(f"handicap_{pa}", "away", ap, imp[1], pa_price, pa_book, kelly_fraction))
+            add(f"handicap_{pa}", "away", ap, imp[1], pa_price, pa_book)
 
     return bets
 
@@ -143,6 +154,8 @@ def main(argv=None):
     p.add_argument("--out", default="docs/recommendations.json")
     p.add_argument("--edge", type=float, default=DEFAULT_EDGE)
     p.add_argument("--kelly", type=float, default=DEFAULT_KELLY)
+    p.add_argument("--max-odds", type=float, default=DEFAULT_MAX_ODDS, help="忽略赔率高于此值的冷门价值注(模型噪声)")
+    p.add_argument("--max-stake", type=float, default=DEFAULT_MAX_STAKE_PCT, help="单注凯利注码上限(%%)")
     args = p.parse_args(argv)
 
     model = fit(parse_corpus_from_teams(args.teams_dir))
@@ -156,7 +169,7 @@ def main(argv=None):
             skipped.append(f"{m['home']} vs {m['away']}")
             continue
         matrix = score_matrix(model, hz, az)
-        bets = value_bets_for_match(matrix, m, args.edge, args.kelly)
+        bets = value_bets_for_match(matrix, m, args.edge, args.kelly, args.max_odds, args.max_stake)
         recs.append({
             "home": m["home"], "away": m["away"],
             "home_zh": hz, "away_zh": az, "commence": m.get("commence"),
@@ -168,6 +181,7 @@ def main(argv=None):
         "model": "goals-ratio Dixon-Coles",
         "generated_at": _now_iso(),
         "edge_threshold": args.edge, "kelly_fraction": args.kelly,
+        "max_odds": args.max_odds, "max_stake_pct": args.max_stake,
         "match_count": len(recs),
         "total_value_bets": sum(len(r["value_bets"]) for r in recs),
         "matches": recs,
