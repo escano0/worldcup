@@ -9,12 +9,26 @@
     "w": 2,
     "d": 4,
     "l": 4,
-    "gf": 10,
-    "ga": 13,
+    "gf": 9,
+    "ga": 12,
     "win_rate": 0.2
   },
-  "updated_at": "2026-06-25T00:00:52+08:00",
+  "updated_at": "2026-06-26T13:02:22+08:00",
   "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-25",
+      "competition": "男足世界杯",
+      "opponent": "韩国",
+      "is_home": true,
+      "gf": 1,
+      "ga": 0,
+      "result": "W",
+      "home": "南非",
+      "away": "韩国",
+      "score": "1-0",
+      "note": null
+    },
     {
       "match_id": null,
       "date": "2026-06-19",
@@ -139,20 +153,6 @@
       "home": "埃及",
       "away": "南非",
       "score": "1-0",
-      "note": null
-    },
-    {
-      "match_id": null,
-      "date": "2025-12-23",
-      "competition": "非洲杯",
-      "opponent": "安哥拉",
-      "is_home": true,
-      "gf": 2,
-      "ga": 1,
-      "result": "W",
-      "home": "南非",
-      "away": "安哥拉",
-      "score": "2-1",
       "note": null
     }
   ]

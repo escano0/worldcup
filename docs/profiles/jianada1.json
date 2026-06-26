@@ -14,13 +14,27 @@
   "form": {
     "played": 10,
     "w": 3,
-    "d": 5,
-    "l": 2,
-    "gf": 15,
-    "ga": 9,
+    "d": 4,
+    "l": 3,
+    "gf": 16,
+    "ga": 11,
     "win_rate": 0.3
   },
   "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-25",
+      "competition": "男足世界杯",
+      "opponent": "瑞士",
+      "is_home": false,
+      "gf": 1,
+      "ga": 2,
+      "result": "L",
+      "home": "瑞士",
+      "away": "加拿大",
+      "score": "2-1",
+      "note": null
+    },
     {
       "match_id": null,
       "date": "2026-06-19",
@@ -145,20 +159,6 @@
       "home": "委内瑞拉",
       "away": "加拿大",
       "score": "1-1",
-      "note": null
-    },
-    {
-      "match_id": null,
-      "date": "2024-06-30",
-      "competition": "美洲杯",
-      "opponent": "智利",
-      "is_home": true,
-      "gf": 0,
-      "ga": 0,
-      "result": "D",
-      "home": "加拿大",
-      "away": "智利",
-      "score": "0-0",
       "note": null
     }
   ],
@@ -506,5 +506,5 @@
       "date": "06-19"
     }
   ],
-  "generated_at": "2026-06-25T20:01:36+08:00"
+  "generated_at": "2026-06-26T13:05:25+08:00"
 }

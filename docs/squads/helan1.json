@@ -328,15 +328,6 @@
       }
     ]
   },
-  "injuries": [
-    {
-      "name": "Q.廷贝尔",
-      "position": "中场",
-      "number": 27,
-      "reason": "轻微脑震荡",
-      "status": "受伤",
-      "date": "06-19"
-    }
-  ],
-  "generated_at": "2026-06-25T19:51:00+08:00"
+  "injuries": [],
+  "generated_at": "2026-06-26T13:04:11+08:00"
 }

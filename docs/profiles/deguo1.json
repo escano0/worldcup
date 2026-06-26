@@ -7,7 +7,7 @@
     "rank": 1,
     "w": 2,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "points": 6,
     "zone": "晋级32强"
   },
@@ -163,9 +163,9 @@
     }
   ],
   "coach": "朱利安·纳格尔斯曼",
-  "squad_updated": "2026/6/22 20:21",
+  "squad_updated": "2026/6/25 18:42",
   "formation": null,
-  "player_count": 25,
+  "player_count": 26,
   "squad": {
     "守门员": [
       {
@@ -252,6 +252,18 @@
         "foot": "右脚",
         "dob": "2003-02-26",
         "age": 23,
+        "nationality": "德国"
+      },
+      {
+        "name": "施洛特贝克",
+        "position": "后卫",
+        "number": 15,
+        "market_value": "1200万欧元",
+        "height": "193cm",
+        "weight": "85kg",
+        "foot": "右脚",
+        "dob": "1996-09-30",
+        "age": 29,
         "nationality": "德国"
       },
       {
@@ -430,24 +442,24 @@
         "name": "拜尔",
         "position": "前锋",
         "number": 14,
-        "market_value": "4500万欧元",
-        "height": "183cm",
-        "weight": "77kg",
+        "market_value": "5500万欧元",
+        "height": "191cm",
+        "weight": "86kg",
         "foot": "左脚",
-        "dob": "2001-04-04",
-        "age": 25,
+        "dob": "1999-12-01",
+        "age": 26,
         "nationality": "德国"
       },
       {
         "name": "昂达夫",
         "position": "前锋",
         "number": 26,
-        "market_value": "1200万欧元",
-        "height": "193cm",
-        "weight": "85kg",
-        "foot": "右脚",
-        "dob": "1996-09-30",
-        "age": 29,
+        "market_value": "4500万欧元",
+        "height": "183cm",
+        "weight": "77kg",
+        "foot": "左脚",
+        "dob": "2001-04-04",
+        "age": 25,
         "nationality": "德国"
       },
       {
@@ -477,5 +489,5 @@
     ]
   },
   "injuries": [],
-  "generated_at": "2026-06-25T20:01:36+08:00"
+  "generated_at": "2026-06-26T13:05:25+08:00"
 }

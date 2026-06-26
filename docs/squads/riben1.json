@@ -333,18 +333,10 @@
       "name": "久保建英",
       "position": "前锋",
       "number": 14,
-      "reason": "受伤",
+      "reason": "-",
       "status": "受伤",
       "date": "06-19"
-    },
-    {
-      "name": "町野修斗",
-      "position": "前锋",
-      "number": 18,
-      "reason": "患病",
-      "status": "受伤",
-      "date": "06-21"
     }
   ],
-  "generated_at": "2026-06-25T19:51:00+08:00"
+  "generated_at": "2026-06-26T13:04:11+08:00"
 }

@@ -5,10 +5,10 @@
   "group": "D",
   "standing": {
     "rank": 4,
-    "w": 0,
+    "w": 1,
     "d": 0,
     "l": 2,
-    "points": 0,
+    "points": 3,
     "zone": "晋级待定"
   },
   "form": {
@@ -311,7 +311,7 @@
         "weight": null,
         "foot": null,
         "dob": null,
-        "age": null,
+        "age": 1,
         "nationality": null
       }
     ],
@@ -471,7 +471,7 @@
         "weight": null,
         "foot": null,
         "dob": null,
-        "age": 3,
+        "age": null,
         "nationality": null
       },
       {
@@ -489,5 +489,5 @@
     ]
   },
   "injuries": [],
-  "generated_at": "2026-06-25T20:01:36+08:00"
+  "generated_at": "2026-06-26T13:05:25+08:00"
 }

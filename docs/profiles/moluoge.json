@@ -16,11 +16,25 @@
     "w": 6,
     "d": 3,
     "l": 1,
-    "gf": 17,
-    "ga": 5,
+    "gf": 19,
+    "ga": 7,
     "win_rate": 0.6
   },
   "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-25",
+      "competition": "男足世界杯",
+      "opponent": "海地",
+      "is_home": true,
+      "gf": 4,
+      "ga": 2,
+      "result": "W",
+      "home": "摩洛哥",
+      "away": "海地",
+      "score": "4-2",
+      "note": null
+    },
     {
       "match_id": null,
       "date": "2026-06-20",
@@ -145,20 +159,6 @@
       "home": "尼日利亚",
       "away": "摩洛哥",
       "score": "0-0",
-      "note": null
-    },
-    {
-      "match_id": null,
-      "date": "2026-01-10",
-      "competition": "非洲杯",
-      "opponent": "喀麦隆",
-      "is_home": false,
-      "gf": 2,
-      "ga": 0,
-      "result": "W",
-      "home": "喀麦隆",
-      "away": "摩洛哥",
-      "score": "0-2",
       "note": null
     }
   ],
@@ -411,7 +411,7 @@
         "weight": "76kg",
         "foot": "左脚",
         "dob": "1993-06-25",
-        "age": 32,
+        "age": 33,
         "nationality": "摩洛哥"
       },
       {
@@ -489,5 +489,5 @@
     ]
   },
   "injuries": [],
-  "generated_at": "2026-06-25T20:01:36+08:00"
+  "generated_at": "2026-06-26T13:05:25+08:00"
 }

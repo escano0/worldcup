@@ -5,10 +5,10 @@
   "group": "E",
   "standing": {
     "rank": 2,
-    "w": 1,
+    "w": 2,
     "d": 0,
     "l": 1,
-    "points": 3,
+    "points": 6,
     "zone": "晋级32强"
   },
   "form": {
@@ -489,5 +489,5 @@
     ]
   },
   "injuries": [],
-  "generated_at": "2026-06-25T20:01:36+08:00"
+  "generated_at": "2026-06-26T13:05:25+08:00"
 }

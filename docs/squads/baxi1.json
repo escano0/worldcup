@@ -328,6 +328,15 @@
       }
     ]
   },
-  "injuries": [],
-  "generated_at": "2026-06-25T19:51:00+08:00"
+  "injuries": [
+    {
+      "name": "拉菲尼亚",
+      "position": "前锋",
+      "number": 11,
+      "reason": "腘绳肌损伤",
+      "status": "受伤",
+      "date": "06-21"
+    }
+  ],
+  "generated_at": "2026-06-26T13:04:11+08:00"
 }

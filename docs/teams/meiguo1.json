@@ -5,16 +5,30 @@
   "rank": null,
   "group": null,
   "form": {
-    "played": 9,
+    "played": 10,
     "w": 4,
     "d": 0,
-    "l": 5,
-    "gf": 15,
-    "ga": 15,
-    "win_rate": 0.4444
+    "l": 6,
+    "gf": 17,
+    "ga": 18,
+    "win_rate": 0.4
   },
-  "updated_at": "2026-06-25T00:00:52+08:00",
+  "updated_at": "2026-06-26T13:02:22+08:00",
   "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-26",
+      "competition": "男足世界杯",
+      "opponent": "土耳其",
+      "is_home": false,
+      "gf": 2,
+      "ga": 3,
+      "result": "L",
+      "home": "土耳其",
+      "away": "美国",
+      "score": "3-2",
+      "note": null
+    },
     {
       "match_id": null,
       "date": "2026-06-20",

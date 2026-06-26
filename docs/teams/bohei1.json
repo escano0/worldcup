@@ -6,15 +6,29 @@
   "group": null,
   "form": {
     "played": 10,
-    "w": 3,
+    "w": 4,
     "d": 5,
-    "l": 2,
-    "gf": 12,
-    "ga": 14,
-    "win_rate": 0.3
+    "l": 1,
+    "gf": 14,
+    "ga": 13,
+    "win_rate": 0.4
   },
-  "updated_at": "2026-06-25T00:00:52+08:00",
+  "updated_at": "2026-06-26T13:02:22+08:00",
   "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-25",
+      "competition": "男足世界杯",
+      "opponent": "卡塔尔",
+      "is_home": true,
+      "gf": 3,
+      "ga": 1,
+      "result": "W",
+      "home": "波黑",
+      "away": "卡塔尔",
+      "score": "3-1",
+      "note": null
+    },
     {
       "match_id": null,
       "date": "2026-06-19",
@@ -139,20 +153,6 @@
       "home": "塞浦路斯",
       "away": "波黑",
       "score": "2-2",
-      "note": null
-    },
-    {
-      "match_id": null,
-      "date": "2025-09-10",
-      "competition": "世欧预",
-      "opponent": "奥地利",
-      "is_home": true,
-      "gf": 1,
-      "ga": 2,
-      "result": "L",
-      "home": "波黑",
-      "away": "奥地利",
-      "score": "1-2",
       "note": null
     }
   ]

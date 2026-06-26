@@ -328,6 +328,15 @@
       }
     ]
   },
-  "injuries": [],
-  "generated_at": "2026-06-25T19:51:00+08:00"
+  "injuries": [
+    {
+      "name": "穆哈雷莫维奇",
+      "position": "后卫",
+      "number": 80,
+      "reason": "红牌停赛",
+      "status": "停赛",
+      "date": "06-20"
+    }
+  ],
+  "generated_at": "2026-06-26T13:04:11+08:00"
 }

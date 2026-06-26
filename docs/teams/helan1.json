@@ -9,12 +9,26 @@
     "w": 6,
     "d": 3,
     "l": 1,
-    "gf": 25,
-    "ga": 8,
+    "gf": 24,
+    "ga": 9,
     "win_rate": 0.6
   },
-  "updated_at": "2026-06-25T00:00:52+08:00",
+  "updated_at": "2026-06-26T13:02:22+08:00",
   "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-26",
+      "competition": "男足世界杯",
+      "opponent": "突尼斯",
+      "is_home": false,
+      "gf": 3,
+      "ga": 1,
+      "result": "W",
+      "home": "突尼斯",
+      "away": "荷兰",
+      "score": "1-3",
+      "note": null
+    },
     {
       "match_id": null,
       "date": "2026-06-21",
@@ -139,20 +153,6 @@
       "home": "荷兰",
       "away": "芬兰",
       "score": "4-0",
-      "note": null
-    },
-    {
-      "match_id": null,
-      "date": "2025-10-10",
-      "competition": "世欧预",
-      "opponent": "马耳他",
-      "is_home": false,
-      "gf": 4,
-      "ga": 0,
-      "result": "W",
-      "home": "马耳他",
-      "away": "荷兰",
-      "score": "0-4",
       "note": null
     }
   ]

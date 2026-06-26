@@ -330,13 +330,13 @@
   },
   "injuries": [
     {
-      "name": "普利西奇",
+      "name": "罗丹",
       "position": "中场",
-      "number": 11,
-      "reason": "小腿肌肉拉伤",
+      "number": 7,
+      "reason": "肌肉挫伤",
       "status": "受伤",
-      "date": "06-14"
+      "date": "06-25"
     }
   ],
-  "generated_at": "2026-06-25T19:51:00+08:00"
+  "generated_at": "2026-06-26T13:04:11+08:00"
 }

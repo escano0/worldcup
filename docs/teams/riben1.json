@@ -5,16 +5,30 @@
   "rank": null,
   "group": null,
   "form": {
-    "played": 5,
+    "played": 6,
     "w": 4,
-    "d": 1,
+    "d": 2,
     "l": 0,
-    "gf": 9,
-    "ga": 2,
-    "win_rate": 0.8
+    "gf": 10,
+    "ga": 3,
+    "win_rate": 0.6667
   },
-  "updated_at": "2026-06-25T00:00:52+08:00",
+  "updated_at": "2026-06-26T13:02:22+08:00",
   "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-26",
+      "competition": "男足世界杯",
+      "opponent": "瑞典",
+      "is_home": true,
+      "gf": 1,
+      "ga": 1,
+      "result": "D",
+      "home": "日本",
+      "away": "瑞典",
+      "score": "1-1",
+      "note": null
+    },
     {
       "match_id": null,
       "date": "2026-06-21",

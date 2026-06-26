@@ -13,14 +13,28 @@
   },
   "form": {
     "played": 10,
-    "w": 5,
-    "d": 3,
+    "w": 6,
+    "d": 2,
     "l": 2,
-    "gf": 21,
+    "gf": 24,
     "ga": 9,
-    "win_rate": 0.5
+    "win_rate": 0.6
   },
   "recent": [
+    {
+      "match_id": null,
+      "date": "2026-06-25",
+      "competition": "男足世界杯",
+      "opponent": "苏格兰",
+      "is_home": false,
+      "gf": 3,
+      "ga": 0,
+      "result": "W",
+      "home": "苏格兰",
+      "away": "巴西",
+      "score": "0-3",
+      "note": null
+    },
     {
       "match_id": null,
       "date": "2026-06-20",
@@ -145,20 +159,6 @@
       "home": "巴拉圭",
       "away": "巴西",
       "score": "1-4",
-      "note": null
-    },
-    {
-      "match_id": null,
-      "date": "2024-06-25",
-      "competition": "美洲杯",
-      "opponent": "哥斯达",
-      "is_home": true,
-      "gf": 0,
-      "ga": 0,
-      "result": "D",
-      "home": "巴西",
-      "away": "哥斯达",
-      "score": "0-0",
       "note": null
     }
   ],
@@ -488,6 +488,15 @@
       }
     ]
   },
-  "injuries": [],
-  "generated_at": "2026-06-25T20:01:36+08:00"
+  "injuries": [
+    {
+      "name": "拉菲尼亚",
+      "position": "前锋",
+      "number": 11,
+      "reason": "腘绳肌损伤",
+      "status": "受伤",
+      "date": "06-21"
+    }
+  ],
+  "generated_at": "2026-06-26T13:05:25+08:00"
 }

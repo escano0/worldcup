@@ -151,7 +151,7 @@
         "weight": null,
         "foot": null,
         "dob": null,
-        "age": null,
+        "age": 1,
         "nationality": null
       }
     ],
@@ -311,7 +311,7 @@
         "weight": null,
         "foot": null,
         "dob": null,
-        "age": 3,
+        "age": null,
         "nationality": null
       },
       {
@@ -329,5 +329,5 @@
     ]
   },
   "injuries": [],
-  "generated_at": "2026-06-25T19:51:00+08:00"
+  "generated_at": "2026-06-26T13:04:11+08:00"
 }

@@ -328,15 +328,6 @@
       }
     ]
   },
-  "injuries": [
-    {
-      "name": "阿尔米隆",
-      "position": "前锋",
-      "number": 10,
-      "reason": "红牌停赛",
-      "status": "停赛",
-      "date": "06-21"
-    }
-  ],
-  "generated_at": "2026-06-25T19:51:00+08:00"
+  "injuries": [],
+  "generated_at": "2026-06-26T13:04:11+08:00"
 }

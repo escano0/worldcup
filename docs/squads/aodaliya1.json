@@ -328,15 +328,6 @@
       }
     ]
   },
-  "injuries": [
-    {
-      "name": "雅各布·伊塔利亚诺",
-      "position": "后卫",
-      "number": 14,
-      "reason": "-",
-      "status": "受伤",
-      "date": "06-24"
-    }
-  ],
-  "generated_at": "2026-06-25T19:51:00+08:00"
+  "injuries": [],
+  "generated_at": "2026-06-26T13:04:11+08:00"
 }
